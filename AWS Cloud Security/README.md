@@ -13,6 +13,12 @@
 <li>IAM role：bounded to <code>IAM Policy</code> and have specific AWS resource access permissions<br>
 </ul>
 
+<h4>IAM policies type</h4>
+<ul>
+<li><code>Identity</code>-based：Attach a policy to any IAM <code>entity</code><br>
+<li><code>Resource</code>-based：Attached to a <code>resource</code> (such as an S3 bucket)<br>
+</ul>
+
 <h4>Authenticate as an IAM user to gain access</h4>
 <ul>
 <li>Programmatic access：<code>Access key ID</code> / <code>Secret access key</code><br>
