@@ -11,6 +11,8 @@ Which actions should be taken to allow the EC2 instances to download the needed 
 2. Define a custom route table with a route to the NAT gateway for internet traffic and associate it with the 
 private subnets for the application tier.<br>
 
+<img src="https://i.imgur.com/veTSHOZ.png" alt="NAT" width="60%">
+
 <h3>Question 2.</h3>
 A SA wants to design a solution to save costs for Amazon EC2 instances that do not 
 need to run during a 2-week company shutdown.<br>
