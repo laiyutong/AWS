@@ -63,13 +63,48 @@ What should a solutions architect do to accomplish this?<br>
 Deploy On-Demand Instances during periods of high demand.<br>
 
 <h3>Question 7.</h3>
+A company runs an online voting system for a weekly live television program.<br>
+During broadcasts, users submit hundreds of thousands of votes within minutes to a front-end fleet of Amazon EC2 
+instances that run in an Auto Scaling group.<br>
+The EC2 instances write the votes to an Amazon RDS database.<br>
+However, the database is unable to keep up with the requests that come from the EC2 instances.<br>
+A solutions architect must design a solution that processes the votes in the most efficient manner and without downtime.<br><br>
+Which solution meets these requirements?<br>
+
 <h3>Answer 7.</h3>
+Configure the front-end application to send votes to an Amazon Simple Queue Service (Amazon SQS) queue.<br>
+Provision worker instances to read the SQS queue and write the vote information to the database.<br>
 
 <h3>Question 8.</h3>
+A company has a two-tier application architecture that runs in public and private subnets.<br>
+Amazon EC2 instances running the web application are in the public subnet and an EC2 instance for the database runs 
+on the private subnet.<br>
+The web application instances and the database are running in a single Availability Zone (AZ).<br><br>
+Which combination of steps should a solutions architect take to provide high availability for this 
+architecture? (Select TWO.)<br>
+
 <h3>Answer 8.</h3>
+1. Create an Amazon EC2 Auto Scaling group and Application Load Balancer spanning multiple AZs for the 
+web application instances.<br>
+2. Create new public and private subnets in the same VPC, each in a new AZ.<br>
+Create an Amazon RDS Multi-AZ DB instance in the private subnets. Migrate the old database contents to the new DB instance.
 
 <h3>Question 9.</h3>
+A website runs a custom web application that receives a burst of traffic each day at noon.<br>
+The users upload new pictures and content daily, but have been complaining of timeouts.<br>
+The architecture uses Amazon EC2 Auto Scaling groups, and the application consistently takes 1 minute to initiate upon boot 
+up before responding to user requests.<br><br>
+How should a solutions architect redesign the architecture to better respond to changing traffic?<br>
+
 <h3>Answer 9.</h3>
+Configure an Auto Scaling step scaling policy with an EC2 instance warmup condition.
 
 <h3>Question 10.</h3>
+An application running on AWS uses an Amazon Aurora Multi-AZ DB cluster deployment for its database.<br>
+When evaluating performance metrics, a solutions architect discovered that the database reads 
+are causing high I/O and adding latency to the write requests against the database.<br><br>
+What should the solutions architect do to separate the read requests from the write requests?<br>
+
 <h3>Answer 10.</h3>
+Create an Aurora replica and modify the application to use the appropriate endpoints.
+
