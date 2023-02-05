@@ -118,8 +118,7 @@ architecture? (Select TWO.)<br>
 <h3>Answer 8.</h3>
 1. Create an Amazon EC2 Auto Scaling group and Application Load Balancer spanning multiple AZs for the 
 web application instances.<br>
-2. Create new public and private subnets in the same VPC, each in a new AZ.<br>
-Create an Amazon RDS Multi-AZ DB instance in the private subnets. Migrate the old database contents to the new DB instance.
+2. Create new public and private subnets in the same VPC, each in a new AZ.Create an Amazon RDS Multi-AZ DB instance in the private subnets. Migrate the old database contents to the new DB instance.
 
 <h3>Question 9.</h3>
 A website runs a custom web application that receives a burst of traffic each day at noon.<br>
