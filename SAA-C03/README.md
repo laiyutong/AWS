@@ -2,26 +2,36 @@
 
 <h3>Question 1.</h3>
 A company runs a public-facing three-tier web application in a VPC across multiple Availability Zones.<br> 
-Amazon EC2 instances for the application tier running in private subnets need to download software patches from the internet.<br>
-However, the EC2 instances cannot be directly accessible from the internet.<br><br>
+Amazon EC2 instances for the application tier running in <code>private</code> subnets need to download software patches from the <code>internet</code>.<br>
+However, the EC2 instances <code>cannot be directly</code> accessible from the internet.<br><br>
 Which actions should be taken to allow the EC2 instances to download the needed patches? (Select TWO.)<br>
 
 <h3>Answer 1.</h3>
-1. Configure a NAT gateway in a public subnet. <br>
-2. Define a custom route table with a route to the NAT gateway for internet traffic and associate it with the 
+1. Configure a <code>NAT gateway</code> in a <code>public</code> subnet. <br>
+2. Define a custom <code>route table</code> with a route to the NAT gateway for internet traffic and associate it with the 
 private subnets for the application tier.<br>
 
 <img src="https://i.imgur.com/veTSHOZ.png" alt="NAT" width="60%">
 
 <h3>Question 2.</h3>
-A SA wants to design a solution to save costs for Amazon EC2 instances that do not 
-need to run during a 2-week company shutdown.<br>
-The applications running on the EC2 instances store data in instance memory that must be present when the instances resume operation.<br><br>
+A SA wants to design a solution to <code>save costs</code> for Amazon EC2 instances that do not need to run during a 2-week company shutdown.<br>
+The applications running on the EC2 instances store data in instance memory that must be <code>present when the instances resume operation</code>.<br><br>
 Which approach should the solutions architect recommend to shut down and resume the EC2 instances?<br>
 
 <h3>Answer 2.</h3>
-Run the applications on EC2 instances enabled for hibernation. Hibernate the instances before the 2-
-week company shutdown. <br>
+Run the applications on EC2 instances enabled for <code>hibernation</code>.<br>
+Hibernate the instances <code>before</code> the 2-week company shutdown. <br><br>
+
+<b>FYI：</b><br>
+When you hibernate an instance, Amazon EC2 signals the operating system to perform hibernation (suspend-to-disk).<br>
+Hibernation saves the contents from the instance memory <code>(RAM)</code> to your Amazon Elastic Block Store <code>(Amazon EBS) root volume</code>.<br>
+Amazon EC2 persists the instance's EBS root volume and any attached EBS data volumes. When you start your instance:
+<ul>
+<li>The EBS root volume is restored to its <code>previous state</code>
+<li>The RAM contents are <code>reloaded</code>
+<li>The processes that were <code>previously running</code> on the instance are resumed
+<li>Previously attached data volumes are reattached and the instance retains its <code>instance ID</code>
+</ul>
 
 <h3>Question 3.</h3>
 A company plans to run a monitoring application on an Amazon EC2 instance in a VPC.<br>
