@@ -104,6 +104,7 @@ Which solution meets these requirements?<br>
 Configure the front-end application to send votes to an Amazon Simple Queue Service (Amazon SQS) queue.<br>
 Provision worker instances to read the SQS queue and write the vote information to the database.<br><br>
 <b>FYI：</b><br>
+Amazon Simple Queue Service (Amazon SQS) offers a secure, durable, and available hosted queue that lets you integrate and decouple distributed software systems and components.<br>
 <img src="https://i.imgur.com/HNgoqdp.png" alt="SQS" width="60%">
 
 <h3>Question 8.</h3>
