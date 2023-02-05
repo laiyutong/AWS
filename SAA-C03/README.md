@@ -102,7 +102,9 @@ Which solution meets these requirements?<br>
 
 <h3>Answer 7.</h3>
 Configure the front-end application to send votes to an Amazon Simple Queue Service (Amazon SQS) queue.<br>
-Provision worker instances to read the SQS queue and write the vote information to the database.<br>
+Provision worker instances to read the SQS queue and write the vote information to the database.<br><br>
+<b>FYI：</b><br>
+<img src="https://i.imgur.com/HNgoqdp.png" alt="SQS" width="60%">
 
 <h3>Question 8.</h3>
 A company has a two-tier application architecture that runs in public and private subnets.<br>
