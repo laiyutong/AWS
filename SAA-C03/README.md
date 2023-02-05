@@ -66,7 +66,9 @@ company’s Amazon S3 bucket.<br><br>
 What must a solutions architect do to ensure that the script will successfully execute?<br>
 
 <h3>Answer 4.</h3>
-Enable cross-origin resource sharing (CORS) on the S3 bucket.
+Enable cross-origin resource sharing <code>(CORS)</code> on the S3 bucket.
+<b>FYI：</b><br>
+Cross-origin resource sharing (CORS) defines a way for client web applications that are loaded in one domain to interact with resources in a different domain.
 
 <h3>Question 5.</h3>
 A company’s security team requires that all data stored in the cloud be encrypted at rest at all times 
@@ -74,8 +76,8 @@ using encryption keys stored on premises.<br><br>
 Which encryption options meet these requirements? (Select TWO.)<br>
 
 <h3>Answer 5.</h3>
-1. Use server-side encryption with customer-provided encryption keys (SSE-C).<br>
-2. Use client-side encryption to provide at-rest encryption.<br>
+1. Use <code>server</code>-side encryption with customer-provided encryption keys (SSE-C).<br>
+2. Use <code>client</code>-side encryption to provide at-rest encryption.<br>
 
 <h3>Question 6.</h3>
 A company uses Amazon EC2 Reserved Instances to run its data processing workload.<br>
