@@ -66,7 +66,7 @@ company’s Amazon S3 bucket.<br><br>
 What must a solutions architect do to ensure that the script will successfully execute?<br>
 
 <h3>Answer 4.</h3>
-Enable cross-origin resource sharing <code>(CORS)</code> on the S3 bucket.
+Enable cross-origin resource sharing <code>(CORS)</code> on the S3 bucket.<br><br>
 <b>FYI：</b><br>
 Cross-origin resource sharing (CORS) defines a way for client web applications that are loaded in one domain to interact with resources in a different domain.
 
