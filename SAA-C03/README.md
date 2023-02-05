@@ -35,14 +35,29 @@ Amazon EC2 persists the instance's EBS root volume and any attached EBS data vol
 
 <h3>Question 3.</h3>
 A company plans to run a monitoring application on an Amazon EC2 instance in a VPC.<br>
-Connections are made to the EC2 instance using the instance’s private IPv4 address.<br>
-A solutions architect needs to design a solution that will allow traffic to be quickly directed to a standby EC2 instance if the application 
+Connections are made to the EC2 instance using the instance’s <code>private IPv4 address</code>.<br>
+A solutions architect needs to design a solution that will allow traffic to be <code>quickly directed to a standby EC2 instance</code> if the application 
 fails and becomes unreachable.<br><br>
 Which approach will meet these requirements?<br>
 
 <h3>Answer 3.</h3>
-Attach a secondary elastic network interface to the EC2 instance configured with the private IP address. <br>
-Move the network interface to the standby EC2 instance if the primary EC2 instance becomes unreachable.<br>
+Attach a secondary <code>elastic network interface</code> to the EC2 instance configured with the private IP address. <br>
+Move the network interface to the standby EC2 instance if the primary EC2 instance becomes unreachable.<br><br>
+
+<b>FYI：</b><br>
+An <code>elastic network interface</code> is a <code>logical</code> networking component in a VPC that represents a virtual network card.<br>
+It can include the following attributes：<br>
+<ul>
+<li>A <code>primary private IPv4</code> address from the IPv4 address range of your VPC
+<li>One or more secondary private IPv4 addresses from the IPv4 address range of your VPC
+<li>One <code>Elastic IP</code> address (IPv4) per private IPv4 address
+<li>One <code>public</code> IPv4 address
+<li>One or more IPv6 addresses
+<li>One or more security groups
+<li>A MAC address
+<li>A source/destination check flag
+<li>A description
+</ul>
 
 <h3>Question 4.</h3>
 An analytics company is planning to offer a web analytics service to its users.<br>
