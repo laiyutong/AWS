@@ -34,8 +34,8 @@ Public access to buckets is blocked by default. Because the files in your static
 13. Scroll to the Tags panel.<br>
 14. Choose Edit then Add tag and enter:<br>
 <ul><li>Key: Department<br>
-<li>Value: Marketing<br>
-<li>Choose Save changes to save the tag</li></ul>.<br>
+<li>Value: Marketing</li></ul><br>
+14. Choose <code>Save changes</code> to save the tag.<br>
 
 Next, you will configure the bucket for static website hosting.<br>
 
