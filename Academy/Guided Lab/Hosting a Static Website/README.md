@@ -50,6 +50,8 @@ Public access to buckets is blocked by default. Because the files in your static
 <img src="https://i.imgur.com/FSH4Wf7.png" width="60%"><br>
 19. Choose <code>Save changes</code><br>
 20. In the Static website hosting panel, choose the link under Bucket website endpoint.<br>
-You will receive a <code>403 Forbidden</code> message because the bucket permissions have not been configured yet. Keep this tab open in your web browser so that you can return to it later.<br>
-Your bucket has now been configured to host a static website.<br>
+<ul><li>You will receive a <code>403 Forbidden</code> message because the bucket permissions have not been configured yet. Keep this tab open in your web browser so that you can return to it later.<br>
+Your bucket has now been configured to host a static website.</li></ul><br>
 <img src="https://i.imgur.com/sIlKWY4.png" width="60%"><br>
+<img src="https://i.imgur.com/kQHXVAu.png" width="60%"><br>
+
