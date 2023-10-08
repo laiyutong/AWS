@@ -14,11 +14,11 @@ After completing this lab, you should be able to:
 In this task, you will create an S3 bucket and configure it for static website hosting.<br>
 5. In the AWS Management Console, on the <code>Services</code> menu, choose <code>S3</code>.<br>
 6. Choose <code>Create bucket</code><br>
-<ul><li>An S3 bucket name is globally unique, and the namespace is shared by all AWS accounts. After you create a bucket, the name of that bucket cannot be used by another AWS account in any AWS Region unless you delete the bucket.
-Thus, for this lab, you will use a bucket name that includes a random number, such as: website-123</li></ul><br>
+    An S3 bucket name is globally unique, and the namespace is shared by all AWS accounts. After you create a bucket, the name of that bucket cannot be used by another AWS account in any AWS Region unless you delete the bucket.
+    Thus, for this lab, you will use a bucket name that includes a random number, such as: website-123<br>
 
 7. For Bucket name, enter: <code>website-<123></code> (replace <123> with a random number)<br>
-Public access to buckets is blocked by default. Because the files in your static website will need to be accessible through the internet, you must permit public access.<br>
+    Public access to buckets is blocked by default. Because the files in your static website will need to be accessible through the internet, you must permit public access.<br>
 <ul><li>Verify the AWS Region is set to us-east-1 (if it is not, choose the us-east-1 Region)</li></ul><br>
 <img src="https://i.imgur.com/70klToy.png" width="60%"><br>
 
@@ -50,8 +50,8 @@ Public access to buckets is blocked by default. Because the files in your static
 <img src="https://i.imgur.com/FSH4Wf7.png" width="60%"><br>
 19. Choose <code>Save changes</code><br>
 20. In the Static website hosting panel, choose the link under Bucket website endpoint.<br>
-<ul><li>You will receive a <code>403 Forbidden</code> message because the bucket permissions have not been configured yet. Keep this tab open in your web browser so that you can return to it later.<br>
-Your bucket has now been configured to host a static website.</li></ul><br>
+    You will receive a <code>403 Forbidden</code> message because the bucket permissions have not been configured yet. Keep this tab open in your web browser so that you can return to it later.<br>
+    Your bucket has now been configured to host a static website.<br>
 <img src="https://i.imgur.com/sIlKWY4.png" width="60%"><br>
 <img src="https://i.imgur.com/kQHXVAu.png" width="60%"><br>
 
@@ -82,8 +82,8 @@ First, confirm that the objects are currently private.<br>
     You should still see a 403 Forbidden message.<br>
     Analysis: This response is expected! This message indicates that your static website is being hosted by Amazon S3, but that the content is private.<br>
     You can make Amazon S3 objects public through two different ways:<br>
-    <ul><ul><li>To make either a whole bucket public, or a specific directory in a bucket public, use a bucket policy.
-    <li>To make individual objects in a bucket public, use an access control list (ACL).</li></ul></ul><br>
+    <ul><li>To make either a whole bucket public, or a specific directory in a bucket public, use a bucket policy.
+    <li>To make individual objects in a bucket public, use an access control list (ACL).</li></ul><br>
     It is normally safer to make individual objects public because this avoids accidentally making other objects public. However, if you know that the entire bucket contains no sensitive information, you can use a bucket policy.<br>
     You will now configure the individual objects to be publicly accessible.<br>
 30. Return to the web browser tab with the Amazon S3 console (but do not close the website tab).<br>
