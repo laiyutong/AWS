@@ -59,9 +59,9 @@ Your bucket has now been configured to host a static website.</li></ul><br>
 In this task, you will upload the files that will serve as your static website to the bucket.<br>
 21. Right-click each of these links and download the files to your computer:<br>
 <ul>Ensure that each file keeps the same file name, including the extension.<br>
-<li>index.html
-<li>script.js
-<li>style.css</li></ul>
+<li><a hre="https://github.com/laiyutong/AWS/blob/main/Academy/Guided%20Lab/Hosting%20a%20Static%20Website/index.html">index.html</a>
+<li><a hre="https://github.com/laiyutong/AWS/blob/main/Academy/Guided%20Lab/Hosting%20a%20Static%20Website/script.js">script.js</a>
+<li><a hre="https://github.com/laiyutong/AWS/blob/main/Academy/Guided%20Lab/Hosting%20a%20Static%20Website/style.css">style.css</a></li></ul>
 22. Return to the Amazon <code>S3 console</code> and in the <code>website-<123></code> bucket you created earlier, choose the <code>Objects</code> tab.<br>
 23. Choose <code>Upload</code><br>
 24. Choose <code>Add files</code><br>
