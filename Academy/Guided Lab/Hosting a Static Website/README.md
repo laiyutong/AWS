@@ -82,20 +82,44 @@ If you accidentally closed this tab, go to the Properties tab, and in the Static
 You should still see a 403 Forbidden message.<br>
 Analysis: This response is expected! This message indicates that your static website is being hosted by Amazon S3, but that the content is private.<br>
 You can make Amazon S3 objects public through two different ways:<br>
-<ul><li>To make either a whole bucket public, or a specific directory in a bucket public, use a bucket policy.
-<li>To make individual objects in a bucket public, use an access control list (ACL).</li></ul><br>
+<ul><ul><li>To make either a whole bucket public, or a specific directory in a bucket public, use a bucket policy.
+<li>To make individual objects in a bucket public, use an access control list (ACL).</li></ul></ul><br>
 It is normally safer to make individual objects public because this avoids accidentally making other objects public. However, if you know that the entire bucket contains no sensitive information, you can use a bucket policy.<br>
 You will now configure the individual objects to be publicly accessible.<br>
-Return to the web browser tab with the Amazon S3 console (but do not close the website tab).<br>
-Select all three objects.<br>
-In the Actions menu, choose Make public via ACL.<br>
-A list of the three objects is displayed.<br>
-Choose Make public<br>
-Your static website is now publicly accessible.<br>
-Return to the web browser tab that has the 403 Forbidden message.<br>
-Refresh the webpage.<br>
-You should now see the static website that is being hosted by Amazon S3.<br>
-
+30. Return to the web browser tab with the Amazon S3 console (but do not close the website tab).<br>
+31. Select all three objects.<br>
+32. In the Actions menu, choose Make public via ACL.<br>
 <img src="https://i.imgur.com/NuHfCd5.png" width="60%"><br>
+A list of the three objects is displayed.<br>
+33. Choose Make public<br>
 <img src="https://i.imgur.com/CYRkqvg.png" width="60%"><br>
+Your static website is now publicly accessible.<br>
+34. Return to the web browser tab that has the 403 Forbidden message.<br>
+35. Refresh the webpage.<br>
+You should now see the static website that is being hosted by Amazon S3.<br>
 <img src="https://i.imgur.com/at9azlT.png" width="60%"><br>
+
+<h2>Task 4: Updating the website</h2>
+You can change the website by editing the HTML file and uploading it again to the S3 bucket.<br>
+
+Amazon S3 is an object storage service, so you must upload the whole file. This action replaces the existing object in your bucket. You cannot edit the contents of an object—instead, the whole object must be replaced.<br>
+
+On your computer, load the index.html file into a text editor (for example, Notepad or TextEdit).<br>
+
+Find the text Served from Amazon S3 and replace it with Created by <YOUR-NAME>, substituting your name for <YOUR-NAME> (for example, Created by Jane).<br>
+
+Save the file.<br>
+
+Return to the Amazon S3 console and upload the index.html file that you just edited.<br>
+
+Select index.html and use the Actions menu to choose the Make public via ACL option again.<br>
+
+Return to the web browser tab with the static website and refresh the page.<br>
+
+Your name should now be on the page.<br><br><br>
+
+ 
+
+Your static website is now accessible on the internet. Because it is hosted on Amazon S3, the website has high availability and can serve high volumes of traffic without using any servers.
+
+You can also use your own domain name to direct users to a static website that is hosted on Amazon S3. To accomplish this, you could use the Amazon Route 53 Domain Name System (DNS) service in combination with Amazon S3.
