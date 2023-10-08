@@ -55,3 +55,10 @@ Your bucket has now been configured to host a static website.</li></ul><br>
 <img src="https://i.imgur.com/sIlKWY4.png" width="60%"><br>
 <img src="https://i.imgur.com/kQHXVAu.png" width="60%"><br>
 
+<h2>Task 2: Uploading content to your bucket</h2>
+In this task, you will upload the files that will serve as your static website to the bucket.<br>
+20. Right-click each of these links and download the files to your computer:<br>
+<ul>Ensure that each file keeps the same file name, including the extension.<br>
+<li>index.html
+<li>script.js
+<li>style.css</li></ul>
