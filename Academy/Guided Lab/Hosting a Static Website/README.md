@@ -20,14 +20,14 @@ In this task, you will create an S3 bucket and configure it for static website h
 7. For Bucket name, enter: <code>website-<123></code> (replace <123> with a random number)<br>
     Public access to buckets is blocked by default. Because the files in your static website will need to be accessible through the internet, you must permit public access.<br>
 <ul><li>Verify the AWS Region is set to us-east-1 (if it is not, choose the us-east-1 Region)</li></ul><br>
-<img src="https://i.imgur.com/70klToy.png" width="60%"><br>
+    <img src="https://i.imgur.com/70klToy.png" width="60%"><br>
 
 8. In the Object Ownership section, select ACLs enabled, then verify Bucket owner preferred is selected.<br>
 <img src="https://i.imgur.com/N45mlVz.png" width="60%"><br>
 9. Clear Block all public access, then select the box that states I acknowledge that the current settings may result in this bucket and the objects within becoming public.<br>
 <img src="https://i.imgur.com/Ar873yW.png" width="60%"><br>
 10. Choose <code>Create bucket</code>.<br>
-<ul><li>You can use tags to add additional information to a bucket, such as a project code, cost center, or owner.</li></ul><br>
+    You can use tags to add additional information to a bucket, such as a project code, cost center, or owner.<br>
 11. Choose the name of your new bucket.<br>
 12. Choose the  Properties tab.<br>
 13. Scroll to the Tags panel.<br>
