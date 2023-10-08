@@ -68,3 +68,4 @@ In this task, you will upload the files that will serve as your static website t
 25. Locate and select the three files that you downloaded.<br>
 26. If prompted, choose I acknowledge that existing objects with the same name will be overwritten.<br>
 27. Choose <code>Upload</code><br>
+<img src="https://i.imgur.com/xZCUthU.png" width="60%"><br>
