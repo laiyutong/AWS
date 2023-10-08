@@ -37,8 +37,7 @@ Public access to buckets is blocked by default. Because the files in your static
 <li>Value: Marketing</li></ul>
 <img src="https://i.imgur.com/Uytzrpf.png" width="60%"><br>
 14. Choose <code>Save changes</code> to save the tag.<br>
-
-Next, you will configure the bucket for static website hosting.<br>
+<ul>Next, you will configure the bucket for static website hosting.</ul><br>
 
 Stay in the Properties console.<br>
 
