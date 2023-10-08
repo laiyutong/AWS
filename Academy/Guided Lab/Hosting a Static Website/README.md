@@ -37,26 +37,18 @@ Public access to buckets is blocked by default. Because the files in your static
 <li>Value: Marketing</li></ul>
 <img src="https://i.imgur.com/Uytzrpf.png" width="60%"><br>
 14. Choose <code>Save changes</code> to save the tag.<br>
-<ul>Next, you will configure the bucket for static website hosting.</ul><br>
-
-Stay in the Properties console.<br>
-
-Scroll to the Static website hosting panel.<br>
-
-Choose Edit<br>
-
-Configure the following settings:<br>
-
-Static web hosting: Enable<br>
-
-Hosting type: Host a static website<br>
-
-Index document: index.html<br>
-
-Note: You must enter this value, even though it is already displayed.<br>
-Error document: error.html<br>
-
-Choose Save changes<br>
+<ul><li>Next, you will configure the bucket for static website hosting.</li></ul><br>
+15. Stay in the Properties console.<br>
+16. Scroll to the Static website hosting panel.<br>
+17. Choose Edit<br>
+18. Configure the following settings:<br>
+<ul><li>Static web hosting: Enable<br>
+<li>Hosting type: <code>Host a static website</code><br>
+<li>Index document: <code>index.html</code><br>
+<li>Note: You must enter this value, even though it is already displayed.<br>
+<li>Error document: <code>error.html</code></li></ul><br>
+<img src="https://i.imgur.com/FSH4Wf7.png" width="60%"><br>
+19. Choose Save changes<br>
 
 In the Static website hosting panel, choose the link under Bucket website endpoint.<br>
 
