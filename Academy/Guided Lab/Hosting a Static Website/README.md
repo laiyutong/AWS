@@ -5,8 +5,7 @@ Static websites have fixed content with no backend processing. They can contain 
 You can easily host a static website on Amazon Simple Storage Service (Amazon S3) by uploading the content and making it publicly accessible. No servers are needed, and you can use Amazon S3 to store and retrieve any amount of data at any time, from anywhere on the web.
 
 After completing this lab, you should be able to:
-
-Create a bucket in Amazon S3
-Upload content to your bucket
-Enable access to the bucket objects
-Update the website
+<li>Create a bucket in Amazon S3
+<li>Upload content to your bucket
+<li>Enable access to the bucket objects
+<li>Update the website
