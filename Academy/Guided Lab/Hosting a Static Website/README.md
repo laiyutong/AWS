@@ -50,10 +50,11 @@ In this task, you will create an S3 bucket and configure it for static website h
 <img src="https://i.imgur.com/FSH4Wf7.png" width="60%"><br>
 19. Choose <code>Save changes</code><br>
 20. In the Static website hosting panel, choose the link under Bucket website endpoint.<br>
-    You will receive a <code>403 Forbidden</code> message because the bucket permissions have not been configured yet. Keep this tab open in your web browser so that you can return to it later.<br>
+    You will receive a <code>403 Forbidden</code> message because the bucket permissions have not been configured yet.<br> 
+    Keep this tab open in your web browser so that you can return to it later.<br>
     Your bucket has now been configured to host a static website.<br>
-<img src="https://i.imgur.com/sIlKWY4.png" width="60%"><br>
-<img src="https://i.imgur.com/kQHXVAu.png" width="60%"><br>
+    <img src="https://i.imgur.com/sIlKWY4.png" width="60%"><br>
+    <img src="https://i.imgur.com/kQHXVAu.png" width="60%"><br>
 
 <h2>Task 2: Uploading content to your bucket</h2>
 In this task, you will upload the files that will serve as your static website to the bucket.<br>
