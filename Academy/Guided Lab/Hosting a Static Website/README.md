@@ -78,22 +78,22 @@ First, confirm that the objects are currently private.<br>
 
 28. Return to the browser tab that showed the 403 Forbidden message.<br>
 29. Refresh the webpage.<br>
-If you accidentally closed this tab, go to the Properties tab, and in the Static website hosting panel choose the Endpoint link again.<br>
-You should still see a 403 Forbidden message.<br>
-Analysis: This response is expected! This message indicates that your static website is being hosted by Amazon S3, but that the content is private.<br>
-You can make Amazon S3 objects public through two different ways:<br>
-<ul><ul><li>To make either a whole bucket public, or a specific directory in a bucket public, use a bucket policy.
-<li>To make individual objects in a bucket public, use an access control list (ACL).</li></ul></ul><br>
-It is normally safer to make individual objects public because this avoids accidentally making other objects public. However, if you know that the entire bucket contains no sensitive information, you can use a bucket policy.<br>
-You will now configure the individual objects to be publicly accessible.<br>
+    If you accidentally closed this tab, go to the Properties tab, and in the Static website hosting panel choose the Endpoint link again.<br>
+    You should still see a 403 Forbidden message.<br>
+    Analysis: This response is expected! This message indicates that your static website is being hosted by Amazon S3, but that the content is private.<br>
+    You can make Amazon S3 objects public through two different ways:<br>
+    <ul><ul><li>To make either a whole bucket public, or a specific directory in a bucket public, use a bucket policy.
+    <li>To make individual objects in a bucket public, use an access control list (ACL).</li></ul></ul><br>
+    It is normally safer to make individual objects public because this avoids accidentally making other objects public. However, if you know that the entire bucket contains no sensitive information, you can use a bucket policy.<br>
+    You will now configure the individual objects to be publicly accessible.<br>
 30. Return to the web browser tab with the Amazon S3 console (but do not close the website tab).<br>
 31. Select all three objects.<br>
 32. In the Actions menu, choose Make public via ACL.<br>
 <img src="https://i.imgur.com/NuHfCd5.png" width="60%"><br>
-A list of the three objects is displayed.<br>
+    A list of the three objects is displayed.<br>
 33. Choose Make public<br>
 <img src="https://i.imgur.com/CYRkqvg.png" width="60%"><br>
-Your static website is now publicly accessible.<br>
+    Your static website is now publicly accessible.<br>
 34. Return to the web browser tab that has the 403 Forbidden message.<br>
 35. Refresh the webpage.<br>
 You should now see the static website that is being hosted by Amazon S3.<br>
