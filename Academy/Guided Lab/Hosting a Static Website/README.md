@@ -69,3 +69,33 @@ In this task, you will upload the files that will serve as your static website t
 26. If prompted, choose I acknowledge that existing objects with the same name will be overwritten.<br>
 27. Choose <code>Upload</code><br>
 <img src="https://i.imgur.com/xZCUthU.png" width="60%"><br>
+
+
+<h2>Task 3: Enabling access to the objects</h2>
+Objects that are stored in Amazon S3 are private by default. This ensures that your organization's data remains secure.<br>
+In this task, you will make the uploaded objects publicly accessible.<br>
+First, confirm that the objects are currently private.<br>
+
+28. Return to the browser tab that showed the 403 Forbidden message.<br>
+29. Refresh the webpage.<br>
+If you accidentally closed this tab, go to the Properties tab, and in the Static website hosting panel choose the Endpoint link again.<br>
+You should still see a 403 Forbidden message.<br>
+Analysis: This response is expected! This message indicates that your static website is being hosted by Amazon S3, but that the content is private.<br>
+You can make Amazon S3 objects public through two different ways:<br>
+<ul><li>To make either a whole bucket public, or a specific directory in a bucket public, use a bucket policy.
+<li>To make individual objects in a bucket public, use an access control list (ACL).</li></ul><br>
+It is normally safer to make individual objects public because this avoids accidentally making other objects public. However, if you know that the entire bucket contains no sensitive information, you can use a bucket policy.<br>
+You will now configure the individual objects to be publicly accessible.<br>
+Return to the web browser tab with the Amazon S3 console (but do not close the website tab).<br>
+Select all three objects.<br>
+In the Actions menu, choose Make public via ACL.<br>
+A list of the three objects is displayed.<br>
+Choose Make public<br>
+Your static website is now publicly accessible.<br>
+Return to the web browser tab that has the 403 Forbidden message.<br>
+Refresh the webpage.<br>
+You should now see the static website that is being hosted by Amazon S3.<br>
+
+<img src="https://i.imgur.com/NuHfCd5.png" width="60%"><br>
+<img src="https://i.imgur.com/CYRkqvg.png" width="60%"><br>
+<img src="https://i.imgur.com/at9azlT.png" width="60%"><br>
