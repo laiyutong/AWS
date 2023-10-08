@@ -45,7 +45,7 @@ Public access to buckets is blocked by default. Because the files in your static
 <li>Hosting type: <code>Host a static website</code><br>
 <li>Index document: <code>index.html</code><br>
 <li>Note: You must enter this value, even though it is already displayed.<br>
-<li>Error document: <code>error.html</code></li></ul><br>
+<li>Error document: <code>error.html</code></li></ul>
 <img src="https://i.imgur.com/FSH4Wf7.png" width="60%"><br>
 19. Choose Save changes<br>
 
