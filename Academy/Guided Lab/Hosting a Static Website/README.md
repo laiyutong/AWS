@@ -101,8 +101,7 @@ You should now see the static website that is being hosted by Amazon S3.<br>
 <img src="https://i.imgur.com/at9azlT.png" width="60%"><br>
 
 <h2>Task 4: Updating the website</h2>
-You can change the website by editing the HTML file and uploading it again to the S3 bucket.<br><br>
-
+You can change the website by editing the HTML file and uploading it again to the S3 bucket.<br>
 Amazon S3 is an object storage service, so you must upload the whole file. This action replaces the existing object in your bucket. You cannot edit the contents of an object—instead, the whole object must be replaced.<br>
 
 36. On your computer, load the index.html file into a text editor (for example, Notepad or TextEdit).<br>
