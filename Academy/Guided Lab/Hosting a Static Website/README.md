@@ -24,7 +24,7 @@ For Bucket name, enter: website-<123> (replace <123> with a random number)
 Public access to buckets is blocked by default. Because the files in your static website will need to be accessible through the internet, you must permit public access.
 
 Verify the AWS Region is set to us-east-1 (if it is not, choose the us-east-1 Region)
-<img src="https://i.imgur.com/70klToy.png">
+<img src="https://i.imgur.com/70klToy.png" width="60%">
 In the Object Ownership section, select ACLs enabled, then verify Bucket owner preferred is selected.
 
 Clear Block all public access, then select the box that states I acknowledge that the current settings may result in this bucket and the objects within becoming public.
