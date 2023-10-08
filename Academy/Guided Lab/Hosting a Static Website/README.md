@@ -35,7 +35,7 @@ In this task, you will create an S3 bucket and configure it for static website h
 <li>Value: Marketing</li></ul>
 <img src="https://i.imgur.com/Uytzrpf.png" width="60%"><br>
 14. Choose <code>Save changes</code> to save the tag.<br>
-   Next, you will configure the bucket for static website hosting.<br>
+<li>Next, you will configure the bucket for static website hosting.</li><br>
 15. Stay in the <code>Properties</code> console.<br>
 <img src="https://i.imgur.com/LtB5IfI.png" width="60%"><br>
 16. Scroll to the <code>Static website hosting</code> panel.<br>
