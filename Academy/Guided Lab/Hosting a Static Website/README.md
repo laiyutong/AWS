@@ -106,7 +106,7 @@ You can change the website by editing the HTML file and uploading it again to th
 Amazon S3 is an object storage service, so you must upload the whole file. This action replaces the existing object in your bucket. You cannot edit the contents of an object—instead, the whole object must be replaced.<br>
 
 36. On your computer, load the index.html file into a text editor (for example, Notepad or TextEdit).<br>
-37. Find the text <code>Served from Amazon S3</code> and replace it with <code>Created by <&lt;>YOUR-NAME<&gt;></code>, substituting your name for <YOUR-NAME> (for example, Created by Jane).<br>
+37. Find the text <code>Served from Amazon S3</code> and replace it with <code>Created by <YOUR-NAME></code>, substituting your name for <YOUR-NAME> (for example, Created by Jane).<br>
 38. Save the file.<br>
 39. Return to the Amazon S3 console and upload the <code>index.html</code> file that you just edited.<br>
 40. <code>Select index.html</code> and use the Actions menu to choose the <code>Make public via ACL</code> option again.<br>
