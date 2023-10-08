@@ -14,7 +14,7 @@ After completing this lab, you should be able to:
 In this task, you will create an S3 bucket and configure it for static website hosting.<br>
 5. In the AWS Management Console, on the <code>Services</code> menu, choose <code>S3</code>.<br>
 6. Choose <code>Create bucket</code><br>
-    An S3 bucket name is globally unique, and the namespace is shared by all AWS accounts. After you create a bucket, the name of that bucket cannot be used by another AWS account in any AWS Region unless you delete the bucket.
+    An S3 bucket name is globally unique, and the namespace is shared by all AWS accounts. After you create a bucket, the name of that bucket cannot be used by another AWS account in any AWS Region unless you delete the bucket.<br>
     Thus, for this lab, you will use a bucket name that includes a random number, such as: website-123<br>
 
 7. For Bucket name, enter: <code>website-<123></code> (replace <123> with a random number)<br>
