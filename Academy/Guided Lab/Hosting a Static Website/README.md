@@ -37,7 +37,8 @@ Public access to buckets is blocked by default. Because the files in your static
 <img src="https://i.imgur.com/Uytzrpf.png" width="60%"><br>
 14. Choose <code>Save changes</code> to save the tag.<br>
 <ul><li>Next, you will configure the bucket for static website hosting.</li></ul><br>
-15. Stay in the Properties console.<br>
+15. Stay in the <code>Properties</code> console.<br>
+<img src="https://i.imgur.com/LtB5IfI.png" width="60%"><br>
 16. Scroll to the Static website hosting panel.<br>
 17. Choose Edit<br>
 18. Configure the following settings:<br>
