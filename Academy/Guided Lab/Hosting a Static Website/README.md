@@ -20,7 +20,7 @@ Thus, for this lab, you will use a bucket name that includes a random number, su
 7. For Bucket name, enter: website-<123> (replace <123> with a random number)<br>
 Public access to buckets is blocked by default. Because the files in your static website will need to be accessible through the internet, you must permit public access.<br>
 <ul><li>Verify the AWS Region is set to us-east-1 (if it is not, choose the us-east-1 Region)</li></ul><br>
-<\t><img src="https://i.imgur.com/70klToy.png" width="60%"><br>
+\t<img src="https://i.imgur.com/70klToy.png" width="60%"><br>
 
 8. In the Object Ownership section, select ACLs enabled, then verify Bucket owner preferred is selected.<br>
 <img src="https://i.imgur.com/N45mlVz.png" width="60%"><br>
