@@ -84,7 +84,7 @@ First, confirm that the objects are currently private.<br>
     Analysis: This response is expected! This message indicates that your static website is being hosted by Amazon S3, but that the content is private.<br>
     You can make Amazon S3 objects public through two different ways:<br>
     <ul><li>To make either a whole bucket public, or a specific directory in a bucket public, use a bucket policy.
-    <li>To make individual objects in a bucket public, use an access control list (ACL).</li></ul><br>
+    <li>To make individual objects in a bucket public, use an access control list (ACL).</li></ul>
     It is normally safer to make individual objects public because this avoids accidentally making other objects public. However, if you know that the entire bucket contains no sensitive information, you can use a bucket policy.<br>
     You will now configure the individual objects to be publicly accessible.<br>
 30. Return to the web browser tab with the Amazon S3 console (but do not close the website tab).<br>
