@@ -100,26 +100,18 @@ You should now see the static website that is being hosted by Amazon S3.<br>
 <img src="https://i.imgur.com/at9azlT.png" width="60%"><br>
 
 <h2>Task 4: Updating the website</h2>
-You can change the website by editing the HTML file and uploading it again to the S3 bucket.<br>
+You can change the website by editing the HTML file and uploading it again to the S3 bucket.<br><br>
 
 Amazon S3 is an object storage service, so you must upload the whole file. This action replaces the existing object in your bucket. You cannot edit the contents of an object—instead, the whole object must be replaced.<br>
 
-On your computer, load the index.html file into a text editor (for example, Notepad or TextEdit).<br>
+36. On your computer, load the index.html file into a text editor (for example, Notepad or TextEdit).<br>
+37. Find the text Served from Amazon S3 and replace it with Created by <YOUR-NAME>, substituting your name for <YOUR-NAME> (for example, Created by Jane).<br>
+38. Save the file.<br>
+39. Return to the Amazon S3 console and upload the index.html file that you just edited.<br>
+40. Select index.html and use the Actions menu to choose the Make public via ACL option again.<br>
+41. Return to the web browser tab with the static website and refresh the page.<br>
+    Your name should now be on the page.<br><br><br>
 
-Find the text Served from Amazon S3 and replace it with Created by <YOUR-NAME>, substituting your name for <YOUR-NAME> (for example, Created by Jane).<br>
+Your static website is now accessible on the internet. Because it is hosted on Amazon S3, the website has high availability and can serve high volumes of traffic without using any servers.<br><br>
 
-Save the file.<br>
-
-Return to the Amazon S3 console and upload the index.html file that you just edited.<br>
-
-Select index.html and use the Actions menu to choose the Make public via ACL option again.<br>
-
-Return to the web browser tab with the static website and refresh the page.<br>
-
-Your name should now be on the page.<br><br><br>
-
- 
-
-Your static website is now accessible on the internet. Because it is hosted on Amazon S3, the website has high availability and can serve high volumes of traffic without using any servers.
-
-You can also use your own domain name to direct users to a static website that is hosted on Amazon S3. To accomplish this, you could use the Amazon Route 53 Domain Name System (DNS) service in combination with Amazon S3.
+You can also use your own domain name to direct users to a static website that is hosted on Amazon S3. To accomplish this, you could use the Amazon Route 53 Domain Name System (DNS) service in combination with Amazon S3.<br>
