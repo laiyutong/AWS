@@ -28,7 +28,6 @@ Public access to buckets is blocked by default. Because the files in your static
 <img src="https://i.imgur.com/Ar873yW.png" width="60%"><br>
 10. Choose <code>Create bucket</code>.<br>
 <ul><li>You can use tags to add additional information to a bucket, such as a project code, cost center, or owner.</li></ul><br>
-
 11. Choose the name of your new bucket.<br>
 12. Choose the  Properties tab.<br>
 13. Scroll to the Tags panel.<br>
