@@ -32,8 +32,8 @@ Public access to buckets is blocked by default. Because the files in your static
 11. Choose the name of your new bucket.<br>
 12. Choose the  Properties tab.<br>
 13. Scroll to the Tags panel.<br>
-14. Choose Edit then Add tag and enter:
-<ul><li>Key: Department<br>
+14. Choose Edit then Add tag and enter:<br>
+<ul><li>Key: Department
 <li>Value: Marketing</li></ul>
 <img src="https://i.imgur.com/Uytzrpf.png" width="60%"><br>
 14. Choose <code>Save changes</code> to save the tag.<br>
