@@ -17,17 +17,16 @@ In this task, you will create an S3 bucket and configure it for static website h
 <ul><li>An S3 bucket name is globally unique, and the namespace is shared by all AWS accounts. After you create a bucket, the name of that bucket cannot be used by another AWS account in any AWS Region unless you delete the bucket.
 Thus, for this lab, you will use a bucket name that includes a random number, such as: website-123</li></ul>
 
-7.For Bucket name, enter: website-<123> (replace <123> with a random number)<br>
+7. For Bucket name, enter: website-<123> (replace <123> with a random number)<br>
 Public access to buckets is blocked by default. Because the files in your static website will need to be accessible through the internet, you must permit public access.<br>
-Verify the AWS Region is set to us-east-1 (if it is not, choose the us-east-1 Region)<br>
+<ul><li>Verify the AWS Region is set to us-east-1 (if it is not, choose the us-east-1 Region)<br></li></ul>
 <img src="https://i.imgur.com/70klToy.png" width="60%"><br>
 
 8. In the Object Ownership section, select ACLs enabled, then verify Bucket owner preferred is selected.<br>
-
-Clear Block all public access, then select the box that states I acknowledge that the current settings may result in this bucket and the objects within becoming public.<br>
-
-Choose Create bucket.<br>
-
+<img src="https://i.imgur.com/N45mlVz.png" width="60%"><br>
+9. Clear Block all public access, then select the box that states I acknowledge that the current settings may result in this bucket and the objects within becoming public.<br>
+<img src="https://i.imgur.com/Ar873yW.png" width="60%"><br>
+10. Choose Create bucket.<br>
 You can use tags to add additional information to a bucket, such as a project code, cost center, or owner.<br>
 
 Choose the name of your new bucket.<br>
