@@ -111,6 +111,7 @@ Amazon S3 is an object storage service, so you must upload the whole file. This 
 40. Select index.html and use the Actions menu to choose the Make public via ACL option again.<br>
 41. Return to the web browser tab with the static website and refresh the page.<br>
     Your name should now be on the page.<br><br><br>
+<img src="https://i.imgur.com/4ViueDn.png" width="60%"><br>
 
 Your static website is now accessible on the internet. Because it is hosted on Amazon S3, the website has high availability and can serve high volumes of traffic without using any servers.<br><br>
 
