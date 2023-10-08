@@ -16,10 +16,9 @@ In this task, you will create an S3 bucket and configure it for static website h
 6. Choose <code>Create bucket</code><br>
     An S3 bucket name is globally unique, and the namespace is shared by all AWS accounts. After you create a bucket, the name of that bucket cannot be used by another AWS account in any AWS Region unless you delete the bucket.<br>
     Thus, for this lab, you will use a bucket name that includes a random number, such as: website-123<br>
-
 7. For Bucket name, enter: <code>website-<123></code> (replace <123> with a random number)<br>
     Public access to buckets is blocked by default. Because the files in your static website will need to be accessible through the internet, you must permit public access.<br>
-<ul><li>Verify the AWS Region is set to us-east-1 (if it is not, choose the us-east-1 Region)</li></ul><br>
+    Verify the AWS Region is set to us-east-1 (if it is not, choose the us-east-1 Region)
     <img src="https://i.imgur.com/70klToy.png" width="60%"><br>
 
 8. In the Object Ownership section, select ACLs enabled, then verify Bucket owner preferred is selected.<br>
