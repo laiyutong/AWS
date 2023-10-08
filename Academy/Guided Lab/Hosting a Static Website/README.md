@@ -59,6 +59,6 @@ Your bucket has now been configured to host a static website.</li></ul><br>
 In this task, you will upload the files that will serve as your static website to the bucket.<br>
 20. Right-click each of these links and download the files to your computer:<br>
 <ul>Ensure that each file keeps the same file name, including the extension.<br>
-<li>index.html
+<ul><li>index.html
 <li>script.js
-<li>style.css</li></ul>
+<li>style.css</li></ul></ul>
