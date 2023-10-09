@@ -98,19 +98,20 @@ These instructions are specifically for macOS or Linux users. If you are a Windo
 35. Open a terminal window, and change directory to the directory where the labsuser.pem file was downloaded by using the cd command.
     For example, if the labsuser.pem file was saved to your Downloads directory, run this command:<br>
 <pre class="text">cd ~/Downloads</pre>
-
-
-
-
-<h2>Task 4: Updating the website</h2>
-You can change the website by editing the HTML file and uploading it again to the S3 bucket.<br>
-Amazon S3 is an object storage service, so you must upload the whole file. This action replaces the existing object in your bucket. You cannot edit the contents of an object—instead, the whole object must be replaced.<br>
-
-36. On your computer, load the index.html file into a text editor (for example, Notepad or TextEdit).<br>
-37. Find the text <code>Served from Amazon S3</code> and replace it with <code>Created by &lt;YOUR-NAME&gt;</code>, substituting your name for <YOUR-NAME> (for example, Created by Jane).<br>
-38. Save the file.<br>
+36. Change the permissions on the key to be read-only, by running this command:<br>
+<pre class="text">chmod 400 labsuser.pem</pre>
+37. Run the following command (replace <public-ip> with the EC2PublicIP address that you copied earlier).
+<ul><li>Alternatively, to find the IP address of the on-premises instance, return to the Amazon EC2 console and select Instances
+<li>Select the instance that you want to connect to
+<li>In the Description tab, copy the IPv4 Public IP value</li></ul>
+<pre class="text">ssh -i labsuser.pem ec2-user@<public-ip></pre><br>
+38. When you are prompted to allow the first connection to this remote SSH server, enter yes.<br>
+Because you are using a key pair for authentication, you are not prompted for a password.<br>
 39. Return to the Amazon S3 console and upload the <code>index.html</code> file that you just edited.<br>
 40. <code>Select index.html</code> and use the Actions menu to choose the <code>Make public via ACL</code> option again.<br>
 41. 
 <img src="" width="60%"><br><br>
+<h2>Task 4: Updating the website</h2>
+You can change the website by editing the HTML file and uploading it again to the S3 bucket.<br>
+Amazon S3 is an object storage service, so you must upload the whole file. This action replaces the existing object in your bucket. You cannot edit the contents of an object—instead, the whole object must be replaced.<br>
 
