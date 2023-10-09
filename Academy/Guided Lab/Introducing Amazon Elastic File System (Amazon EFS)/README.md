@@ -19,15 +19,17 @@ The security group that you associate with a mount target must allow inbound acc
   The Group ID should look similar to sg-03727965651b6659b.<br>
 <img src="https://i.imgur.com/JFFitwT.png" width="60%"><br>
 8. Choose Create security group then configure:<br>
-<ul><li>Security group name: EFS Mount Target
-<li>Description: Inbound NFS access from EFS clients
+<ul><li>Security group name: <code>EFS Mount Target</code>
+<li>Description: <code>Inbound NFS access from EFS clients</code>
 <li>VPC: Lab VPC</li></ul><br>
+<img src="https://i.imgur.com/invpybj.png" width="60%"><br>
 9. Under the Inbound rules section, choose Add rule then configure:
 <ul><li>Type: NFS
 <li>Source:
 <ul><li>Custom
 <li>In the Custom box, paste the security group's Security group ID that you copied to your text editor</li></ul>
 <li>Choose Create security group.</li></ul><br>
+<img src="https://i.imgur.com/7JvB5al.png" width="60%"><br>
 
 <h2>Task 2: Creating an EFS file system</h2>
 EFS file systems can be mounted to multiple EC2 instances that run in different Availability Zones in the same Region. These instances use mount targets that are created in each Availability Zone to mount the file system by using standard NFSv4.1 semantics. You can mount the file system on instances in only one virtual private cloud (VPC) at a time. Both the file system and the VPC must be in the same Region.<br>
@@ -156,8 +158,6 @@ The throughput that is available to a file system scales as a file system grows.
 File system throughput is shared across all EC2 instances that are connected to a file system. For more information about performance characteristics of your EFS file system, see the official Amazon Elastic File System documentation.<br>
 🎊 Congratulations! You created an EFS file system, mounted it to an EC2 instance, and ran an I/O benchmark test to examine its performance characteristics.
 
-<img src="" width="60%"><br>
-<img src="" width="60%"><br>
 <img src="" width="60%"><br>
 <img src="" width="60%"><br>
 <img src="" width="60%"><br>
