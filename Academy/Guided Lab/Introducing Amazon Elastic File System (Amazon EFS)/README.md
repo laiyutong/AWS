@@ -28,7 +28,7 @@ The security group that you associate with a mount target must allow inbound acc
 <li>Source:
 <ul><li>Custom
 <li>In the Custom box, paste the security group's Security group ID that you copied to your text editor</li></ul>
-<li>Choose Create security group.</li></ul><br>
+<li>Choose Create security group.</li></ul>
 <img src="https://i.imgur.com/7JvB5al.png" width="60%"><br>
 
 <h2>Task 2: Creating an EFS file system</h2>
@@ -36,18 +36,21 @@ EFS file systems can be mounted to multiple EC2 instances that run in different 
 10. On the Services menu, choose <code>EFS</code>.<br>
 11. Choose <code>Create file system</code><br>
 12. In the Create file system window, choose <code>Customize</code><br>
+<img src="https://i.imgur.com/SrGHVyr.png" width="60%"><br>
 13. On Step 1:<br>
 <ul><li>Uncheck  Enable automatic backups.
 <li>Lifecycle management: Select None
 <li>In the Tags section, configure:
 <ul><li>Key: Name
 <li>Value: My First EFS File System</li></ul></li></ul><br>
+<img src="https://i.imgur.com/Tv7MXQW.png" width="60%"><br>
 14. Choose Next<br>
 15. For VPC, select Lab VPC.<br>
 16. Detach the default security group from each Availability Zone mount target by choosing the  check box on each default security group.<br>
 17. Attach the EFS Mount Target security group to each Availability Zone mount target by:<br>
 <ul><li>Selecting each Security groups check box.
 <li>Choosing EFS Mount Target.</li></ul><br>
+<img src="blob:https://imgur.com/78f9ee49-0336-4c86-9b3f-9490cb06eaab" width="60%"><br>
 A mount target is created for each subnet.<br>
 Your mount targets should look like the following example. The diagram shows two mount targets in the Lab VPC that use the EFS Mount Target security group. In this lab, you should be using the Lab VPC.<br>
 18. Choose <code>Next</code><br>
@@ -158,9 +161,6 @@ The throughput that is available to a file system scales as a file system grows.
 File system throughput is shared across all EC2 instances that are connected to a file system. For more information about performance characteristics of your EFS file system, see the official Amazon Elastic File System documentation.<br>
 🎊 Congratulations! You created an EFS file system, mounted it to an EC2 instance, and ran an I/O benchmark test to examine its performance characteristics.
 
-<img src="" width="60%"><br>
-<img src="" width="60%"><br>
-<img src="" width="60%"><br>
 <img src="" width="60%"><br>
 <img src="" width="60%"><br>
 <img src="" width="60%"><br>
