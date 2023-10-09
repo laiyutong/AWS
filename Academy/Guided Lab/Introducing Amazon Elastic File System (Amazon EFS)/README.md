@@ -42,25 +42,23 @@ EFS file systems can be mounted to multiple EC2 instances that run in different 
 <li>Value: My First EFS File System</li></ul></li></ul><br>
 14. Choose Next<br>
 15. For VPC, select Lab VPC.<br>
-<img src="https://i.imgur.com/LtB5IfI.png" width="60%"><br>
-16. Scroll to the <code>Static website hosting</code> panel.<br>
-17. Choose <code>Edit</code><br>
-18. Configure the following settings:<br>
-<ul><li>Static web hosting: Enable<br>
-<li>Hosting type: <code>Host a static website</code><br>
-<li>Index document: <code>index.html</code><br>
-<li>Note: You must enter this value, even though it is already displayed.<br>
-<li>Error document: <code>error.html</code></li></ul>
-<img src="https://i.imgur.com/FSH4Wf7.png" width="60%"><br>
-19. Choose <code>Save changes</code><br>
-20. In the Static website hosting panel, choose the link under Bucket website endpoint.<br>
-    You will receive a <code>403 Forbidden</code> message because the bucket permissions have not been configured yet.<br> 
-    Keep this tab open in your web browser so that you can return to it later.<br>
-    Your bucket has now been configured to host a static website.<br>
-    <img src="https://i.imgur.com/sIlKWY4.png" width="60%"><br>
-    <img src="https://i.imgur.com/kQHXVAu.png" width="60%"><br>
+16. Detach the default security group from each Availability Zone mount target by choosing the  check box on each default security group.<br>
+17. Attach the EFS Mount Target security group to each Availability Zone mount target by:<br>
+<ul><li>Selecting each Security groups check box.
+<li>Choosing EFS Mount Target.</li></ul><br>
+A mount target is created for each subnet.<br>
+Your mount targets should look like the following example. The diagram shows two mount targets in the Lab VPC that use the EFS Mount Target security group. In this lab, you should be using the Lab VPC.<br>
+18. Choose <code>Next</code><br>
+19. On Step 3, Choose <code>Next</code><br>
+20. IOn Step 4:<br>
+<ul><li>Review your configuration.
+<li>Choose Create</li></ul>
+🎊Congratulations! You have created a new EFS file system in your Lab VPC and mount targets in each Lab VPC subnet. In a few seconds, the File system state of the file system will change to Available, followed by the mount targets 2–3 minutes later.<br>
+Proceed to the next step after the Mount target state for each mount target changes to Available. Choose the screen refresh button after 2–3 minutes to check its progress.<br>
+🗒️Note: You may need to scroll to the right in the File systems pane to find the File system state.<br>
 
-In this task, you will upload the files that will serve as your static website to the bucket.<br>
+<h2>Task 3: Connecting to your EC2 instance via SSH</h2>
+In this task, you will connect to your EC2 instance by using Secure Shell (SSH).<br>
 21. Right-click each of these links and download the files to your computer:<br>
 <ul>Ensure that each file keeps the same file name, including the extension.<br>
 <li><a href="https://github.com/laiyutong/AWS/blob/main/Academy/Guided%20Lab/Hosting%20a%20Static%20Website/index.html">index.html</a>
@@ -75,7 +73,6 @@ In this task, you will upload the files that will serve as your static website t
 <img src="https://i.imgur.com/xZCUthU.png" width="60%"><br>
 
 
-<h2>Task 3: Enabling access to the objects</h2>
 Objects that are stored in Amazon S3 are private by default. This ensures that your organization's data remains secure.<br>
 In this task, you will make the uploaded objects publicly accessible.<br>
 First, confirm that the objects are currently private.<br>
