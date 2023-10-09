@@ -17,7 +17,7 @@ The security group that you associate with a mount target must allow inbound acc
 6. In the navigation pane on the left, choose <code>Security Groups</code>.
 7. Copy the Security group ID of the EFSClient security group to your text editor.<br>
   The Group ID should look similar to sg-03727965651b6659b.<br>
-
+<img src="https://i.imgur.com/JFFitwT.png" width="60%"><br>
 8. Choose Create security group then configure:<br>
 <ul><li>Security group name: EFS Mount Target
 <li>Description: Inbound NFS access from EFS clients
@@ -156,7 +156,6 @@ The throughput that is available to a file system scales as a file system grows.
 File system throughput is shared across all EC2 instances that are connected to a file system. For more information about performance characteristics of your EFS file system, see the official Amazon Elastic File System documentation.<br>
 🎊 Congratulations! You created an EFS file system, mounted it to an EC2 instance, and ran an I/O benchmark test to examine its performance characteristics.
 
-<img src="" width="60%"><br>
 <img src="" width="60%"><br>
 <img src="" width="60%"><br>
 <img src="" width="60%"><br>
