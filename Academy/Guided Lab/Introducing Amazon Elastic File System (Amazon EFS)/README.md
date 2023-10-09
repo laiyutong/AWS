@@ -107,11 +107,11 @@ These instructions are specifically for macOS or Linux users. If you are a Windo
 <pre class="text">ssh -i labsuser.pem ec2-user@<public-ip></pre><br>
 38. When you are prompted to allow the first connection to this remote SSH server, enter yes.<br>
 Because you are using a key pair for authentication, you are not prompted for a password.<br>
-39. Return to the Amazon S3 console and upload the <code>index.html</code> file that you just edited.<br>
+<h2>Task 4: Creating a new directory and mounting the EFS file system</h2>
+  39. Return to the Amazon S3 console and upload the <code>index.html</code> file that you just edited.<br>
 40. <code>Select index.html</code> and use the Actions menu to choose the <code>Make public via ACL</code> option again.<br>
 41. 
 <img src="" width="60%"><br><br>
-<h2>Task 4: Updating the website</h2>
 You can change the website by editing the HTML file and uploading it again to the S3 bucket.<br>
 Amazon S3 is an object storage service, so you must upload the whole file. This action replaces the existing object in your bucket. You cannot edit the contents of an object—instead, the whole object must be replaced.<br>
 
