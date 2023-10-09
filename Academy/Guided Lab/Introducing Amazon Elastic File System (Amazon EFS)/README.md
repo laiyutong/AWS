@@ -108,10 +108,24 @@ These instructions are specifically for macOS or Linux users. If you are a Windo
 38. When you are prompted to allow the first connection to this remote SSH server, enter yes.<br>
 Because you are using a key pair for authentication, you are not prompted for a password.<br>
 <h2>Task 4: Creating a new directory and mounting the EFS file system</h2>
-  39. Return to the Amazon S3 console and upload the <code>index.html</code> file that you just edited.<br>
-40. <code>Select index.html</code> and use the Actions menu to choose the <code>Make public via ACL</code> option again.<br>
-41. 
-<img src="" width="60%"><br><br>
-You can change the website by editing the HTML file and uploading it again to the S3 bucket.<br>
-Amazon S3 is an object storage service, so you must upload the whole file. This action replaces the existing object in your bucket. You cannot edit the contents of an object—instead, the whole object must be replaced.<br>
+△Amazon EFS supports the NFSv4.1 and NFSv4.0 protocols when it mounts your file systems on EC2 instances. Though NFSv4.0 is supported, we recommend that you use NFSv4.1. When you mount your EFS file system on your EC2 instance, you must also use an NFS client that supports your chosen NFSv4 protocol. The EC2 instance that was launched as a part of this lab includes an NFSv4.1 client, which is already installed on it.<br>
+39. In your SSH session, make a new directory by entering <code>sudo mkdir efs</code><br>
+40. Back in the AWS Management Console, on the Services menu, choose <code>EFS</code>.<br>
+41. Choose My First EFS File System.<br>
+42. In the Amazon EFS Console, on the top right corner of the page, choose Attach to open the Amazon EC2 mount instructions.<br>
+43. Copy the entire command in the Using the NFS client section.<br>
+  The mount command should look similar to this example:<br>
+  <pre class="text">sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport fs-bce57914.efs.us-west-2.amazonaws.com:/ efs</pre>
+  The provided <code>sudo mount...</code> command uses the default Linux mount options.<br>
+44. In your Linux SSH session, mount your Amazon EFS file system by:<br>
+<ul><li>Pasting the command
+<li>Pressing ENTER</li></ul>
+45. Get a full summary of the available and used disk space usage by entering:<br>
+<pre class="text">sudo df -hT</pre>
+This following screenshot is an example of the output from the following disk filesystem command:<br>
+<pre class="text">df -hT</pre>
+Notice the Type and Size of your mounted EFS file system.
+
+
+<img src="" width="60%"><br>
 
