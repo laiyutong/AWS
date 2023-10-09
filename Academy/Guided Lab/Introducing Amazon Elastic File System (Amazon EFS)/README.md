@@ -28,17 +28,20 @@ The security group that you associate with a mount target must allow inbound acc
 <ul><li>Custom
 <li>In the Custom box, paste the security group's Security group ID that you copied to your text editor</li></ul>
 <li>Choose Create security group.</li></ul><br>
-10. Choose <code>Create bucket</code>.<br>
-    You can use tags to add additional information to a bucket, such as a project code, cost center, or owner.<br>
-11. Choose the name of your new bucket.<br>
-12. Choose the  Properties tab.<br>
-13. Scroll to the Tags panel.<br>
-14. Choose Edit then Add tag and enter:<br>
-<ul><li>Key: Department
-<li>Value: Marketing</li></ul>
-<img src="https://i.imgur.com/Uytzrpf.png" width="60%"><br>
-14. Choose <code>Save changes</code> to save the tag.<br>
-<ul><li>Next, you will configure the bucket for static website hosting.</li></ul>
+
+<h2>Task 2: Creating an EFS file system</h2>
+EFS file systems can be mounted to multiple EC2 instances that run in different Availability Zones in the same Region. These instances use mount targets that are created in each Availability Zone to mount the file system by using standard NFSv4.1 semantics. You can mount the file system on instances in only one virtual private cloud (VPC) at a time. Both the file system and the VPC must be in the same Region.<br>
+10. On the Services menu, choose <code>EFS</code>.<br>
+11. Choose <code>Create file system</code><br>
+12. In the Create file system window, choose <code>Customize</code><br>
+13. On Step 1:<br>
+<ul><li>Uncheck  Enable automatic backups.
+<li>Lifecycle management: Select None
+<li>In the Tags section, configure:</li></ul>
+<ul><li>Key: Name
+<li>Value: My First EFS File System</li></ul><br>
+14. Choose Next<br>
+
 15. Stay in the <code>Properties</code> console.<br>
 <img src="https://i.imgur.com/LtB5IfI.png" width="60%"><br>
 16. Scroll to the <code>Static website hosting</code> panel.<br>
@@ -58,7 +61,6 @@ The security group that you associate with a mount target must allow inbound acc
     <img src="https://i.imgur.com/sIlKWY4.png" width="60%"><br>
     <img src="https://i.imgur.com/kQHXVAu.png" width="60%"><br>
 
-<h2>Task 2: Uploading content to your bucket</h2>
 In this task, you will upload the files that will serve as your static website to the bucket.<br>
 21. Right-click each of these links and download the files to your computer:<br>
 <ul>Ensure that each file keeps the same file name, including the extension.<br>
