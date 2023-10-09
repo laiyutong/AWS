@@ -13,15 +13,21 @@ After completing this lab, you should be able to:<br>
 <h2>Task 1: Creating a security group to access your EFS file system</h2>
 The security group that you associate with a mount target must allow inbound access for TCP on port 2049 for Network File System (NFS). This is the security group that you will now create, configure, and attach to your EFS mount targets.<br>
 
-5. In the AWS Management Console, on the Services menu, choose EC2.
+5. In the AWS Management Console, on the Services menu, choose <code>EC2</code>.
 6. In the navigation pane on the left, choose <code>Security Groups</code>.
 7. Copy the Security group ID of the EFSClient security group to your text editor.<br>
   The Group ID should look similar to sg-03727965651b6659b.<br>
 
-8. In the Object Ownership section, select ACLs enabled, then verify Bucket owner preferred is selected.<br>
-<img src="https://i.imgur.com/N45mlVz.png" width="60%"><br>
-9. Clear Block all public access, then select the box that states I acknowledge that the current settings may result in this bucket and the objects within becoming public.<br>
-<img src="https://i.imgur.com/Ar873yW.png" width="60%"><br>
+8. Choose Create security group then configure:<br>
+<ul><li>Security group name: EFS Mount Target
+<li>Description: Inbound NFS access from EFS clients
+<li>VPC: Lab VPC</li></ul><br>
+9. Under the Inbound rules section, choose Add rule then configure:
+<ul><li>Type: NFS
+<li>Source:
+<ul><li>Custom
+<li>In the Custom box, paste the security group's Security group ID that you copied to your text editor</li></ul>
+<li>Choose Create security group.</li></ul><br>
 10. Choose <code>Create bucket</code>.<br>
     You can use tags to add additional information to a bucket, such as a project code, cost center, or owner.<br>
 11. Choose the name of your new bucket.<br>
