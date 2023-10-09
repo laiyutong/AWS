@@ -53,17 +53,17 @@ Your mount targets should look like the following example. The diagram shows two
 20. IOn Step 4:<br>
 <ul><li>Review your configuration.
 <li>Choose Create</li></ul>
-🎊Congratulations! You have created a new EFS file system in your Lab VPC and mount targets in each Lab VPC subnet. In a few seconds, the File system state of the file system will change to Available, followed by the mount targets 2–3 minutes later.<br>
-Proceed to the next step after the Mount target state for each mount target changes to Available. Choose the screen refresh button after 2–3 minutes to check its progress.<br>
+🎊Congratulations! You have created a new EFS file system in your Lab VPC and mount targets in each Lab VPC subnet. In a few seconds, the File system state of the file system will change to Available, followed by the mount targets 2–3 minutes later.<br><br>
+Proceed to the next step after the Mount target state for each mount target changes to Available. Choose the screen refresh button after 2–3 minutes to check its progress.<br><br>
 🗒️Note: You may need to scroll to the right in the File systems pane to find the File system state.<br>
 
 <h2>Task 3: Connecting to your EC2 instance via SSH</h2>
 In this task, you will connect to your EC2 instance by using Secure Shell (SSH).<br>
-21. Right-click each of these links and download the files to your computer:<br>
-<ul>Ensure that each file keeps the same file name, including the extension.<br>
-<li><a href="https://github.com/laiyutong/AWS/blob/main/Academy/Guided%20Lab/Hosting%20a%20Static%20Website/index.html">index.html</a>
-<li><a href="https://github.com/laiyutong/AWS/blob/main/Academy/Guided%20Lab/Hosting%20a%20Static%20Website/script.js">script.js</a>
-<li><a href="https://github.com/laiyutong/AWS/blob/main/Academy/Guided%20Lab/Hosting%20a%20Static%20Website/style.css">style.css</a></li></ul>
+<h3>Microsoft Windows users</h3>
+△These instructions are specifically for Microsoft Windows users. If you are using macOS or Linux, skip to the next section.
+
+21. Above these instructions that you are currently reading, choose the Details dropdown menu, and then select <code>Show</code><br>
+   A Credentials window opens.<br>
 22. Return to the Amazon <code>S3 console</code> and in the <code>website-<123></code> bucket you created earlier, choose the <code>Objects</code> tab.<br>
 23. Choose <code>Upload</code><br>
 24. Choose <code>Add files</code><br>
