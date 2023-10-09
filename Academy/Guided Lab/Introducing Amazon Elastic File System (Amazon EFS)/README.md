@@ -37,8 +37,8 @@ EFS file systems can be mounted to multiple EC2 instances that run in different 
 13. On Step 1:<br>
 <ul><li>Uncheck  Enable automatic backups.
 <li>Lifecycle management: Select None
-<li>In the Tags section, configure:
-<ul><li>Key: Name
+<ul><li>In the Tags section, configure:
+<li>Key: Name
 <li>Value: My First EFS File System</li></ul></li></ul><br>
 14. Choose Next<br>
 15. For VPC, select Lab VPC.<br>
