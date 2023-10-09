@@ -21,7 +21,7 @@ The security group that you associate with a mount target must allow inbound acc
 8. Choose Create security group then configure:<br>
 <ul><li>Security group name: <code>EFS Mount Target</code>
 <li>Description: <code>Inbound NFS access from EFS clients</code>
-<li>VPC: Lab VPC</li></ul><br>
+<li>VPC: Lab VPC</li></ul>
 <img src="https://i.imgur.com/invpybj.png" width="60%"><br>
 9. Under the Inbound rules section, choose Add rule then configure:
 <ul><li>Type: NFS
