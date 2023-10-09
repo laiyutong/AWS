@@ -96,8 +96,8 @@ These instructions are specifically for macOS or Linux users. If you are a Windo
 33. Note the EC2PublicIP address, if it is displayed.<br>
 34. Exit the Details panel by choosing the X.<br>
 35. Open a terminal window, and change directory to the directory where the labsuser.pem file was downloaded by using the cd command.
-  For example, if the labsuser.pem file was saved to your Downloads directory, run this command:<br>
-<code>cd ~/Downloads</code>
+    For example, if the labsuser.pem file was saved to your Downloads directory, run this command:<br>
+<pre class="text">cd ~/Downloads</pre>
 
 
 
