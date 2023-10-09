@@ -50,7 +50,7 @@ EFS file systems can be mounted to multiple EC2 instances that run in different 
 17. Attach the EFS Mount Target security group to each Availability Zone mount target by:<br>
 <ul><li>Selecting each Security groups check box.
 <li>Choosing EFS Mount Target.</li></ul><br>
-<img src="blob:https://imgur.com/78f9ee49-0336-4c86-9b3f-9490cb06eaab" width="60%"><br>
+<img src="https://i.imgur.com/BJXNzhh.png" width="60%"><br>
 A mount target is created for each subnet.<br>
 Your mount targets should look like the following example. The diagram shows two mount targets in the Lab VPC that use the EFS Mount Target security group. In this lab, you should be using the Lab VPC.<br>
 18. Choose <code>Next</code><br>
