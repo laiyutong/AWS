@@ -73,13 +73,17 @@ In this task, you will connect to your EC2 instance by using Secure Shell (SSH).
 27. To keep the PuTTY session open for a longer period of time, configure the PuTTY timeout:><br>
 <ul><li>Choose Connection
 <li>Seconds between keepalives: 30</li></ul><br>
-
-
-Objects that are stored in Amazon S3 are private by default. This ensures that your organization's data remains secure.<br>
-In this task, you will make the uploaded objects publicly accessible.<br>
-First, confirm that the objects are currently private.<br>
-
-28. Return to the browser tab that showed the 403 Forbidden message.<br>
+28. Configure your PuTTY session by using the following settings.
+<ul><li>Choose Session
+<li>Host Name (or IP address): Paste the EC2PublicIP for the instance you noted earlier
+<ul><li>Alternatively, return to the Amazon EC2 console and choose Instances
+<li>Select the instance you want to connect to
+<li>In the Description tab, copy the IPv4 Public IP value</li></ul>
+<li>Back in PuTTY, in the Connection list, expand  SSH
+<li>Choose Auth and expand  Credentials
+<li>Under Private key file for authentication: Choose Browse
+<li>Browse to the labsuser.ppk file that you downloaded, select it, and choose Open
+<li>Choose Open again</li></ul><br>
 29. Refresh the webpage.<br>
     If you accidentally closed this tab, go to the Properties tab, and in the Static website hosting panel choose the Endpoint link again.<br>
     You should still see a 403 Forbidden message.<br>
