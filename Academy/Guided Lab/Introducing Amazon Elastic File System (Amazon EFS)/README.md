@@ -64,13 +64,15 @@ In this task, you will connect to your EC2 instance by using Secure Shell (SSH).
 
 21. Above these instructions that you are currently reading, choose the Details dropdown menu, and then select <code>Show</code><br>
    A Credentials window opens.<br>
-22. Return to the Amazon <code>S3 console</code> and in the <code>website-<123></code> bucket you created earlier, choose the <code>Objects</code> tab.<br>
-23. Choose <code>Upload</code><br>
-24. Choose <code>Add files</code><br>
-25. Locate and select the three files that you downloaded.<br>
-26. If prompted, choose I acknowledge that existing objects with the same name will be overwritten.<br>
-27. Choose <code>Upload</code><br>
-<img src="https://i.imgur.com/xZCUthU.png" width="60%"><br>
+22. Choose the Download PPK button and save the labsuser.ppk file.
+   Note: Typically, your browser saves the file to the Downloads directory.<br>
+23. Note the EC2PublicIP address, if it is displayed.<br>
+24. Exit the Details panel by choosing the X.<br>
+25. To use SSH to access the EC2 instance, you must use *PuTTY*. If you do not have PuTTY installed on your computer, download PuTTY.<br>
+26. Open putty.exe.<br>
+27. To keep the PuTTY session open for a longer period of time, configure the PuTTY timeout:><br>
+<ul><li>Choose Connection
+<li>Seconds between keepalives: 30</li></ul><br>
 
 
 Objects that are stored in Amazon S3 are private by default. This ensures that your organization's data remains secure.<br>
