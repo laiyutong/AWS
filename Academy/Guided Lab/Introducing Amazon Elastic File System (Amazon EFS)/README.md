@@ -13,8 +13,8 @@ After completing this lab, you should be able to:<br>
 <h2>Task 1: Creating a security group to access your EFS file system</h2>
 The security group that you associate with a mount target must allow inbound access for TCP on port 2049 for Network File System (NFS). This is the security group that you will now create, configure, and attach to your EFS mount targets.<br>
 
-5. In the AWS Management Console, on the Services menu, choose EC2.<br>
-6. In the navigation pane on the left, choose <code>Security Groups</code>.<br>
+5. In the AWS Management Console, on the Services menu, choose EC2.
+6. In the navigation pane on the left, choose <code>Security Groups</code>.
 7. Copy the Security group ID of the EFSClient security group to your text editor.<br>
   The Group ID should look similar to sg-03727965651b6659b.<br>
 
