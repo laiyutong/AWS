@@ -126,6 +126,45 @@ This following screenshot is an example of the output from the following disk fi
 <pre class="text">df -hT</pre>
 Notice the Type and Size of your mounted EFS file system.
 
+<h2>Task 5: Examining the performance behavior of your new EFS file system</h2>
+<h3>Examining the performance by using Flexible IO</h3>
+△Flexible IO (fio) is a synthetic I/O benchmarking utility for Linux. It is used to benchmark and test Linux I/O subsystems. During boot, fio was automatically installed on your EC2 instance.<br>
+46. Examine the write performance characteristics of your file system by entering:<br>
+<pre class="text">sudo fio --name=fio-efs --filesize=10G --filename=./efs/fio-efs-test.img --bs=1M --nrfiles=1 --direct=1 --sync=0 --rw=write --iodepth=200 --ioengine=libaio</pre>
+△ The fio command will take 5–10 minutes to complete. The output should look like the example in the following screenshot. Make sure that you examine the output of your fio command, specifically the summary status information for this WRITE test.<br>
+<h3>Monitoring performance by using Amazon CloudWatch</h3>
+47. In the AWS Management Console, on the Services menu, choose CloudWatch.<br>
+48. In the navigation pane on the left, choose Metrics.<br>
+49. In the All metrics tab, choose EFS.<br>
+50. Choose File System Metrics.<br>
+51. Select the row that has the PermittedThroughput Metric Name.
+△You might need to wait 2–3 minutes and refresh the screen several times before all available metrics, including PermittedThroughput, calculate and populate.<br>
+52. On the graph, choose and drag around the data line. If you do not see the line graph, adjust the time range of the graph to display the period during which you ran the <code>fio</code> command.<br>
+<img src="https://i.imgur.com/9tDS8wo.png" width="60%"><br>
+53. Pause your pointer on the data line in the graph. The value should be 105M.<br>
+<img src="https://i.imgur.com/cToVWmL.png" width="60%"><br>
+The throughput of Amazon EFS scales as the file system grows. File-based workloads are typically spiky. They drive high levels of throughput for short periods of time, and low levels of throughput the rest of the time. Because of this behavior, Amazon EFS is designed to burst to high throughput levels for periods of time. All file systems, regardless of size, can burst to 100 MiB/s of throughput. For more information about performance characteristics of your EFS file system, see the official Amazon Elastic File System documentation.<br>
+54. In the All metrics tab, uncheck the box for PermittedThroughput.<br>
+55. Select the check box for DataWriteIOBytes.<br>
+△ If you do not see DataWriteIOBytes in the list of metrics, use the File System Metrics search to find it.<br>
+56. Choose the Graphed metrics tab.<br>
+57. On the Statistics column, select Sum.<br>
+58. On the Period column, select 1 Minute.<br>
+59. Pause your pointer on the peak of the line graph. Take this number (in bytes) and divide it by the duration in seconds (60 seconds). The result gives you the write throughput (B/s) of your file system during your test.<br>
+<img src="https://i.imgur.com/buJhWyl.png" width="60%"><br>
+The throughput that is available to a file system scales as a file system grows. All file systems deliver a consistent baseline performance of 50 MiB/s per TiB of storage. Also, all file systems (regardless of size) can burst to 100 MiB/s. File systems that are larger than 1T B can burst to 100 MiB/s per TiB of storage. As you add data to your file system, the maximum throughput that is available to the file system scales linearly and automatically with your storage.<br>
+File system throughput is shared across all EC2 instances that are connected to a file system. For more information about performance characteristics of your EFS file system, see the official Amazon Elastic File System documentation.<br>
+🎊 Congratulations! You created an EFS file system, mounted it to an EC2 instance, and ran an I/O benchmark test to examine its performance characteristics.
 
+<img src="" width="60%"><br>
+<img src="" width="60%"><br>
+<img src="" width="60%"><br>
+<img src="" width="60%"><br>
+<img src="" width="60%"><br>
+<img src="" width="60%"><br>
+<img src="" width="60%"><br>
+<img src="" width="60%"><br>
+<img src="" width="60%"><br>
+<img src="" width="60%"><br>
 <img src="" width="60%"><br>
 
