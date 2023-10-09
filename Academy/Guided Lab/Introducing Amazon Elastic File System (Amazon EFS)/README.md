@@ -84,27 +84,23 @@ In this task, you will connect to your EC2 instance by using Secure Shell (SSH).
 <li>Under Private key file for authentication: Choose Browse
 <li>Browse to the labsuser.ppk file that you downloaded, select it, and choose Open
 <li>Choose Open again</li></ul><br>
-29. Refresh the webpage.<br>
-    If you accidentally closed this tab, go to the Properties tab, and in the Static website hosting panel choose the Endpoint link again.<br>
-    You should still see a 403 Forbidden message.<br>
-    Analysis: This response is expected! This message indicates that your static website is being hosted by Amazon S3, but that the content is private.<br>
-    You can make Amazon S3 objects public through two different ways:<br>
-    <ul><li>To make either a whole bucket public, or a specific directory in a bucket public, use a bucket policy.
-    <li>To make individual objects in a bucket public, use an access control list (ACL).</li></ul>
-    It is normally safer to make individual objects public because this avoids accidentally making other objects public. However, if you know that the entire bucket contains no sensitive information, you can use a bucket policy.<br>
-    You will now configure the individual objects to be publicly accessible.<br>
-30. Return to the web browser tab with the Amazon S3 console (but do not close the website tab).<br>
-31. <code>Select all three objects</code>.<br>
-32. In the Actions menu, choose <code>Make public via ACL</code>.<br>
-<img src="https://i.imgur.com/NuHfCd5.png" width="60%"><br>
-    A list of the three objects is displayed.<br>
-33. Choose <code>Make public</code><br>
-<img src="https://i.imgur.com/CYRkqvg.png" width="60%"><br>
-    Your static website is now publicly accessible.<br>
-34. Return to the web browser tab that has the 403 Forbidden message.<br>
-35. Refresh the webpage.<br>
-You should now see the static website that is being hosted by Amazon S3.<br>
-<img src="https://i.imgur.com/at9azlT.png" width="60%"><br>
+29. To trust and connect to the host, choose Accept.<br>
+30. When you are prompted with login as, enter: ec2-user
+  This action connects you to the EC2 instance.<br>
+
+<h3>macOS  and Linux  users</h3>
+These instructions are specifically for macOS or Linux users. If you are a Windows user, skip ahead to the next task.<br>
+31. Above these instructions that you are currently reading, choose the Details dropdown menu, and then select Show
+  A Credentials window opens.<br>
+32. Choose the Download PEM button and save the labsuser.pem file.<br>
+33. Note the EC2PublicIP address, if it is displayed.<br>
+34. Exit the Details panel by choosing the X.<br>
+35. Open a terminal window, and change directory to the directory where the labsuser.pem file was downloaded by using the cd command.
+  For example, if the labsuser.pem file was saved to your Downloads directory, run this command:<br>
+<code>cd ~/Downloads</code>
+
+
+
 
 <h2>Task 4: Updating the website</h2>
 You can change the website by editing the HTML file and uploading it again to the S3 bucket.<br>
