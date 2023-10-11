@@ -99,6 +99,7 @@ These instructions are specifically for macOS or Linux users. If you are a Windo
   A Credentials window opens.<br>
 32. Choose the Download PEM button and save the labsuser.pem file.<br>
 33. Note the EC2PublicIP address, if it is displayed.<br>
+<img src="https://i.imgur.com/DBLoUSj.png" width="60%"><br>
 34. Exit the Details panel by choosing the X.<br>
 35. Open a terminal window, and change directory to the directory where the labsuser.pem file was downloaded by using the cd command.
     For example, if the labsuser.pem file was saved to your Downloads directory, run this command:<br>
@@ -161,7 +162,6 @@ The throughput that is available to a file system scales as a file system grows.
 File system throughput is shared across all EC2 instances that are connected to a file system. For more information about performance characteristics of your EFS file system, see the official Amazon Elastic File System documentation.<br>
 🎊 Congratulations! You created an EFS file system, mounted it to an EC2 instance, and ran an I/O benchmark test to examine its performance characteristics.
 
-<img src="" width="60%"><br>
 <img src="" width="60%"><br>
 <img src="" width="60%"><br>
 <img src="" width="60%"><br>
