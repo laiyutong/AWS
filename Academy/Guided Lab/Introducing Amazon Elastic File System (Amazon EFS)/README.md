@@ -119,7 +119,8 @@ Because you are using a key pair for authentication, you are not prompted for a 
 39. In your SSH session, make a new directory by entering <code>sudo mkdir efs</code><br>
 40. Back in the AWS Management Console, on the Services menu, choose <code>EFS</code>.<br>
 41. Choose My First EFS File System.<br>
-42. In the Amazon EFS Console, on the top right corner of the page, choose Attach to open the Amazon EC2 mount instructions.<br>
+42. In the Amazon EFS Console, on the top right corner of the page, choose <code>Attach</code> to open the Amazon EC2 mount instructions.<br>
+  <img src="https://i.imgur.com/x5gpPDv.png" width="60%"><br>
 43. Copy the entire command in the Using the NFS client section.<br>
   The mount command should look similar to this example:<br>
   <pre class="text">sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport fs-bce57914.efs.us-west-2.amazonaws.com:/ efs</pre>
@@ -163,7 +164,6 @@ The throughput that is available to a file system scales as a file system grows.
 File system throughput is shared across all EC2 instances that are connected to a file system. For more information about performance characteristics of your EFS file system, see the official Amazon Elastic File System documentation.<br>
 🎊 Congratulations! You created an EFS file system, mounted it to an EC2 instance, and ran an I/O benchmark test to examine its performance characteristics.
 
-<img src="" width="60%"><br>
 <img src="" width="60%"><br>
 <img src="" width="60%"><br>
 
