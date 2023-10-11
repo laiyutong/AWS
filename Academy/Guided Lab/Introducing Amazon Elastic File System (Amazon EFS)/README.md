@@ -65,7 +65,7 @@ Proceed to the next step after the Mount target state for each mount target chan
 <h2>Task 3: Connecting to your EC2 instance via SSH</h2>
 In this task, you will connect to your EC2 instance by using Secure Shell (SSH).<br>
 <h3>Microsoft Windows users</h3>
-△These instructions are specifically for Microsoft Windows users. If you are using macOS or Linux, skip to the next section.
+△These instructions are specifically for Microsoft Windows users. If you are using <code>macOS or Linux</code>, skip to the next section.
 
 21. Above these instructions that you are currently reading, choose the Details dropdown menu, and then select <code>Show</code><br>
    A Credentials window opens.<br>
