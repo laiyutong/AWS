@@ -111,6 +111,7 @@ These instructions are specifically for macOS or Linux users. If you are a Windo
 <li>Select the instance that you want to connect to
 <li>In the Description tab, copy the IPv4 Public IP value</li></ul>
 <pre class="text">ssh -i labsuser.pem ec2-user@<public-ip></pre><br>
+  <img src="https://i.imgur.com/erdCfUf.png" width="60%"><br>
 38. When you are prompted to allow the first connection to this remote SSH server, enter yes.<br>
 Because you are using a key pair for authentication, you are not prompted for a password.<br>
 <h2>Task 4: Creating a new directory and mounting the EFS file system</h2>
@@ -162,7 +163,6 @@ The throughput that is available to a file system scales as a file system grows.
 File system throughput is shared across all EC2 instances that are connected to a file system. For more information about performance characteristics of your EFS file system, see the official Amazon Elastic File System documentation.<br>
 🎊 Congratulations! You created an EFS file system, mounted it to an EC2 instance, and ran an I/O benchmark test to examine its performance characteristics.
 
-<img src="" width="60%"><br>
 <img src="" width="60%"><br>
 <img src="" width="60%"><br>
 <img src="" width="60%"><br>
