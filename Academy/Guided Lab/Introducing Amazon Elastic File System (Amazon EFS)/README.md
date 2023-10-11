@@ -153,6 +153,7 @@ This following screenshot is an example of the output from the following disk fi
 <img src="https://i.imgur.com/5Qh61KW.png" width="40%"><br>
 51. Select the row that has the PermittedThroughput Metric Name.
 △You might need to wait 2–3 minutes and refresh the screen several times before all available metrics, including PermittedThroughput, calculate and populate.<br>
+<img src="https://i.imgur.com/yn3qaAv.png" width="60%"><br>
 52. On the graph, choose and drag around the data line. If you do not see the line graph, adjust the time range of the graph to display the period during which you ran the <code>fio</code> command.<br>
 <img src="https://i.imgur.com/9tDS8wo.png" width="60%"><br>
 53. Pause your pointer on the data line in the graph. The value should be 105M.<br>
@@ -170,7 +171,5 @@ The throughput that is available to a file system scales as a file system grows.
 File system throughput is shared across all EC2 instances that are connected to a file system. For more information about performance characteristics of your EFS file system, see the official Amazon Elastic File System documentation.<br>
 🎊 Congratulations! You created an EFS file system, mounted it to an EC2 instance, and ran an I/O benchmark test to examine its performance characteristics.
 
-<img src="" width="60%"><br>
-<img src="" width="60%"><br>
 <img src="" width="60%"><br>
 
