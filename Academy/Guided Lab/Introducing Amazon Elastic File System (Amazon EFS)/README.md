@@ -144,14 +144,14 @@ This following screenshot is an example of the output from the following disk fi
 <img src="https://i.imgur.com/nooefC9.png" width="60%"><br>
 △ The <code>fio</code> command will take 5–10 minutes to complete. The output should look like the example in the following screenshot. Make sure that you examine the output of your <code>fio</code> command, specifically the summary status information for this WRITE test.<br>
 <h3>Monitoring performance by using Amazon CloudWatch</h3>
-47. In the AWS Management Console, on the Services menu, choose CloudWatch.<br>
-48. In the navigation pane on the left, choose Metrics.<br>
+47. In the AWS Management Console, on the Services menu, choose <code>CloudWatch</code>.<br>
+48. In the navigation pane on the left, choose <code>Metrics</code>.<br>
 <img src="https://i.imgur.com/sbcntUZ.png" width="60%"><br>
-49. In the All metrics tab, choose EFS.<br>
+49. In the All metrics tab, choose <code>EFS</code>.<br>
 <img src="https://i.imgur.com/4tM8adC.png" width="60%"><br>
-50. Choose File System Metrics.<br>
+50. Choose <code>File System Metrics</code>.<br>
 <img src="https://i.imgur.com/5Qh61KW.png" width="60%"><br>
-51. Select the row that has the PermittedThroughput Metric Name.
+51. Select the row that has the <code>PermittedThroughput</code> Metric Name.
 △You might need to wait 2–3 minutes and refresh the screen several times before all available metrics, including PermittedThroughput, calculate and populate.<br>
 52. On the graph, choose and drag around the data line. If you do not see the line graph, adjust the time range of the graph to display the period during which you ran the <code>fio</code> command.<br>
 <img src="https://i.imgur.com/9tDS8wo.png" width="60%"><br>
@@ -161,14 +161,11 @@ The throughput of Amazon EFS scales as the file system grows. File-based workloa
 54. In the All metrics tab, uncheck the box for PermittedThroughput.<br>
 55. Select the check box for DataWriteIOBytes.<br>
 △ If you do not see DataWriteIOBytes in the list of metrics, use the File System Metrics search to find it.<br>
-56. Choose the Graphed metrics tab.<br>
-57. On the Statistics column, select Sum.<br>
-58. On the Period column, select 1 Minute.<br>
+56. Choose the <code>Graphed metrics</code> tab.<br>
+57. On the Statistics column, select <code>Sum</code>.<br>
+58. On the Period column, select <code>1 Minute</code>.<br>
 59. Pause your pointer on the peak of the line graph. Take this number (in bytes) and divide it by the duration in seconds (60 seconds). The result gives you the write throughput (B/s) of your file system during your test.<br>
 <img src="https://i.imgur.com/buJhWyl.png" width="60%"><br>
 The throughput that is available to a file system scales as a file system grows. All file systems deliver a consistent baseline performance of 50 MiB/s per TiB of storage. Also, all file systems (regardless of size) can burst to 100 MiB/s. File systems that are larger than 1T B can burst to 100 MiB/s per TiB of storage. As you add data to your file system, the maximum throughput that is available to the file system scales linearly and automatically with your storage.<br>
 File system throughput is shared across all EC2 instances that are connected to a file system. For more information about performance characteristics of your EFS file system, see the official Amazon Elastic File System documentation.<br>
 🎊 Congratulations! You created an EFS file system, mounted it to an EC2 instance, and ran an I/O benchmark test to examine its performance characteristics.
-
-<img src="" width="60%"><br>
-
