@@ -124,8 +124,8 @@ Because you are using a key pair for authentication, you are not prompted for a 
 43. Copy the entire command in the Using the NFS client section.<br>
   The mount command should look similar to this example:<br>
 <pre class="text">sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport fs-bce57914.efs.us-west-2.amazonaws.com:/ efs</pre>
-  The provided <code>sudo mount...</code> command uses the default Linux mount options.<br>
-<img src="https://i.imgur.com/a9XOqOt.png" width="60%"><br>
+<img src="https://i.imgur.com/a9XOqOt.png" width="60%">
+△The provided <code>sudo mount...</code> command uses the default Linux mount options.<br>
 44. In your Linux SSH session, mount your Amazon EFS file system by:<br>
 <ul><li>Pasting the command
 <li>Pressing ENTER</li></ul>
@@ -133,7 +133,8 @@ Because you are using a key pair for authentication, you are not prompted for a 
 <pre class="text">sudo df -hT</pre>
 This following screenshot is an example of the output from the following disk filesystem command:<br>
 <pre class="text">df -hT</pre>
-Notice the Type and Size of your mounted EFS file system.
+<img src="https://i.imgur.com/o6D5JlM.png" width="60%"><br>
+△Notice the Type and Size of your mounted EFS file system.
 
 <h2>Task 5: Examining the performance behavior of your new EFS file system</h2>
 <h3>Examining the performance by using Flexible IO</h3>
@@ -165,7 +166,6 @@ The throughput that is available to a file system scales as a file system grows.
 File system throughput is shared across all EC2 instances that are connected to a file system. For more information about performance characteristics of your EFS file system, see the official Amazon Elastic File System documentation.<br>
 🎊 Congratulations! You created an EFS file system, mounted it to an EC2 instance, and ran an I/O benchmark test to examine its performance characteristics.
 
-<img src="" width="60%"><br>
 <img src="" width="60%"><br>
 <img src="" width="60%"><br>
 <img src="" width="60%"><br>
