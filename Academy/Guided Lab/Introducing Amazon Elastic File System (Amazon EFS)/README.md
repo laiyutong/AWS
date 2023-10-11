@@ -141,11 +141,14 @@ This following screenshot is an example of the output from the following disk fi
 △Flexible IO (fio) is a synthetic I/O benchmarking utility for Linux. It is used to benchmark and test Linux I/O subsystems. During boot, fio was automatically installed on your EC2 instance.<br>
 46. Examine the write performance characteristics of your file system by entering:<br>
 <pre class="text">sudo fio --name=fio-efs --filesize=10G --filename=./efs/fio-efs-test.img --bs=1M --nrfiles=1 --direct=1 --sync=0 --rw=write --iodepth=200 --ioengine=libaio</pre>
-△ The fio command will take 5–10 minutes to complete. The output should look like the example in the following screenshot. Make sure that you examine the output of your fio command, specifically the summary status information for this WRITE test.<br>
+<img src="https://i.imgur.com/nooefC9.png" width="60%"><br>
+△ The <code>fio</code> command will take 5–10 minutes to complete. The output should look like the example in the following screenshot. Make sure that you examine the output of your <code>fio</code> command, specifically the summary status information for this WRITE test.<br>
 <h3>Monitoring performance by using Amazon CloudWatch</h3>
 47. In the AWS Management Console, on the Services menu, choose CloudWatch.<br>
 48. In the navigation pane on the left, choose Metrics.<br>
+<img src="https://i.imgur.com/sbcntUZ.png" width="60%"><br>
 49. In the All metrics tab, choose EFS.<br>
+<img src="https://i.imgur.com/4tM8adC.png" width="60%"><br>
 50. Choose File System Metrics.<br>
 51. Select the row that has the PermittedThroughput Metric Name.
 △You might need to wait 2–3 minutes and refresh the screen several times before all available metrics, including PermittedThroughput, calculate and populate.<br>
@@ -166,9 +169,6 @@ The throughput that is available to a file system scales as a file system grows.
 File system throughput is shared across all EC2 instances that are connected to a file system. For more information about performance characteristics of your EFS file system, see the official Amazon Elastic File System documentation.<br>
 🎊 Congratulations! You created an EFS file system, mounted it to an EC2 instance, and ran an I/O benchmark test to examine its performance characteristics.
 
-<img src="" width="60%"><br>
-<img src="" width="60%"><br>
-<img src="" width="60%"><br>
 <img src="" width="60%"><br>
 <img src="" width="60%"><br>
 <img src="" width="60%"><br>
