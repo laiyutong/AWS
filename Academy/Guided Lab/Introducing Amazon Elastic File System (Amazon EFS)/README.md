@@ -55,7 +55,7 @@ A mount target is created for each subnet.<br>
 Your mount targets should look like the following example. The diagram shows two mount targets in the Lab VPC that use the EFS Mount Target security group. In this lab, you should be using the Lab VPC.<br>
 18. Choose <code>Next</code><br>
 19. On Step 3, Choose <code>Next</code><br>
-20. IOn Step 4:<br>
+20. On Step 4:<br>
 <ul><li>Review your configuration.
 <li>Choose Create</li></ul>
 🎊Congratulations! You have created a new EFS file system in your Lab VPC and mount targets in each Lab VPC subnet. In a few seconds, the File system state of the file system will change to Available, followed by the mount targets 2–3 minutes later.<br><br>
