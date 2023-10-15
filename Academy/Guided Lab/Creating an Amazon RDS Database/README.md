@@ -62,7 +62,7 @@ Before you continue to the next task, the database instance status must be Avail
 This lab automatically deployed an Amazon Elastic Compute Cloud (Amazon EC2) instance with a running web application.<br>
 You must use the IP address of the instance to connect to the application.<br><br>
 10.In the search box to the right of  Services, search for and choose <code>EC2</code> to open the EC2 console.<br><br>
-11.In the left navigation pane, choose I<code>nstances</code>.<br>
+11.In the left navigation pane, choose <code>Instances</code>.<br>
 In the center pane, there should be a running instance that is named <code>App Server</code>.<br><br>
 12.Select the App Server instance.<br><br>
 13.In the Details tab, copy the <code>Public IPv4 address</code> to your clipboard.<br>
