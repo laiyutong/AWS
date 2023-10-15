@@ -76,6 +76,10 @@ It does not display much information because the application is not yet connecte
 You can now configure the application to use the RDS DB instance you created earlier.<br>
 You will first retrieve the Database Endpoint so that the application knows how to connect to a database.<br>
 <img src="https://i.imgur.com/Ci4hw3k.png" width=60%><br>
+16.Return to the AWS Management Console, but do not close the application tab. (You will return to it soon.<br><br>
+17.In the  Services search box, search for and choose RDS to open the RDS console.<br><br>
+18.In the left navigation pane, choose Databases.<br><br>
+19.Choose inventory-db.<br>
 <img src="https://i.imgur.com/9wGihQN.png" width=60%><br>
 <img src="https://i.imgur.com/t1KDnAb.png" width=60%><br>
 <img src="https://i.imgur.com/LmYae1W.png" width=60%><br>
