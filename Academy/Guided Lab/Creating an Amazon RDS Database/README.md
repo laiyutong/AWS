@@ -50,6 +50,12 @@ Note: the default Multi-AZ deployment option automatically creates a replica of 
 <ul><li>Clear (turn off) the Enable Enhanced monitoring option</li></ul>
 <img src="https://i.imgur.com/11RwQXF.png" width=60%>
 <img src="https://i.imgur.com/ToZU6QX.png" width=60%><br>
+△Feel free to review the many other options displayed on the page, but leave them set to their default values. Options include automatic backups, the ability to export log files, and automatic version upgrades. The ability to activate these features through check boxes demonstrates the power of using a fully managed database solution instead of installing, backing up, and maintaining the database yourself.<br><br>
+
+9.Choose Create database (at the bottom of the page).<br>
+You should receive a message indicating that your database is being created.<br>
+‼️If you receive an error message that mentions rds-monitoring-role, confirm that you have cleared (turned off) the Enhanced Monitoring option in the previous step, then try again.<br>
+Before you continue to the next task, the database instance status must be Available. This process might take several minutes.
 <img src="https://i.imgur.com/0PS43xl.png" width=60%><br>
 
 <h2>Task 2: Configuring web application communication with a database instance</h2>
