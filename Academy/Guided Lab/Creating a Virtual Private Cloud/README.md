@@ -39,6 +39,6 @@ FYI: <a href="https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vp
 <img src="https://i.imgur.com/9lsZuA5.png" width=60%>
 <img src="https://i.imgur.com/zKSq4E9.png" width=60%>
 <img src="https://i.imgur.com/mlQpYdj.png" width=60%>
-<img src="" width=60%>
+<img src="https://i.imgur.com/5z5FLHY.png" width=60%>
 <img src="" width=60%>
 <img src="" width=60%>
