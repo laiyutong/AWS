@@ -1,6 +1,9 @@
 
 <h1>Module 4 - Guided Lab: Introducing Amazon Elastic File System (Amazon EFS)</h1>
 <h2>Lab overview and objectives</h2>
+
+FYI: <a href="https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html">What is Amazon Elastic File System?</a><br><br>
+
 This lab introduces you to Amazon Elastic File System (Amazon EFS) by using the AWS Management Console.<br>
 After completing this lab, you should be able to:<br>
 <ul><li>Log in to the AWS Management Console
