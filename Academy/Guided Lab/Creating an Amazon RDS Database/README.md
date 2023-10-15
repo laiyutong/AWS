@@ -18,7 +18,9 @@ In this task, you will create a MySQL database in your virtual private cloud (VP
 2.Choose <code>Create database</code><br>
 <img src="https://i.imgur.com/jYh0qkK.png" width=80%><br>
 3.Under Engine options, select <code>MySQL</code>.<br>
-The options include several use cases, ranging from enterprise-class databases to Dev/Test systems. In the options, you might notice Amazon Aurora. Aurora is a MySQL-compatible system that was re-architected for the cloud. If your company uses large-scale MySQL or PostgreSQL databases, Aurora can provide enhanced performance.<br>
+The options include several use cases, ranging from enterprise-class databases to Dev/Test systems.<br><br>
+In the options, you might notice Amazon Aurora. Aurora is a MySQL-compatible system that was re-architected for the cloud.<br>
+If your company uses large-scale MySQL or PostgreSQL databases, Aurora can provide enhanced performance.<br>
 <img src="https://i.imgur.com/e6puO9U.png" width=60%><br>
 4.Set the templates and availability and durability options:<br>
 <ul><li>Under the Templates section, select <code>Dev/Test</code>.
