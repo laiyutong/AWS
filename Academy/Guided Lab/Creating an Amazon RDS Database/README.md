@@ -8,5 +8,18 @@ At the end of this lab, your architecture will look like the following example:<
 <img src="https://i.imgur.com/SU3Va9D.png" width=60%>
 
 <h2>Task 1: Creating an Amazon RDS database</h2>
+<img src="https://i.imgur.com/e6puO9U.png" width=60%>
+<img src="https://i.imgur.com/KYZ1Jhy.png" width=60%>
+<img src="" width=60%>
+<img src="" width=60%>
+<img src="" width=60%>
+<img src="" width=60%>
 
 <h2>Task 2: Configuring web application communication with a database instance</h2>
+<img src="" width=60%>
+<img src="" width=60%>
+<img src="" width=60%>
+<img src="" width=60%>
+<img src="" width=60%>
+<img src="" width=60%>
+<img src="" width=60%>
