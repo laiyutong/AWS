@@ -1,6 +1,6 @@
 <h1>Module 5 Guided Lab - Creating an Amazon RDS Database</h1>
 <h2>Lab overview and objectives</h2>
-FYI: <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html"><br>
+FYI: <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html">What is Amazon Relational Database Service (Amazon RDS)?</a><br>
 
 Traditionally, creating a database can be a complex process that requires either a database administrator or a systems administrator. In the cloud, you can simplify this process by using Amazon Relational Database Service (Amazon RDS).<br><br>
 After completing this lab, you should be able to:<br>
