@@ -27,9 +27,9 @@ In this task, you will create an S3 bucket and configure it for static website h
 <img src="https://i.imgur.com/Ar873yW.png" width="60%"><br>
 6.Choose <code>Create bucket</code>.<br>
     You can use tags to add additional information to a bucket, such as a project code, cost center, or owner.<br>
-7.Choose the name of your new bucket.<br>
-8.Choose the  Properties tab.<br>
-9.Scroll to the Tags panel.<br>
+7.Choose the name of your new bucket.<br><br>
+8.Choose the  Properties tab.<br><br>
+9.Scroll to the Tags panel.<br><br>
 10.Choose Edit then Add tag and enter:<br>
 <ul><li>Key: Department
 <li>Value: Marketing</li></ul>
@@ -38,8 +38,8 @@ In this task, you will create an S3 bucket and configure it for static website h
 <ul><li>Next, you will configure the bucket for static website hosting.</li></ul>
 12.Stay in the <code>Properties</code> console.<br>
 <img src="https://i.imgur.com/LtB5IfI.png" width="60%"><br>
-13.Scroll to the <code>Static website hosting</code> panel.<br>
-14.Choose <code>Edit</code><br>
+13.Scroll to the <code>Static website hosting</code> panel.<br><br>
+14.Choose <code>Edit</code><br><br>
 15.Configure the following settings:<br>
 <ul><li>Static web hosting: Enable<br>
 <li>Hosting type: <code>Host a static website</code><br>
@@ -47,7 +47,7 @@ In this task, you will create an S3 bucket and configure it for static website h
 <li>Note: You must enter this value, even though it is already displayed.<br>
 <li>Error document: <code>error.html</code></li></ul>
 <img src="https://i.imgur.com/FSH4Wf7.png" width="60%"><br>
-16.Choose <code>Save changes</code><br>
+16.Choose <code>Save changes</code><br><br>
 17.In the Static website hosting panel, choose the link under Bucket website endpoint.<br>
     You will receive a <code>403 Forbidden</code> message because the bucket permissions have not been configured yet.<br> 
     Keep this tab open in your web browser so that you can return to it later.<br>
@@ -63,19 +63,19 @@ In this task, you will upload the files that will serve as your static website t
 <li><a href="https://github.com/laiyutong/AWS/blob/main/Academy/Guided%20Lab/Hosting%20a%20Static%20Website/script.js">script.js</a>
 <li><a href="https://github.com/laiyutong/AWS/blob/main/Academy/Guided%20Lab/Hosting%20a%20Static%20Website/style.css">style.css</a></li></ul>
 19.Return to the Amazon <code>S3 console</code> and in the <code>website-<123></code> bucket you created earlier, choose the <code>Objects</code> tab.<br>
-20.Choose <code>Upload</code><br>
-21.Choose <code>Add files</code><br>
-22.Locate and select the three files that you downloaded.<br>
-23.If prompted, choose I acknowledge that existing objects with the same name will be overwritten.<br>
+20.Choose <code>Upload</code><br><br>
+21.Choose <code>Add files</code><br><br>
+22.Locate and select the three files that you downloaded.<br><br>
+23.If prompted, choose I acknowledge that existing objects with the same name will be overwritten.<br><br>
 24.Choose <code>Upload</code><br>
 <img src="https://i.imgur.com/xZCUthU.png" width="60%"><br>
 
 <h2>Task 3: Enabling access to the objects</h2>
 Objects that are stored in Amazon S3 are private by default. This ensures that your organization's data remains secure.<br>
 In this task, you will make the uploaded objects publicly accessible.<br>
-First, confirm that the objects are currently private.<br>
+First, confirm that the objects are currently private.<br><br>
 
-25.Return to the browser tab that showed the 403 Forbidden message.<br>
+25.Return to the browser tab that showed the 403 Forbidden message.<br><br>
 26.Refresh the webpage.<br>
     If you accidentally closed this tab, go to the Properties tab, and in the Static website hosting panel choose the Endpoint link again.<br>
     You should still see a 403 Forbidden message.<br>
@@ -85,8 +85,8 @@ First, confirm that the objects are currently private.<br>
     <li>To make individual objects in a bucket public, use an access control list (ACL).</li></ul>
     It is normally safer to make individual objects public because this avoids accidentally making other objects public. However, if you know that the entire bucket contains no sensitive information, you can use a bucket policy.<br>
     You will now configure the individual objects to be publicly accessible.<br>
-27.Return to the web browser tab with the Amazon S3 console (but do not close the website tab).<br>
-28.<code>Select all three objects</code>.<br>
+27.Return to the web browser tab with the Amazon S3 console (but do not close the website tab).<br><br>
+28.<code>Select all three objects</code>.<br><br>
 29.In the Actions menu, choose <code>Make public via ACL</code>.<br>
 <img src="https://i.imgur.com/NuHfCd5.png" width="60%"><br>
     A list of the three objects is displayed.<br>
@@ -102,11 +102,11 @@ You should now see the static website that is being hosted by Amazon S3.<br>
 You can change the website by editing the HTML file and uploading it again to the S3 bucket.<br>
 Amazon S3 is an object storage service, so you must upload the whole file. This action replaces the existing object in your bucket. You cannot edit the contents of an object—instead, the whole object must be replaced.<br>
 
-33.On your computer, load the index.html file into a text editor (for example, Notepad or TextEdit).<br>
-34.Find the text <code>Served from Amazon S3</code> and replace it with <code>Created by &lt;YOUR-NAME&gt;</code>, substituting your name for <YOUR-NAME> (for example, Created by Jane).<br>
-35.Save the file.<br>
-36.Return to the Amazon S3 console and upload the <code>index.html</code> file that you just edited.<br>
-37.<code>Select index.html</code> and use the Actions menu to choose the <code>Make public via ACL</code> option again.<br>
+33.On your computer, load the index.html file into a text editor (for example, Notepad or TextEdit).<br><br>
+34.Find the text <code>Served from Amazon S3</code> and replace it with <code>Created by &lt;YOUR-NAME&gt;</code>, substituting your name for <YOUR-NAME> (for example, Created by Jane).<br><br>
+35.Save the file.<br><br>
+36.Return to the Amazon S3 console and upload the <code>index.html</code> file that you just edited.<br><br>
+37.<code>Select index.html</code> and use the Actions menu to choose the <code>Make public via ACL</code> option again.<br><br>
 38.Return to the web browser tab with the static website and refresh the page.<br>
     Your name should now be on the page.<br>
 <img src="https://i.imgur.com/4ViueDn.png" width="60%"><br><br>
