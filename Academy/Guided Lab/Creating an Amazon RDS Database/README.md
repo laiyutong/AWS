@@ -88,7 +88,7 @@ It should look similar to this example: inventory-db.crwxbgqad61a.rds.amazonaws.
 <li>Database: inventory
 <li>Username: admin
 <li>Password: lab-password
-<li>Choose Save</li></ul><br>
+<li>Choose Save</li></ul>
 The application will now connect to the database, load some initial data, and display information.<br>
 <img src="https://i.imgur.com/t1KDnAb.png" width=60%><br>
 <img src="https://i.imgur.com/LmYae1W.png" width=60%><br>
