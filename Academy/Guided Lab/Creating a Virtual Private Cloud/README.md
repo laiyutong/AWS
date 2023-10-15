@@ -26,5 +26,11 @@ FYI: <a href="https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vp
 <img src="https://i.imgur.com/lGP00MR.png" width=60%>
 <img src="https://i.imgur.com/x6lS6Z4.png" width=60%>
 <img src="https://i.imgur.com/jd1sQV2.png" width=60%>
+<img src="https://i.imgur.com/10wUecW.png" width=60%>
+<img src="https://i.imgur.com/KONHf1K.png" width=60%>
+<img src="https://i.imgur.com/STnFypX.png" width=60%>
+<img src="https://i.imgur.com/dnIrx5g.png" width=60%>
+<img src="https://i.imgur.com/D7ptTBI.png" width=60%>
+<img src="" width=60%>
 <img src="" width=60%>
 <img src="" width=60%>
