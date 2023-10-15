@@ -20,6 +20,10 @@ In this task, you will create a MySQL database in your virtual private cloud (VP
 3.Under Engine options, select MySQL.<br>
 The options include several use cases, ranging from enterprise-class databases to Dev/Test systems. In the options, you might notice Amazon Aurora. Aurora is a MySQL-compatible system that was re-architected for the cloud. If your company uses large-scale MySQL or PostgreSQL databases, Aurora can provide enhanced performance.<br>
 <img src="https://i.imgur.com/e6puO9U.png" width=60%>
+4.Set the templates and availability and durability options:<br>
+<ul><li>Under the Templates section, select Dev/Test.
+<li>Under the Availability and durability section, select Single DB instance</li></ul><br>
+Note: the default Multi-AZ deployment option automatically creates a replica of the database in a second Availability Zone for High Availability, however in this lab that is not needed.<br>
 <img src="https://i.imgur.com/KYZ1Jhy.png" width=60%>
 <img src="https://i.imgur.com/0XDJNm7.png" width=60%>
 <img src="https://i.imgur.com/Hj9zVc1.png" width=60%>
