@@ -81,6 +81,15 @@ You will first retrieve the Database Endpoint so that the application knows how 
 18.In the left navigation pane, choose Databases.<br><br>
 19.Choose inventory-db.<br>
 <img src="https://i.imgur.com/9wGihQN.png" width=60%><br>
+20.Scroll to the Connectivity & Security section and copy the Endpoint to your clipboard.
+It should look similar to this example: inventory-db.crwxbgqad61a.rds.amazonaws.com
+21.Return to the browser tab with the Inventory application, and enter these values:
+<ul><li>Endpoint: Paste the endpoint you copied earlier
+<li>Database: inventory
+<li>Username: admin
+<li>Password: lab-password
+<li>Choose Save</li></ul><br>
+The application will now connect to the database, load some initial data, and display information.<br>
 <img src="https://i.imgur.com/t1KDnAb.png" width=60%><br>
 <img src="https://i.imgur.com/LmYae1W.png" width=60%><br>
 <img src="https://i.imgur.com/pfLra7F.png" width=60%><br>
