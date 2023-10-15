@@ -28,5 +28,5 @@ At the end of this lab, your architecture will look like the following example:<
 <img src="https://i.imgur.com/9wGihQN.png" width=60%>
 <img src="https://i.imgur.com/t1KDnAb.png" width=60%>
 <img src="https://i.imgur.com/LmYae1W.png" width=60%>
-<img src="" width=60%>
+<img src="https://i.imgur.com/pfLra7F.png" width=60%>
 <img src="" width=60%>
