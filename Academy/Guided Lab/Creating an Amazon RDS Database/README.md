@@ -10,6 +10,11 @@ At the end of this lab, your architecture will look like the following example:<
 <img src="https://i.imgur.com/SU3Va9D.png" width=60%>
 
 <h2>Task 1: Creating an Amazon RDS database</h2>
+In this task, you will create a MySQL database in your virtual private cloud (VPC). MySQL is a popular open source relational database management system (RDBMS), so there are no software licensing fees.<br><br>
+
+‼️<font color=#FF0000>Windows Users</font>: Use Chrome or Firefox as your web browser for this lab. The lab instructions are not compatible with Internet Explorer because of a difference in the Amazon RDS console.<br><br>
+
+
 <img src="https://i.imgur.com/e6puO9U.png" width=60%>
 <img src="https://i.imgur.com/KYZ1Jhy.png" width=60%>
 <img src="https://i.imgur.com/0XDJNm7.png" width=60%>
