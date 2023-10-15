@@ -59,6 +59,8 @@ Before you continue to the next task, the database instance status must be Avail
 <img src="https://i.imgur.com/0PS43xl.png" width=60%><br>
 
 <h2>Task 2: Configuring web application communication with a database instance</h2>
+10.This lab automatically deployed an Amazon Elastic Compute Cloud (Amazon EC2) instance with a running web application.<br>
+You must use the IP address of the instance to connect to the application.<br>
 <img src="https://i.imgur.com/2xoSX2l.png" width=60%><br>
 <img src="https://i.imgur.com/EYIuS6L.png" width=60%><br>
 <img src="https://i.imgur.com/9wGihQN.png" width=60%><br>
