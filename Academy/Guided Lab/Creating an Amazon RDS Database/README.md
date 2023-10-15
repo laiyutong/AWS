@@ -44,6 +44,10 @@ Note: the default Multi-AZ deployment option automatically creates a replica of 
 <li>Remove the default security group.</li></ul></li></ul>
 <img src="https://i.imgur.com/RaZm2XM.png" width=60%>
 <img src="https://i.imgur.com/dH5D813.png" width=60%><br>
+8.Expand the Additional configuration panel, then configure these settings:
+<li>Initial database name: inventory</li>
+  Note: This is the logical name of the database that will be used by the application.<br>
+<li>Clear (turn off) the Enable Enhanced monitoring option</li>
 <img src="https://i.imgur.com/11RwQXF.png" width=60%><br>
 <img src="https://i.imgur.com/ToZU6QX.png" width=60%><br>
 <img src="https://i.imgur.com/0PS43xl.png" width=60%><br>
