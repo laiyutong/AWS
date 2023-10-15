@@ -37,6 +37,11 @@ Note: the default Multi-AZ deployment option automatically creates a replica of 
 <ul><li>Select Burstable classes (includes t classes).
 <li>Select db.t3.micro</li></ul>
 <img src="https://i.imgur.com/zW9W6OQ.png" width=60%><br>
+7.Under the Connectivity section, configure these options: 
+<ul><li>Virtual Private Cloud (VPC): Lab VPC
+<li>Existing VPC security groups: 
+<ul><li>Choose DB-SG. It will be highlighted. 
+<li>Remove the default security group.</li></ul></li></ul>
 <img src="https://i.imgur.com/RaZm2XM.png" width=60%><br>
 <img src="https://i.imgur.com/dH5D813.png" width=60%><br>
 <img src="https://i.imgur.com/11RwQXF.png" width=60%><br>
