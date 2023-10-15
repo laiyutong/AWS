@@ -4,7 +4,7 @@ FYI: <a href="https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vp
 
 <h2>Task 1: Creating a VPC</h2>
 <img src="https://i.imgur.com/meF6xdz.png" width=60%>
-<img src="https://i.imgur.com/D5cgiDf.png" width=40%>
+<img src="https://i.imgur.com/CoOmBZO.png" width=40%>
 <img src="https://i.imgur.com/ZNlxnL4.png" width=60%>
 <img src="https://i.imgur.com/1nzqb0A.png" width=60%>
 <img src="https://i.imgur.com/WEROEcU.png" width=60%>
