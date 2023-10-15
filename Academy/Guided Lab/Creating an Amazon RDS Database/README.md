@@ -14,7 +14,7 @@ In this task, you will create a MySQL database in your virtual private cloud (VP
 
 ‼️Windows Users: Use Chrome or Firefox as your web browser for this lab. The lab instructions are not compatible with Internet Explorer because of a difference in the Amazon RDS console.<br><br>
 
-
+1. In the search box to the right of  Services, search for and choose RDS to open the RDS console.
 <img src="https://i.imgur.com/e6puO9U.png" width=60%>
 <img src="https://i.imgur.com/KYZ1Jhy.png" width=60%>
 <img src="https://i.imgur.com/0XDJNm7.png" width=60%>
