@@ -19,27 +19,27 @@ In this task, you will create a MySQL database in your virtual private cloud (VP
 <img src="https://i.imgur.com/jYh0qkK.png" width=80%><br>
 3.Under Engine options, select MySQL.<br>
 The options include several use cases, ranging from enterprise-class databases to Dev/Test systems. In the options, you might notice Amazon Aurora. Aurora is a MySQL-compatible system that was re-architected for the cloud. If your company uses large-scale MySQL or PostgreSQL databases, Aurora can provide enhanced performance.<br>
-<img src="https://i.imgur.com/e6puO9U.png" width=60%>
+<img src="https://i.imgur.com/e6puO9U.png" width=60%><br>
 4.Set the templates and availability and durability options:<br>
 <ul><li>Under the Templates section, select Dev/Test.
 <li>Under the Availability and durability section, select Single DB instance</li></ul><br>
 Note: the default Multi-AZ deployment option automatically creates a replica of the database in a second Availability Zone for High Availability, however in this lab that is not needed.<br>
-<img src="https://i.imgur.com/KYZ1Jhy.png" width=60%>
-<img src="https://i.imgur.com/0XDJNm7.png" width=60%>
-<img src="https://i.imgur.com/Hj9zVc1.png" width=60%>
-<img src="https://i.imgur.com/DDrzJ7x.png" width=60%>
-<img src="https://i.imgur.com/zW9W6OQ.png" width=60%>
-<img src="https://i.imgur.com/RaZm2XM.png" width=60%>
-<img src="https://i.imgur.com/dH5D813.png" width=60%>
-<img src="https://i.imgur.com/11RwQXF.png" width=60%>
-<img src="https://i.imgur.com/ToZU6QX.png" width=60%>
-<img src="https://i.imgur.com/0PS43xl.png" width=60%>
+<img src="https://i.imgur.com/KYZ1Jhy.png" width=60%><br>
+<img src="https://i.imgur.com/0XDJNm7.png" width=60%><br>
+<img src="https://i.imgur.com/Hj9zVc1.png" width=60%><br>
+<img src="https://i.imgur.com/DDrzJ7x.png" width=60%><br>
+<img src="https://i.imgur.com/zW9W6OQ.png" width=60%><br>
+<img src="https://i.imgur.com/RaZm2XM.png" width=60%><br>
+<img src="https://i.imgur.com/dH5D813.png" width=60%><br>
+<img src="https://i.imgur.com/11RwQXF.png" width=60%><br>
+<img src="https://i.imgur.com/ToZU6QX.png" width=60%><br>
+<img src="https://i.imgur.com/0PS43xl.png" width=60%><br>
 
 <h2>Task 2: Configuring web application communication with a database instance</h2>
-<img src="https://i.imgur.com/2xoSX2l.png" width=60%>
-<img src="https://i.imgur.com/EYIuS6L.png" width=60%>
-<img src="https://i.imgur.com/9wGihQN.png" width=60%>
-<img src="https://i.imgur.com/t1KDnAb.png" width=60%>
-<img src="https://i.imgur.com/LmYae1W.png" width=60%>
-<img src="https://i.imgur.com/pfLra7F.png" width=60%>
-<img src="https://i.imgur.com/x8z9Dso.png" width=60%>
+<img src="https://i.imgur.com/2xoSX2l.png" width=60%><br>
+<img src="https://i.imgur.com/EYIuS6L.png" width=60%><br>
+<img src="https://i.imgur.com/9wGihQN.png" width=60%><br>
+<img src="https://i.imgur.com/t1KDnAb.png" width=60%><br>
+<img src="https://i.imgur.com/LmYae1W.png" width=60%><br>
+<img src="https://i.imgur.com/pfLra7F.png" width=60%><br>
+<img src="https://i.imgur.com/x8z9Dso.png" width=60%><br>
