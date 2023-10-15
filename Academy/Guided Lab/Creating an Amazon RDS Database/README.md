@@ -14,8 +14,11 @@ In this task, you will create a MySQL database in your virtual private cloud (VP
 
 ‼️Windows Users: Use Chrome or Firefox as your web browser for this lab. The lab instructions are not compatible with Internet Explorer because of a difference in the Amazon RDS console.<br><br>
 
-1. In the search box to the right of  Services, search for and choose RDS to open the RDS console.
+1.In the search box to the right of  Services, search for and choose RDS to open the RDS console.
+2.Choose Create database
 <img src="https://i.imgur.com/jYh0qkK.png" width=80%>
+3.Under Engine options, select MySQL.<br>
+The options include several use cases, ranging from enterprise-class databases to Dev/Test systems. In the options, you might notice Amazon Aurora. Aurora is a MySQL-compatible system that was re-architected for the cloud. If your company uses large-scale MySQL or PostgreSQL databases, Aurora can provide enhanced performance.
 <img src="https://i.imgur.com/e6puO9U.png" width=60%>
 <img src="https://i.imgur.com/KYZ1Jhy.png" width=60%>
 <img src="https://i.imgur.com/0XDJNm7.png" width=60%>
