@@ -46,7 +46,7 @@ Note: the default Multi-AZ deployment option automatically creates a replica of 
 <img src="https://i.imgur.com/dH5D813.png" width=60%><br>
 8.Expand the Additional configuration panel, then configure these settings:
 <ul><li>Initial database name: inventory</li></ul>
-Note: This is the logical name of the database that will be used by the application.<br>
+  Note: This is the logical name of the database that will be used by the application.<br>
 <ul><li>Clear (turn off) the Enable Enhanced monitoring option</li></ul>
 <img src="https://i.imgur.com/11RwQXF.png" width=60%><br>
 <img src="https://i.imgur.com/ToZU6QX.png" width=60%><br>
