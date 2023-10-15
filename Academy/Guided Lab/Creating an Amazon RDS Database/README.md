@@ -49,7 +49,7 @@ Note: the default Multi-AZ deployment option automatically creates a replica of 
   Note: This is the logical name of the database that will be used by the application.<br>
 <ul><li>Clear (turn off) the Enable Enhanced monitoring option</li></ul>
 <img src="https://i.imgur.com/11RwQXF.png" width=60%>
-<img src="https://i.imgur.com/ToZU6QX.png" width=60%><br>
+<img src="https://i.imgur.com/ToZU6QX.png" width=60%>
 △Feel free to review the many other options displayed on the page, but leave them set to their default values. Options include automatic backups, the ability to export log files, and automatic version upgrades. The ability to activate these features through check boxes demonstrates the power of using a fully managed database solution instead of installing, backing up, and maintaining the database yourself.<br><br>
 
 9.Choose Create database (at the bottom of the page).<br>
