@@ -13,7 +13,7 @@ At the end of this lab, your architecture will look like the following example:<
 <img src="https://i.imgur.com/0XDJNm7.png" width=60%>
 <img src="https://i.imgur.com/Hj9zVc1.png" width=60%>
 <img src="https://i.imgur.com/DDrzJ7x.png" width=60%>
-<img src="" width=60%>
+<img src="https://i.imgur.com/zW9W6OQ.png" width=60%>
 
 <h2>Task 2: Configuring web application communication with a database instance</h2>
 <img src="" width=60%>
