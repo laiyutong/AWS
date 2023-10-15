@@ -25,7 +25,7 @@ At the end of this lab, your architecture will look like the following example:<
 <h2>Task 2: Configuring web application communication with a database instance</h2>
 <img src="https://i.imgur.com/2xoSX2l.png" width=60%>
 <img src="https://i.imgur.com/EYIuS6L.png" width=60%>
-<img src="" width=60%>
-<img src="" width=60%>
+<img src="https://i.imgur.com/9wGihQN.png" width=60%>
+<img src="https://i.imgur.com/t1KDnAb.png" width=60%>
 <img src="" width=60%>
 <img src="" width=60%>
