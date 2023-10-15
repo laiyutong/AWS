@@ -33,6 +33,9 @@ Note: the default Multi-AZ deployment option automatically creates a replica of 
 <li>Confirm password: lab-password</li></ul>
 <img src="https://i.imgur.com/Hj9zVc1.png" width=60%><br>
 <img src="https://i.imgur.com/DDrzJ7x.png" width=60%><br>
+6.Under the DB instance class section, configure these options:
+<ul><li>Select Burstable classes (includes t classes).
+<li>Select db.t3.micro</li></ul>
 <img src="https://i.imgur.com/zW9W6OQ.png" width=60%><br>
 <img src="https://i.imgur.com/RaZm2XM.png" width=60%><br>
 <img src="https://i.imgur.com/dH5D813.png" width=60%><br>
