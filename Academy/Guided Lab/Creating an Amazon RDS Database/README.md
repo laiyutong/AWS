@@ -75,6 +75,7 @@ It does not display much information because the application is not yet connecte
 15.Choose Settings.<br>
 You can now configure the application to use the RDS DB instance you created earlier.<br>
 You will first retrieve the Database Endpoint so that the application knows how to connect to a database.<br>
+<img src="https://i.imgur.com/Ci4hw3k.png" width=60%><br>
 <img src="https://i.imgur.com/9wGihQN.png" width=60%><br>
 <img src="https://i.imgur.com/t1KDnAb.png" width=60%><br>
 <img src="https://i.imgur.com/LmYae1W.png" width=60%><br>
