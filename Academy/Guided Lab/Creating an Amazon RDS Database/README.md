@@ -24,8 +24,13 @@ The options include several use cases, ranging from enterprise-class databases t
 <ul><li>Under the Templates section, select Dev/Test.
 <li>Under the Availability and durability section, select Single DB instance</li></ul>
 Note: the default Multi-AZ deployment option automatically creates a replica of the database in a second Availability Zone for High Availability, however in this lab that is not needed.<br>
-<img src="https://i.imgur.com/KYZ1Jhy.png" width=60%><br>
+<img src="https://i.imgur.com/KYZ1Jhy.png" width=60%>
 <img src="https://i.imgur.com/0XDJNm7.png" width=60%><br>
+5.Under the Settings section, configure these options:
+<ul><li>DB instance identifier: inventory-db
+<li>Username: admin
+<li>Password: lab-password
+<li>Confirm password: lab-password</li></ul>
 <img src="https://i.imgur.com/Hj9zVc1.png" width=60%><br>
 <img src="https://i.imgur.com/DDrzJ7x.png" width=60%><br>
 <img src="https://i.imgur.com/zW9W6OQ.png" width=60%><br>
