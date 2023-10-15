@@ -22,7 +22,7 @@ The options include several use cases, ranging from enterprise-class databases t
 <img src="https://i.imgur.com/e6puO9U.png" width=60%><br>
 4.Set the templates and availability and durability options:<br>
 <ul><li>Under the Templates section, select Dev/Test.
-<li>Under the Availability and durability section, select Single DB instance</li></ul><br>
+<li>Under the Availability and durability section, select Single DB instance</li></ul>
 Note: the default Multi-AZ deployment option automatically creates a replica of the database in a second Availability Zone for High Availability, however in this lab that is not needed.<br>
 <img src="https://i.imgur.com/KYZ1Jhy.png" width=60%><br>
 <img src="https://i.imgur.com/0XDJNm7.png" width=60%><br>
