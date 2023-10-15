@@ -5,8 +5,8 @@ FYI: <a href="https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vp
 
 <img src="https://i.imgur.com/meF6xdz.png" width=60%>
 <img src="https://i.imgur.com/D5cgiDf.png" width=60%>
-<img src="" width=60%>
-<img src="" width=60%>
+<img src="https://i.imgur.com/ZNlxnL4.png" width=60%>
+<img src="https://i.imgur.com/1nzqb0A.png" width=60%>
 <img src="" width=60%>
 <img src="" width=60%>
 <img src="" width=60%>
