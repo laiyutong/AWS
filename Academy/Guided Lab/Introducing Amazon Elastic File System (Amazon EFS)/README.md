@@ -65,7 +65,7 @@ Proceed to the next step after the Mount target state for each mount target chan
 <h2>Task 3: Connecting to your EC2 instance via SSH</h2>
 In this task, you will connect to your EC2 instance by using Secure Shell (SSH).<br>
 <h3>Microsoft Windows users</h3>
-△These instructions are specifically for Microsoft Windows users. If you are using <code>macOS or Linux</code>, skip to the next section.
+💬These instructions are specifically for Microsoft Windows users. If you are using <code>macOS or Linux</code>, skip to the next section.
 
 21. Above these instructions that you are currently reading, choose the Details dropdown menu, and then select <code>Show</code><br>
    A Credentials window opens.<br>
@@ -115,7 +115,7 @@ These instructions are specifically for macOS or Linux users. If you are a Windo
 38. When you are prompted to allow the first connection to this remote SSH server, enter yes.<br>
 Because you are using a key pair for authentication, you are not prompted for a password.<br>
 <h2>Task 4: Creating a new directory and mounting the EFS file system</h2>
-△Amazon EFS supports the NFSv4.1 and NFSv4.0 protocols when it mounts your file systems on EC2 instances. Though NFSv4.0 is supported, we recommend that you use NFSv4.1. When you mount your EFS file system on your EC2 instance, you must also use an NFS client that supports your chosen NFSv4 protocol. The EC2 instance that was launched as a part of this lab includes an NFSv4.1 client, which is already installed on it.<br>
+💬Amazon EFS supports the NFSv4.1 and NFSv4.0 protocols when it mounts your file systems on EC2 instances. Though NFSv4.0 is supported, we recommend that you use NFSv4.1. When you mount your EFS file system on your EC2 instance, you must also use an NFS client that supports your chosen NFSv4 protocol. The EC2 instance that was launched as a part of this lab includes an NFSv4.1 client, which is already installed on it.<br>
 39. In your SSH session, make a new directory by entering <code>sudo mkdir efs</code><br>
 40. Back in the AWS Management Console, on the Services menu, choose <code>EFS</code>.<br>
 41. Choose My First EFS File System.<br>
@@ -125,7 +125,7 @@ Because you are using a key pair for authentication, you are not prompted for a 
   The mount command should look similar to this example:<br>
 <pre class="text">sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport fs-bce57914.efs.us-west-2.amazonaws.com:/ efs</pre>
 <img src="https://i.imgur.com/a9XOqOt.png" width="60%">
-△The provided <code>sudo mount...</code> command uses the default Linux mount options.<br>
+💬The provided <code>sudo mount...</code> command uses the default Linux mount options.<br>
 44. In your Linux SSH session, mount your Amazon EFS file system by:<br>
 <ul><li>Pasting the command
 <li>Pressing ENTER</li></ul>
@@ -138,11 +138,11 @@ This following screenshot is an example of the output from the following disk fi
 
 <h2>Task 5: Examining the performance behavior of your new EFS file system</h2>
 <h3>Examining the performance by using Flexible IO</h3>
-△Flexible IO (fio) is a synthetic I/O benchmarking utility for Linux. It is used to benchmark and test Linux I/O subsystems. During boot, fio was automatically installed on your EC2 instance.<br>
+💬Flexible IO (fio) is a synthetic I/O benchmarking utility for Linux. It is used to benchmark and test Linux I/O subsystems. During boot, fio was automatically installed on your EC2 instance.<br>
 46. Examine the write performance characteristics of your file system by entering:<br>
 <pre class="text">sudo fio --name=fio-efs --filesize=10G --filename=./efs/fio-efs-test.img --bs=1M --nrfiles=1 --direct=1 --sync=0 --rw=write --iodepth=200 --ioengine=libaio</pre>
 <img src="https://i.imgur.com/nooefC9.png" width="60%"><br>
-△ The <code>fio</code> command will take 5–10 minutes to complete. The output should look like the example in the following screenshot. Make sure that you examine the output of your <code>fio</code> command, specifically the summary status information for this WRITE test.<br>
+💬The <code>fio</code> command will take 5–10 minutes to complete. The output should look like the example in the following screenshot. Make sure that you examine the output of your <code>fio</code> command, specifically the summary status information for this WRITE test.<br>
 <h3>Monitoring performance by using Amazon CloudWatch</h3>
 47. In the AWS Management Console, on the Services menu, choose <code>CloudWatch</code>.<br>
 48. In the navigation pane on the left, choose <code>Metrics</code>.<br>
