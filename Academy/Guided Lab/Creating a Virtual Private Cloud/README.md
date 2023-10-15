@@ -20,7 +20,10 @@ FYI: <a href="https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vp
 <img src="https://i.imgur.com/PQ4iwzi.png" width=60%>
 <img src="https://i.imgur.com/Wp3k4yA.png" width=60%>
 <img src="https://i.imgur.com/OPW3fV2.png" width=60%>
-<img src="" width=60%>
+<img src="https://i.imgur.com/QG6bhOK.png" width=60%>
+<img src="https://i.imgur.com/HSMRj4Y.png" width=60%>
+<img src="https://i.imgur.com/kX7hfvx.png" width=60%>
+<img src="https://i.imgur.com/lGP00MR.png" width=60%>
 <img src="" width=60%>
 <img src="" width=60%>
 <img src="" width=60%>
