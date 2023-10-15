@@ -91,6 +91,10 @@ It should look similar to this example: inventory-db.crwxbgqad61a.rds.amazonaws.
 <li>Choose Save</li></ul>
 The application will now connect to the database, load some initial data, and display information.<br>
 <img src="https://i.imgur.com/t1KDnAb.png" width=60%><br>
+22. ➕Add inventory, 📝edit, and 🗑️delete inventory information by using the web application.<br>
+The inventory information is stored in the Amazon RDS MySQL database that you created earlier in the lab.<br>
+This means that any failure in the application server will not lose any data.<br>
+It also means that multiple application servers can access the same data.<br>
 <img src="https://i.imgur.com/LmYae1W.png" width=60%><br>
 <img src="https://i.imgur.com/pfLra7F.png" width=60%><br>
 <img src="https://i.imgur.com/x8z9Dso.png" width=60%><br>
