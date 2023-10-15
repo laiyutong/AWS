@@ -95,9 +95,9 @@ The application will now connect to the database, load some initial data, and di
 22. ➕Add inventory, 📝edit, and 🗑️delete inventory information by using the web application.<br>
 The inventory information is stored in the Amazon RDS MySQL database that you created earlier in the lab.<br>
 This means that any failure in the application server will not lose any data.<br>
-It also means that multiple application servers can access the same data.<br>
-<img src="https://i.imgur.com/pfLra7F.png" width=60%>
+It also means that multiple application servers can access the same data.<br><br>
 23.Insert new records into the table. Ensure that the table has 5 or more inventory records before submitting your work.<br>
+<img src="https://i.imgur.com/pfLra7F.png" width=60%>
 🎊You have now successfully launched the application and connected it to the database!<br>
 Optional: You can access the saved parameters in the Systems Manager console, under Parameter Store.<br>
 <img src="https://i.imgur.com/x8z9Dso.png" width=60%><br>
