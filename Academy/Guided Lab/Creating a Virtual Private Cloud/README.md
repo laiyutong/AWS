@@ -6,7 +6,7 @@ FYI: <a href="https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vp
 <img src="https://i.imgur.com/meF6xdz.png" width=60%>
 <img src="https://i.imgur.com/CoOmBZO.png" width=40%>
 <img src="https://i.imgur.com/mq6qK21.png" width=60%>
-<img src="https://i.imgur.com/WEROEcU.png" width=60%>
+<img src="https://i.imgur.com/vKTEUWa.png" width=60%>
 <img src="https://i.imgur.com/KyeK7fP.png" width=60%>
 
 <h2>Task 2: Creating subnets</h2>
