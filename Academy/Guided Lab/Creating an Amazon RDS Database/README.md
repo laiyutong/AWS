@@ -31,7 +31,7 @@ Note: the default Multi-AZ deployment option automatically creates a replica of 
 <li>Username: admin
 <li>Password: lab-password
 <li>Confirm password: lab-password</li></ul>
-<img src="https://i.imgur.com/Hj9zVc1.png" width=60%><br>
+<img src="https://i.imgur.com/Hj9zVc1.png" width=60%>
 <img src="https://i.imgur.com/DDrzJ7x.png" width=60%><br>
 6.Under the DB instance class section, configure these options:
 <ul><li>Select Burstable classes (includes t classes).
@@ -42,7 +42,7 @@ Note: the default Multi-AZ deployment option automatically creates a replica of 
 <li>Existing VPC security groups: 
 <ul><li>Choose DB-SG. It will be highlighted. 
 <li>Remove the default security group.</li></ul></li></ul>
-<img src="https://i.imgur.com/RaZm2XM.png" width=60%><br>
+<img src="https://i.imgur.com/RaZm2XM.png" width=60%>
 <img src="https://i.imgur.com/dH5D813.png" width=60%><br>
 <img src="https://i.imgur.com/11RwQXF.png" width=60%><br>
 <img src="https://i.imgur.com/ToZU6QX.png" width=60%><br>
