@@ -67,10 +67,14 @@ In the center pane, there should be a running instance that is named App Server.
 12.Select the App Server instance.<br><br>
 13.In the Details tab, copy the Public IPv4 address to your clipboard.<br>
 Tip: If you hover over the IP address, a copy  icon appears. To copy the displayed value, choose the icon.<br>
-<img src="https://i.imgur.com/2xoSX2l.png" width=60%><br>
-14.Open a new web browser tab, paste the IP address into the address bar, and then press ENTER.
-The web application should appear. It does not display much information because the application is not yet connected to the database.
+<img src="https://i.imgur.com/2xoSX2l.png" width=60%>
+14.Open a new web browser tab, paste the IP address into the address bar, and then press ENTER.<br>
+The web application should appear.<br>
+It does not display much information because the application is not yet connected to the database.<br>
 <img src="https://i.imgur.com/EYIuS6L.png" width=60%><br>
+15.Choose Settings.<br>
+You can now configure the application to use the RDS DB instance you created earlier.<br>
+You will first retrieve the Database Endpoint so that the application knows how to connect to a database.<br>
 <img src="https://i.imgur.com/9wGihQN.png" width=60%><br>
 <img src="https://i.imgur.com/t1KDnAb.png" width=60%><br>
 <img src="https://i.imgur.com/LmYae1W.png" width=60%><br>
