@@ -147,10 +147,17 @@ You will now add a route to direct internet-bound traffic (0.0.0.0/0) to the int
 The last step is to associate this new route table with the public subnet.
 <img src="https://i.imgur.com/KONHf1K.png" width=60%><br>
 23.Choose the Subnet associations tab.<br><br>
-24.Choose Edit subnet associations<br><br>
-25.Select  the row with Public Subnet.<br><br>
+24.Choose Edit subnet associations<br>
 <img src="https://i.imgur.com/STnFypX.png" width=60%><br>
+25.Select  the row with Public Subnet.<br>
 <img src="https://i.imgur.com/dnIrx5g.png" width=60%><br>
+26.Choose Save associations<br>
+The public subnet is now public because it has a route table entry that sends traffic to the internet via the internet gateway.<br>
+To summarize, you can create a public subnet by following these steps:<br>
+<ul><li>Create an internet gateway
+<li>Create a route table
+<li>Add a route to the route table that directs 0.0.0.0/0 traffic to the internet gateway
+<li>Associate the route table with a subnet, which thus becomes a public subnet</li></ul>
 <img src="https://i.imgur.com/D7ptTBI.png" width=60%><br>
 <img src="https://i.imgur.com/6Ke07oT.png" width=60%><br>
 <img src="https://i.imgur.com/vTB4IwR.png" width=60%><br>
