@@ -48,9 +48,11 @@ You can also add a more meaningful DNS name (such as app.example.com) later by u
 
 <h2>Task 2: Creating subnets</h2>
 A subnet is a subrange of IP addresses in the VPC. AWS resources can be launched into a specified subnet. Use a public subnet for resources that must be connected to the internet, and use a private subnet for resources that must remain isolated from the internet.<br><br>
-
 In this task, you will create a public subnet and a private subnet:<br>
 <img src="https://i.imgur.com/aWrVzIT.png" width=60%><br>
+
+<h3>Creating a public subnet</h3>
+The public subnet will be used for internet-facing resources.<br><br>
 7.In the left navigation pane, choose Subnets.<br>
 <img src="https://i.imgur.com/2kCtMb6.png" width=60%><br>
 8.Choose Create subnet and configure these settings:<br>
@@ -58,15 +60,26 @@ In this task, you will create a public subnet and a private subnet:<br>
 <li>Subnet name: Public Subnet
 <li>Availability Zone: Select the first Availability Zone in the list (do not keep the No Preference default)
 <li>IPv4 CIDR block: 10.0.0.0/24
-<li>Choose Create subnet</li></ul><br>
+<li>Choose Create subnet</li></ul>
 💬The VPC has a CIDR block of 10.0.0.0/16, which includes all 10.0.x.x IP addresses.<br>
 The subnet you just created has a CIDR block of 10.0.0.0/24, which includes all 10.0.0.x IP addresses.<br>
 They might look similar, but the subnet is smaller than the VPC because of the /24 in the CIDR range.<br><br>
 You will now configure the subnet to automatically assign a public IP address for all instances that are launched in it.<br>
 <img src="https://i.imgur.com/PQ4iwzi.png" width=60%><br>
 <img src="https://i.imgur.com/jJMQ3id.png" width=60%><br>
+9.Select  Public Subnet.<br>
 <img src="https://i.imgur.com/am8OtVl.png" width=60%><br>
+10.Choose Actions and select Edit subnet settings, then:<br>
+<ul><li>Select Enable auto-assign public IPv4 address
+<li>Choose Save</li></ul>
+‼️Though this subnet is named Public Subnet, it is not yet public.<br>
+A public subnet must have an internet gateway, which you attach in the next task.<br>
 <img src="https://i.imgur.com/iuwCrwB.png" width=60%><br>
+
+<h3>Creating a private subnet</h3>
+The private subnet will be used for resources that must remain isolated from the internet.<br><br>
+
+
 <img src="https://i.imgur.com/PQ4iwzi.png" width=60%><br>
 <img src="https://i.imgur.com/Wp3k4yA.png" width=60%><br>
 <img src="https://i.imgur.com/OPW3fV2.png" width=60%><br>
