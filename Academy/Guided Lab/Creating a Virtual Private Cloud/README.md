@@ -137,8 +137,18 @@ You will now create a new public route table to send public traffic to the inter
 <li>VPC: Lab VPC
 <li>Choose Create route table</li></ul>
 <img src="https://i.imgur.com/jd1sQV2.png" width=60%><br>
+21.In the Routes tab, choose Edit routes<br>
+You will now add a route to direct internet-bound traffic (0.0.0.0/0) to the internet gateway.
 <img src="https://i.imgur.com/10wUecW.png" width=60%><br>
+22.Choose Add route then configure these settings:<br>
+<ul><li>Destination: 0.0.0.0/0
+<li>Target: Select Internet Gateway and then, from the list, select Lab IGW
+<li>Choose Save changes</li></ul>
+The last step is to associate this new route table with the public subnet.
 <img src="https://i.imgur.com/KONHf1K.png" width=60%><br>
+23.Choose the Subnet associations tab.<br><br>
+24.Choose Edit subnet associations<br><br>
+25.Select  the row with Public Subnet.<br><br>
 <img src="https://i.imgur.com/STnFypX.png" width=60%><br>
 <img src="https://i.imgur.com/dnIrx5g.png" width=60%><br>
 <img src="https://i.imgur.com/D7ptTBI.png" width=60%><br>
