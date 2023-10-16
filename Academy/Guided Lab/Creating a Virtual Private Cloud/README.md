@@ -89,6 +89,12 @@ Your VPC now has two subnets. However, the public subnet is totally isolated and
 <img src="https://i.imgur.com/Wp3k4yA.png" width=60%>
 
 <h2>Task 3: Creating an internet gateway</h2>
+An internet gateway is a horizontally scaled, redundant, and highly available VPC component. It allows communication between the instances in a VPC and the internet. It imposes no availability risks or bandwidth constraints on network traffic.<br><br>
+
+An internet gateway serves two purposes:<br>
+<ul><li>To provide a target in route tables that connects to the internet
+<li>To perform network address translation (NAT) for instances that were assigned public IPv4 addresses</li></ul>
+In this task, you will create an internet gateway so that internet traffic can access the public subnet.
 <img src="https://i.imgur.com/OPW3fV2.png" width=60%><br>
 <img src="https://i.imgur.com/QG6bhOK.png" width=60%><br>
 <img src="https://i.imgur.com/HSMRj4Y.png" width=60%><br>
