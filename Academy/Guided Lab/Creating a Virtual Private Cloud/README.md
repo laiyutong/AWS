@@ -40,42 +40,42 @@ For example, you can use a tag to identify cost centers or different environment
 5.Choose Actions and select Edit VPC settings.<br>
 This option assigns a friendly Domain Name System (DNS) name to EC2 instances in the VPC, such as:<br>
 ec2-52-42-133-255.us-west-2.compute.amazonaws.com<br>
-<img src="https://i.imgur.com/vKTEUWa.png" width=60%>
+<img src="https://i.imgur.com/vKTEUWa.png" width=60%><br>
 6.Select Enable DNS hostname and then choose Save<br> 
 Any EC2 instances that are launched into the VPC will now automatically receive a DNS hostname.<br>
 You can also add a more meaningful DNS name (such as app.example.com) later by using Amazon Route 53.<br>
 <img src="https://i.imgur.com/c50hKar.png" width=60%>
 
 <h2>Task 2: Creating subnets</h2>
-<img src="https://i.imgur.com/aWrVzIT.png" width=40%>
-<img src="https://i.imgur.com/2kCtMb6.png" width=60%>
-<img src="https://i.imgur.com/PQ4iwzi.png" width=60%>
-<img src="https://i.imgur.com/jJMQ3id.png" width=60%>
-<img src="https://i.imgur.com/am8OtVl.png" width=60%>
-<img src="https://i.imgur.com/iuwCrwB.png" width=60%>
-<img src="https://i.imgur.com/PQ4iwzi.png" width=60%>
-<img src="https://i.imgur.com/Wp3k4yA.png" width=60%>
-<img src="https://i.imgur.com/OPW3fV2.png" width=60%>
-<img src="https://i.imgur.com/QG6bhOK.png" width=60%>
-<img src="https://i.imgur.com/HSMRj4Y.png" width=60%>
-<img src="https://i.imgur.com/kX7hfvx.png" width=60%>
-<img src="https://i.imgur.com/lGP00MR.png" width=60%>
-<img src="https://i.imgur.com/x6lS6Z4.png" width=60%>
-<img src="https://i.imgur.com/jd1sQV2.png" width=60%>
-<img src="https://i.imgur.com/10wUecW.png" width=60%>
-<img src="https://i.imgur.com/KONHf1K.png" width=60%>
-<img src="https://i.imgur.com/STnFypX.png" width=60%>
-<img src="https://i.imgur.com/dnIrx5g.png" width=60%>
-<img src="https://i.imgur.com/D7ptTBI.png" width=60%>
-<img src="https://i.imgur.com/6Ke07oT.png" width=60%>
-<img src="https://i.imgur.com/vTB4IwR.png" width=60%>
-<img src="https://i.imgur.com/g0N71kQ.png" width=60%>
-<img src="https://i.imgur.com/NTbepFo.png" width=60%>
-<img src="https://i.imgur.com/2iwDgOf.png" width=60%>
-<img src="https://i.imgur.com/9lsZuA5.png" width=60%>
-<img src="https://i.imgur.com/zKSq4E9.png" width=60%>
-<img src="https://i.imgur.com/mlQpYdj.png" width=60%>
-<img src="https://i.imgur.com/5z5FLHY.png" width=60%>
+<img src="https://i.imgur.com/aWrVzIT.png" width=40%><br>
+<img src="https://i.imgur.com/2kCtMb6.png" width=60%><br>
+<img src="https://i.imgur.com/PQ4iwzi.png" width=60%><br>
+<img src="https://i.imgur.com/jJMQ3id.png" width=60%><br>
+<img src="https://i.imgur.com/am8OtVl.png" width=60%><br>
+<img src="https://i.imgur.com/iuwCrwB.png" width=60%><br>
+<img src="https://i.imgur.com/PQ4iwzi.png" width=60%><br>
+<img src="https://i.imgur.com/Wp3k4yA.png" width=60%><br>
+<img src="https://i.imgur.com/OPW3fV2.png" width=60%><br>
+<img src="https://i.imgur.com/QG6bhOK.png" width=60%><br>
+<img src="https://i.imgur.com/HSMRj4Y.png" width=60%><br>
+<img src="https://i.imgur.com/kX7hfvx.png" width=60%><br>
+<img src="https://i.imgur.com/lGP00MR.png" width=60%><br>
+<img src="https://i.imgur.com/x6lS6Z4.png" width=60%><br>
+<img src="https://i.imgur.com/jd1sQV2.png" width=60%><br>
+<img src="https://i.imgur.com/10wUecW.png" width=60%><br>
+<img src="https://i.imgur.com/KONHf1K.png" width=60%><br>
+<img src="https://i.imgur.com/STnFypX.png" width=60%><br>
+<img src="https://i.imgur.com/dnIrx5g.png" width=60%><br>
+<img src="https://i.imgur.com/D7ptTBI.png" width=60%><br>
+<img src="https://i.imgur.com/6Ke07oT.png" width=60%><br>
+<img src="https://i.imgur.com/vTB4IwR.png" width=60%><br>
+<img src="https://i.imgur.com/g0N71kQ.png" width=60%><br>
+<img src="https://i.imgur.com/NTbepFo.png" width=60%><br>
+<img src="https://i.imgur.com/2iwDgOf.png" width=60%><br>
+<img src="https://i.imgur.com/9lsZuA5.png" width=60%><br>
+<img src="https://i.imgur.com/zKSq4E9.png" width=60%><br>
+<img src="https://i.imgur.com/mlQpYdj.png" width=60%><br>
+<img src="https://i.imgur.com/5z5FLHY.png" width=60%><br>
 ec2-35-175-127-6.compute-1.amazonaws.com
-<img src="https://i.imgur.com/8QhWLH7.png" width=60%>
-<img src="https://i.imgur.com/PRxVAdO.png" width=60%>
+<img src="https://i.imgur.com/8QhWLH7.png" width=60%><br>
+<img src="https://i.imgur.com/PRxVAdO.png" width=60%><br>
