@@ -225,7 +225,7 @@ service httpd start
 <img src="https://i.imgur.com/9lsZuA5.png" width=60%>
 <img src="https://i.imgur.com/zKSq4E9.png" width=60%>
 <img src="https://i.imgur.com/mlQpYdj.png" width=60%>
-<img src="https://i.imgur.com/5z5FLHY.png" width=60%><br>
+<img src="https://i.imgur.com/5z5FLHY.png" width=60%>
 34.Choose View all instances<br><br>
 35.Wait until the App Server instance shows 2/2 checks passed in the Status check column.<br>
 This may take a few minutes. Choose the refresh 🔄icon at the top of the page every 30 seconds or so to more quickly become aware of the latest status of the instance.<br><br>
