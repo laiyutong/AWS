@@ -171,7 +171,17 @@ In this task, you will create a security group that allows users to access your 
 <li>VPC: select the X to clear the default selection, then choose Lab VPC
 <li>Scroll to the bottom and choose Create security group</li></ul>
 <img src="https://i.imgur.com/D7ptTBI.png" width=60%><br>
+29.Verify the Inbound rules tab is selected below.<br>
+The settings for Inbound Rules determine what traffic is permitted to reach the instance.<br>
+You will configure it to permit HTTP (port 80) traffic that comes from anywhere on the internet (0.0.0.0/0).
 <img src="https://i.imgur.com/6Ke07oT.png" width=60%><br>
+30.Choose Edit inbound rules<br><br>
+31.Choose Add rule and then configure these settings:
+<ul><li>Type:  HTTP
+<li>Source type: Anywhere-IPv4
+<li>Description: Allow web access
+<li>Choose Save rules</li></ul>
+You use this App-SG in the next task.
 <img src="https://i.imgur.com/vTB4IwR.png" width=60%><br>
 <img src="https://i.imgur.com/g0N71kQ.png" width=60%><br>
 <img src="https://i.imgur.com/NTbepFo.png" width=60%><br>
