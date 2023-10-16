@@ -14,6 +14,12 @@ After completing this lab, you should be able to:<br>
 <img src="https://i.imgur.com/DAjP5gL.png" width=60%><br>
 
 <h2>Task 1: Creating a VPC</h2>
+You will begin by using Amazon VPC to create a new virtual private cloud, or VPC.<br><br>
+
+A VPC is a virtual network that is dedicated to your Amazon Web Services (AWS) account. It is logically isolated from other virtual networks in the AWS Cloud. You can launch AWS resources, such as Amazon Elastic Compute Cloud (Amazon EC2) instances, into the VPC. You can configure the VPC by modifying its IP address range, and create subnets. You can also configure route tables, network gateways, and security settings.<br><br>
+
+1.In the search box to the right of  Services, search for and choose VPC to open the VPC console.<br>
+The VPC console provides a wizard that can automatically create several VPC architectures. However, in this lab, you will create the VPC components manually.<br>
 <img src="https://i.imgur.com/meF6xdz.png" width=60%>
 <img src="https://i.imgur.com/CoOmBZO.png" width=40%>
 <img src="https://i.imgur.com/mq6qK21.png" width=60%>
