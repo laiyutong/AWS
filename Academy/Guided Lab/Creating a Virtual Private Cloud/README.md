@@ -77,7 +77,7 @@ A public subnet must have an internet gateway, which you attach in the next task
 <img src="https://i.imgur.com/iuwCrwB.png" width=60%><br>
 
 <h3>Creating a private subnet</h3>
-The private subnet will be used for resources that must remain isolated from the internet.<br><br>
+11.The private subnet will be used for resources that must remain isolated from the internet.<br><br>
 Use what you just learned to create another subnet with these settings:
 <ul><li>VPC ID: Lab VPC
 <li>Subnet name: Private Subnet
@@ -94,7 +94,9 @@ An internet gateway is a horizontally scaled, redundant, and highly available VP
 An internet gateway serves two purposes:<br>
 <ul><li>To provide a target in route tables that connects to the internet
 <li>To perform network address translation (NAT) for instances that were assigned public IPv4 addresses</li></ul>
-In this task, you will create an internet gateway so that internet traffic can access the public subnet.
+In this task, you will create an internet gateway so that internet traffic can access the public subnet.<br><br>
+
+12.In the left navigation pane, choose Internet Gateways.<br>
 <img src="https://i.imgur.com/OPW3fV2.png" width=60%><br>
 <img src="https://i.imgur.com/QG6bhOK.png" width=60%><br>
 <img src="https://i.imgur.com/HSMRj4Y.png" width=60%><br>
