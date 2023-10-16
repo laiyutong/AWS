@@ -1,7 +1,6 @@
 <h1>Module 6 Guided Lab - Creating a Virtual Private Cloud</h1>
 <h2>Lab overview and objectives</h2>
 FYI: <a href="https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html">What is Amazon VPC?</a><br><br>
-<img src="https://i.imgur.com/DAjP5gL.png" width=60%><br>
 Traditional networking is difficult. It involves equipment, cabling, complex configurations, and specialist skills. Amazon Virtual Private Cloud (Amazon VPC) hides the complexity, and simplifies the deployment of secure private networks.<br><br>
 
 This lab shows you how to build your own virtual private cloud (VPC), deploy resources, and create private peering connections between VPCs.<br><br>
@@ -12,8 +11,7 @@ After completing this lab, you should be able to:<br>
 <li>Create a public subnet
 <li>Create private subnet
 <li>Create an application server to test the VPC</li></ul>
-
-
+<img src="https://i.imgur.com/DAjP5gL.png" width=60%><br>
 
 <h2>Task 1: Creating a VPC</h2>
 <img src="https://i.imgur.com/meF6xdz.png" width=60%>
