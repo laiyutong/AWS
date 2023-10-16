@@ -78,10 +78,17 @@ A public subnet must have an internet gateway, which you attach in the next task
 
 <h3>Creating a private subnet</h3>
 The private subnet will be used for resources that must remain isolated from the internet.<br><br>
-
-
+Use what you just learned to create another subnet with these settings:
+<ul><li>VPC ID: Lab VPC
+<li>Subnet name: Private Subnet
+<li>Availability Zone: Select the first Availability Zone in the list (do not keep the No Preference default)
+<li>IPv4 CIDR block: 10.0.2.0/23</li></ul>
+The CIDR block of 10.0.2.0/23 includes all IP addresses that start with 10.0.2.x and 10.0.3.x. This is twice as large as the public subnet because most resources should be kept private, unless they specifically must be accessible from the internet.<br><br>
+Your VPC now has two subnets. However, the public subnet is totally isolated and cannot communicate with resources outside the VPC. You will next configure the public subnet to connect to the internet via an internet gateway.
 <img src="https://i.imgur.com/PQ4iwzi.png" width=60%><br>
 <img src="https://i.imgur.com/Wp3k4yA.png" width=60%><br>
+
+<h2>Task 3: Creating an internet gateway</h2>
 <img src="https://i.imgur.com/OPW3fV2.png" width=60%><br>
 <img src="https://i.imgur.com/QG6bhOK.png" width=60%><br>
 <img src="https://i.imgur.com/HSMRj4Y.png" width=60%><br>
