@@ -109,6 +109,17 @@ You can now attach the internet gateway to your Lab VPC.<br>
 This action will attach the internet gateway to your Lab VPC. Though you created an internet gateway and attached it to your VPC, you must also configure the public subnet route table so it uses the internet gateway.
 <img src="https://i.imgur.com/HSMRj4Y.png" width=60%><br>
 <img src="https://i.imgur.com/kX7hfvx.png" width=60%><br>
+
+<h2>Task 4: Configuring route tables</h2>
+A route table contains a set of rules, called routes, that are used to determine where network traffic is directed. Each subnet in a VPC must be associated with a route table because the table controls the routing for the subnet. A subnet can only be associated with one route table at a time, but you can associate multiple subnets with the same route table.<br><br>
+
+To use an internet gateway, a subnet's route table must contain a route that directs internet-bound traffic to the internet gateway. If a subnet is associated with a route table that has a route to an internet gateway, it is known as a public subnet.<br><br>
+
+In this task, you will:
+<ul><li>Create a public route table for internet-bound traffic
+<li>Add a route to the route table to direct internet-bound traffic to the internet gateway
+<li>Associate the public subnet with the new route table</li></ul>
+
 <img src="https://i.imgur.com/lGP00MR.png" width=60%><br>
 <img src="https://i.imgur.com/x6lS6Z4.png" width=60%><br>
 <img src="https://i.imgur.com/jd1sQV2.png" width=60%><br>
