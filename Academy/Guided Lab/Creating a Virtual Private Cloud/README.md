@@ -226,6 +226,14 @@ service httpd start
 <img src="https://i.imgur.com/zKSq4E9.png" width=60%>
 <img src="https://i.imgur.com/mlQpYdj.png" width=60%>
 <img src="https://i.imgur.com/5z5FLHY.png" width=60%><br>
+34.Choose View all instances<br><br>
+35.Wait until the App Server instance shows 2/2 checks passed in the Status check column.<br>
+This may take a few minutes. Choose the refresh 🔄icon at the top of the page every 30 seconds or so to more quickly become aware of the latest status of the instance.<br><br>
+36.Select App Server.<br><br>
+37.Copy the Public IPv4 DNS value shown in the Details tab at the bottom of the page.
 ec2-35-175-127-6.compute-1.amazonaws.com
 <img src="https://i.imgur.com/8QhWLH7.png" width=60%><br>
+38.Open a new web browser tab with that IP address.<br>
+If you configured the VPC correctly, the Inventory application and this message should appear: Please configure Settings to connect to database. You have not configured any database settings yet, but the appearance of the Inventory application demonstrates that the public subnet was correctly configured.<br><br>
+If the Inventory application does not appear, wait 60 seconds and refresh  the page to try again. It can take a couple of minutes for the EC2 instance to boot and run the script that installs the software.
 <img src="https://i.imgur.com/PRxVAdO.png" width=60%><br>
