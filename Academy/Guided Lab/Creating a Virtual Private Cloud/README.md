@@ -123,9 +123,10 @@ In this task, you will:
 Several route tables are displayed, but there is only one route table associated with Lab VPC.<br>
 This route table routes traffic locally, so it is called a private route table.<br><br>
 
-16.Scroll to the right so that you can see the VPC  column, then expand the width of the column so that you can see which one is used by Lab VPC.
+16.Scroll to the right so that you can see the VPC  column, then expand the width of the column so that you can see which one is used by Lab VPC.<br><br>
+17.Scroll back to the left and select  the route table that shows Lab VPC.<br>
 <img src="https://i.imgur.com/kX7hfvx.png" width=60%><br>
-17.Scroll back to the left and select  the route table that shows Lab VPC.
+18.In the Name column, choose ✎then enter the name Private Route Table and choose✅
 <img src="https://i.imgur.com/lGP00MR.png" width=60%><br>
 <img src="https://i.imgur.com/x6lS6Z4.png" width=60%><br>
 <img src="https://i.imgur.com/jd1sQV2.png" width=60%><br>
