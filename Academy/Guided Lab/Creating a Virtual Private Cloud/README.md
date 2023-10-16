@@ -47,6 +47,9 @@ You can also add a more meaningful DNS name (such as app.example.com) later by u
 <img src="https://i.imgur.com/c50hKar.png" width=60%>
 
 <h2>Task 2: Creating subnets</h2>
+A subnet is a subrange of IP addresses in the VPC. AWS resources can be launched into a specified subnet. Use a public subnet for resources that must be connected to the internet, and use a private subnet for resources that must remain isolated from the internet.<br><br>
+
+In this task, you will create a public subnet and a private subnet:br>
 <img src="https://i.imgur.com/aWrVzIT.png" width=40%><br>
 <img src="https://i.imgur.com/2kCtMb6.png" width=60%><br>
 <img src="https://i.imgur.com/PQ4iwzi.png" width=60%><br>
