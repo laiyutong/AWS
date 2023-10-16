@@ -183,7 +183,28 @@ You will configure it to permit HTTP (port 80) traffic that comes from anywhere 
 <li>Choose Save rules</li></ul>
 You use this App-SG in the next task.
 <img src="https://i.imgur.com/vTB4IwR.png" width=60%><br>
-<img src="https://i.imgur.com/g0N71kQ.png" width=60%><br>
+
+<h2>Task 6: Launching an application server in the public subnet</h2>
+To test that your VPC is correctly configured, you will now launch an EC2 instance into the public subnet. You will also confirm that you can access the EC2 instance from the internet.<br><br>
+
+32.In the search box to the right of  Services, search for and choose EC2 to open the EC2 console.<br><br>
+
+33.From the Launch instance menu, choose Launch Instance. Configure these options:
+<ul><li>Name: App Server
+<li>In the list of available Quick Start AMIs, keep the default Amazon Linux selected. Also keep the specific default Amazon Linux 2023 AMI  selected.
+<li>In the Instance type panel, keep the default t2.micro selected.
+<li>From the Key pair name menu, select vockey.
+<li>Next to Network settings, choose Edit, then configure: 
+<ul><li>Network: Lab VPC
+<li>Subnet: Public Subnet</li></ul>
+
+<li>Under Firewall (security groups), choose  Select an existing security group.
+<ul><li>For Common security groups, select App-SG.</li></ul>
+<li>In the Configure storage section, keep the default settings.
+<li>Expand the Advanced details panel.
+<li>IAM instance profile: Inventory-App-Role 
+<li>Scroll to the bottom of the page and then copy and paste the code shown below into the User data box:
+<li>At the bottom of the Summary panel on the right side of the screen choose Launch instanceYou will see a Success message.</li></ul>
 <img src="https://i.imgur.com/NTbepFo.png" width=60%><br>
 <img src="https://i.imgur.com/2iwDgOf.png" width=60%><br>
 <img src="https://i.imgur.com/9lsZuA5.png" width=60%><br>
