@@ -149,8 +149,7 @@ The last step is to associate this new route table with the public subnet.
 23.Choose the Subnet associations tab.<br><br>
 24.Choose Edit subnet associations<br>
 <img src="https://i.imgur.com/STnFypX.png" width=60%><br>
-25.Select  the row with Public Subnet.<br>
-<img src="https://i.imgur.com/dnIrx5g.png" width=60%><br>
+25.Select  the row with Public Subnet.<br><br>
 26.Choose Save associations<br>
 The public subnet is now public because it has a route table entry that sends traffic to the internet via the internet gateway.<br>
 To summarize, you can create a public subnet by following these steps:<br>
@@ -158,6 +157,19 @@ To summarize, you can create a public subnet by following these steps:<br>
 <li>Create a route table
 <li>Add a route to the route table that directs 0.0.0.0/0 traffic to the internet gateway
 <li>Associate the route table with a subnet, which thus becomes a public subnet</li></ul>
+<img src="https://i.imgur.com/dnIrx5g.png" width=60%><br>
+
+<h2>Task 5: Creating a security group for the application server</h2>
+A security group acts as a virtual firewall for instances to control inbound and outbound traffic. Security groups operate at the level of the elastic network interface for the instance. Security groups do not operate at the subnet level. Thus, each instance can have its own firewall that controls traffic. If you do not specify a particular security group at launch time, the instance is automatically assigned to the default security group for the VPC.<br>
+In this task, you will create a security group that allows users to access your application server via HTTP.<br><br>
+
+27.In the left navigation pane, choose Security Groups.<br><br>
+
+28.Choose Create security group and configure these settings:
+<ul><li>Security group name: App-SG
+<li>Description: Allow HTTP traffic
+<li>VPC: select the X to clear the default selection, then choose Lab VPC
+<li>Scroll to the bottom and choose Create security group</li></ul>
 <img src="https://i.imgur.com/D7ptTBI.png" width=60%><br>
 <img src="https://i.imgur.com/6Ke07oT.png" width=60%><br>
 <img src="https://i.imgur.com/vTB4IwR.png" width=60%><br>
