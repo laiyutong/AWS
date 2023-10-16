@@ -230,8 +230,7 @@ service httpd start
 35.Wait until the App Server instance shows 2/2 checks passed in the Status check column.<br>
 This may take a few minutes. Choose the refresh 🔄icon at the top of the page every 30 seconds or so to more quickly become aware of the latest status of the instance.<br><br>
 36.Select App Server.<br><br>
-37.Copy the Public IPv4 DNS value shown in the Details tab at the bottom of the page.
-ec2-35-175-127-6.compute-1.amazonaws.com
+37.Copy the Public IPv4 DNS value (ec2-35-175-127-6.compute-1.amazonaws.com) shown in the Details tab at the bottom of the page.
 <img src="https://i.imgur.com/8QhWLH7.png" width=60%>
 38.Open a new web browser tab with that IP address.<br>
 If you configured the VPC correctly, the Inventory application and this message should appear: Please configure Settings to connect to database. You have not configured any database settings yet, but the appearance of the Inventory application demonstrates that the public subnet was correctly configured.<br><br>
