@@ -128,7 +128,14 @@ This route table routes traffic locally, so it is called a private route table.<
 <img src="https://i.imgur.com/kX7hfvx.png" width=60%><br>
 18.In the Name column, choose ✎then enter the name Private Route Table and choose✅
 <img src="https://i.imgur.com/lGP00MR.png" width=60%><br>
+19.In the lower half of the page, choose the Routes tab.<br>
+There is only one route. It shows that all traffic that is destined for 10.0.0.0/16 (which is the range of the Lab VPC) will be routed locally. This route allows all subnets in a VPC to communicate with each other.<br>
+You will now create a new public route table to send public traffic to the internet gateway.<br>
 <img src="https://i.imgur.com/x6lS6Z4.png" width=60%><br>
+20.Choose Create route table and configure these settings:<br>
+<ul><li>Name: Public Route Table
+<li>VPC: Lab VPC
+<li>Choose Create route table</li></ul>
 <img src="https://i.imgur.com/jd1sQV2.png" width=60%><br>
 <img src="https://i.imgur.com/10wUecW.png" width=60%><br>
 <img src="https://i.imgur.com/KONHf1K.png" width=60%><br>
