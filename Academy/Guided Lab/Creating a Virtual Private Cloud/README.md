@@ -98,7 +98,15 @@ In this task, you will create an internet gateway so that internet traffic can a
 
 12.In the left navigation pane, choose Internet Gateways.<br>
 <img src="https://i.imgur.com/OPW3fV2.png" width=60%><br>
+13.Choose Create internet gateway and configure these settings:<br>
+<ul><li>Name tag: Lab IGW
+<li>Choose Create internet gateway</li></ul>
+You can now attach the internet gateway to your Lab VPC.<br>
 <img src="https://i.imgur.com/QG6bhOK.png" width=60%><br>
+14.Choose Actions then Attach to VPC, and configure these settings:<br>
+<ul><li>Available VPCs: Place you cursor in the search box, then select Lab VPC 
+<li>Choose Attach internet gateway</li></ul>
+This action will attach the internet gateway to your Lab VPC. Though you created an internet gateway and attached it to your VPC, you must also configure the public subnet route table so it uses the internet gateway.
 <img src="https://i.imgur.com/HSMRj4Y.png" width=60%><br>
 <img src="https://i.imgur.com/kX7hfvx.png" width=60%><br>
 <img src="https://i.imgur.com/lGP00MR.png" width=60%><br>
