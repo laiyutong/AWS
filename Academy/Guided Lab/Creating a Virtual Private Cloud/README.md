@@ -50,8 +50,19 @@ You can also add a more meaningful DNS name (such as app.example.com) later by u
 A subnet is a subrange of IP addresses in the VPC. AWS resources can be launched into a specified subnet. Use a public subnet for resources that must be connected to the internet, and use a private subnet for resources that must remain isolated from the internet.<br><br>
 
 In this task, you will create a public subnet and a private subnet:<br>
-<img src="https://i.imgur.com/aWrVzIT.png" width=40%><br>
+<img src="https://i.imgur.com/aWrVzIT.png" width=60%><br>
+7.In the left navigation pane, choose Subnets.<br>
 <img src="https://i.imgur.com/2kCtMb6.png" width=60%><br>
+8.Choose Create subnet and configure these settings:<br>
+<ul><li>VPC ID: Lab VPC
+<li>Subnet name: Public Subnet
+<li>Availability Zone: Select the first Availability Zone in the list (do not keep the No Preference default)
+<li>IPv4 CIDR block: 10.0.0.0/24
+<li>Choose Create subnet</li></ul><br>
+💬The VPC has a CIDR block of 10.0.0.0/16, which includes all 10.0.x.x IP addresses.<br>
+The subnet you just created has a CIDR block of 10.0.0.0/24, which includes all 10.0.0.x IP addresses.<br>
+They might look similar, but the subnet is smaller than the VPC because of the /24 in the CIDR range.<br><br>
+You will now configure the subnet to automatically assign a public IP address for all instances that are launched in it.<br>
 <img src="https://i.imgur.com/PQ4iwzi.png" width=60%><br>
 <img src="https://i.imgur.com/jJMQ3id.png" width=60%><br>
 <img src="https://i.imgur.com/am8OtVl.png" width=60%><br>
