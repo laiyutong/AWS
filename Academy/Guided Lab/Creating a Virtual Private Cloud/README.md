@@ -54,7 +54,7 @@ In this task, you will create a public subnet and a private subnet:<br>
 <h3>Creating a public subnet</h3>
 The public subnet will be used for internet-facing resources.<br><br>
 7.In the left navigation pane, choose Subnets.<br>
-<img src="https://i.imgur.com/2kCtMb6.png" width=60%><br>
+<img src="https://i.imgur.com/2kCtMb6.png" width=60%>
 8.Choose Create subnet and configure these settings:<br>
 <ul><li>VPC ID: Lab VPC
 <li>Subnet name: Public Subnet
@@ -65,10 +65,10 @@ The public subnet will be used for internet-facing resources.<br><br>
 The subnet you just created has a CIDR block of 10.0.0.0/24, which includes all 10.0.0.x IP addresses.<br>
 They might look similar, but the subnet is smaller than the VPC because of the /24 in the CIDR range.<br><br>
 You will now configure the subnet to automatically assign a public IP address for all instances that are launched in it.<br>
-<img src="https://i.imgur.com/PQ4iwzi.png" width=60%><br>
-<img src="https://i.imgur.com/jJMQ3id.png" width=60%><br>
+<img src="https://i.imgur.com/PQ4iwzi.png" width=60%>
+<img src="https://i.imgur.com/jJMQ3id.png" width=60%>
 9.Select  Public Subnet.<br>
-<img src="https://i.imgur.com/am8OtVl.png" width=60%><br>
+<img src="https://i.imgur.com/am8OtVl.png" width=60%>
 10.Choose Actions and select Edit subnet settings, then:<br>
 <ul><li>Select Enable auto-assign public IPv4 address
 <li>Choose Save</li></ul>
