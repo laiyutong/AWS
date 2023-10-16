@@ -41,6 +41,9 @@ For example, you can use a tag to identify cost centers or different environment
 This option assigns a friendly Domain Name System (DNS) name to EC2 instances in the VPC, such as:<br>
 ec2-52-42-133-255.us-west-2.compute.amazonaws.com<br>
 <img src="https://i.imgur.com/vKTEUWa.png" width=60%>
+6.Select Enable DNS hostname and then choose Save<br> 
+Any EC2 instances that are launched into the VPC will now automatically receive a DNS hostname.<br>
+You can also add a more meaningful DNS name (such as app.example.com) later by using Amazon Route 53.<br>
 <img src="https://i.imgur.com/c50hKar.png" width=60%>
 
 <h2>Task 2: Creating subnets</h2>
