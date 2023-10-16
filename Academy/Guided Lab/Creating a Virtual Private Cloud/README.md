@@ -220,11 +220,11 @@ chkconfig httpd on
 service httpd start
 </pre>
 <li>At the bottom of the Summary panel on the right side of the screen choose Launch instanceYou will see a Success message.</li></ul>
-<img src="https://i.imgur.com/NTbepFo.png" width=60%><br>
-<img src="https://i.imgur.com/2iwDgOf.png" width=60%><br>
-<img src="https://i.imgur.com/9lsZuA5.png" width=60%><br>
-<img src="https://i.imgur.com/zKSq4E9.png" width=60%><br>
-<img src="https://i.imgur.com/mlQpYdj.png" width=60%><br>
+<img src="https://i.imgur.com/NTbepFo.png" width=60%>
+<img src="https://i.imgur.com/2iwDgOf.png" width=60%>
+<img src="https://i.imgur.com/9lsZuA5.png" width=60%>
+<img src="https://i.imgur.com/zKSq4E9.png" width=60%>
+<img src="https://i.imgur.com/mlQpYdj.png" width=60%>
 <img src="https://i.imgur.com/5z5FLHY.png" width=60%><br>
 ec2-35-175-127-6.compute-1.amazonaws.com
 <img src="https://i.imgur.com/8QhWLH7.png" width=60%><br>
