@@ -32,7 +32,13 @@ The VPC will have a Classless Inter-Domain Routing (CIDR) range of 10.0.0.0/16, 
 A message that you successfully created the VPC appears.<br>
 <img src="https://i.imgur.com/meF6xdz.png" width=60%>
 <img src="https://i.imgur.com/CoOmBZO.png" width=60%>
+
+4.In the lower half of the page, choose the Tags tab.<br>
+Tags are useful for identifying resources. For example, you can use a tag to identify cost centers or different environments (such as development, test, or production).<br>
 <img src="https://i.imgur.com/mq6qK21.png" width=60%>
+5.Choose Actions and select Edit VPC settings.<br>
+This option assigns a friendly Domain Name System (DNS) name to EC2 instances in the VPC, such as:<br>
+ec2-52-42-133-255.us-west-2.compute.amazonaws.com<br>
 <img src="https://i.imgur.com/vKTEUWa.png" width=60%>
 <img src="https://i.imgur.com/c50hKar.png" width=60%>
 
