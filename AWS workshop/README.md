@@ -1,5 +1,7 @@
 <h1>Gen AI 與影像辨識</h1>
 
+<img src="https://i.imgur.com/gWxBGNU.jpg" width="40%">
+<img src="https://i.imgur.com/Dsh4UGk.jpg" width="40%">
 <img src="https://i.imgur.com/yHShrZ1.png" width="60%">
 <img src="https://i.imgur.com/rNokjZx.png" width="60%">
 <img src="https://i.imgur.com/wpEw8Io.png" width="60%">
@@ -85,9 +87,7 @@ def lambda_handler(event, context):
 <img src="https://i.imgur.com/A5bpZS2.png" width="60%">
 <img src="https://i.imgur.com/PspNcTQ.png" width="60%">
 <img src="https://i.imgur.com/LYOXhV7.png" width="60%">
-<img src="" width="60%">
-<img src="" width="60%">
-<img src="" width="60%">
-<img src="" width="60%">
-<img src="" width="60%">
-<img src="" width="60%">
+<img src="https://i.imgur.com/efLqqbS.png" width="60%">
+<img src="https://i.imgur.com/ckA2FnQ.png" width="60%">
+<img src="https://i.imgur.com/ewsHZkX.jpg" width="60%">
+<img src="https://i.imgur.com/iK6V4wp.jpg" width="60%">
