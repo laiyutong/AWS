@@ -9,7 +9,7 @@
 <img src="https://i.imgur.com/uHuxTEg.png" width="60%">
 <img src="https://i.imgur.com/HhFa6Jl.png" width="60%">
 <img src="https://i.imgur.com/1kKND2n.png" width="60%">
-<pre class-"text">
+<pre class="text">
 import json
 import boto3
 
