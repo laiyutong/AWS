@@ -29,9 +29,27 @@
 <img src="https://i.imgur.com/VffA1qw.png" width="60%">
 <img src="https://i.imgur.com/7lO0A7x.png" width="60%">
 <img src="https://i.imgur.com/wUERYGs.png" width="60%">
-<img src="" width="60%">
-<img src="" width="60%">
-<img src="" width="60%">
+<img src="https://i.imgur.com/kH4tqER.png" width="60%">
+<img src="https://i.imgur.com/KvL2HiD.png" width="60%">
+<img src="https://i.imgur.com/YPDd8M8.png" width="60%">
+<pre class="text">
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": [
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::bucket_name/*"
+            ]
+        }
+    ]
+}
+</pre>
 <img src="" width="60%">
 <img src="" width="60%">
 <img src="" width="60%">
