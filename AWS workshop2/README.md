@@ -19,7 +19,7 @@
 <img src="https://i.imgur.com/i0ZLus5.png" width="60%">
 <img src="" width="60%" alt="subnet">
 <img src="https://i.imgur.com/2mqy5Cd.png" width="60%">
-<img src="https://i.imgur.com/MDWEoON.png" width="60%">
+<img src="https://i.imgur.com/cKSkiaq.png" width="60%">
 <img src="" width="60%">
 <img src="" width="60%">
 <img src="" width="60%">
