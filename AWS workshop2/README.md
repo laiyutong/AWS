@@ -31,7 +31,6 @@
 <img src="https://i.imgur.com/wUERYGs.png" width="60%">
 <img src="https://i.imgur.com/kH4tqER.png" width="60%">
 <img src="https://i.imgur.com/KvL2HiD.png" width="60%">
-<img src="https://i.imgur.com/YPDd8M8.png" width="60%">
 <pre class="text">
 {
     "Version": "2012-10-17",
@@ -50,24 +49,12 @@
     ]
 }
 </pre>
-<img src="" width="60%">
-<img src="" width="60%">
-<img src="" width="60%">
-<img src="" width="60%">
-<img src="" width="60%">
-<img src="" width="60%">
-<img src="" width="60%">
-<img src="" width="60%">
-<img src="" width="60%">
-<img src="" width="60%">
-<img src="" width="60%">
-<img src="" width="60%">
-<img src="" width="60%">
-<img src="" width="60%">
-<img src="" width="60%">
-<img src="" width="60%">
-<img src="" width="60%">
-<img src="" width="60%">
-<img src="" width="60%">
-<img src="" width="60%">
-
+<img src="https://i.imgur.com/YPDd8M8.png" width="60%">
+<img src="https://i.imgur.com/a3kFhjQ.png" width="60%">
+<img src="https://i.imgur.com/Vul5zOR.png" width="60%">
+<img src="https://i.imgur.com/1cNEDJN.png" width="60%">
+<img src="https://i.imgur.com/se5dnU2.png" width="60%">
+<img src="https://i.imgur.com/AeCYI3i.png" width="60%">
+<img src="https://i.imgur.com/3GH0L1J.png" width="60%">
+<img src="https://i.imgur.com/kvqO3EM.png" width="60%">
+<img src="https://i.imgur.com/rg6phIf.png" width="60%">
