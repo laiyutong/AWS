@@ -15,7 +15,7 @@ The table name is named <code>article</code>, and the partition key is named <co
 Create a s3 bucket to store blog images or any other assets.
 <img src="https://i.imgur.com/zvkCR8x.png" width="60%">
 <img src="https://i.imgur.com/uVrcgXZ.png" width="60%">
-Uncheck <code>Block all public access</code> and check <code>I acknowledge...</code>.<br><br>
+Uncheck <code>Block all public access</code> and check <code>I acknowledge...</code>, then click <code>Create bucket</code>.<br><br>
 By default, Amazon S3 blocks all public access to your buckets and their objects for security reasons. 
 This is a good practice to prevent unintentional exposure of your data to the public.
 When you uncheck "Block all public access" and acknowledge the associated warning, you are essentially configuring the bucket to allow public access. 
