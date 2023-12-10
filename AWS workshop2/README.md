@@ -4,6 +4,7 @@
 <b>DynamoDB</b>: Amazon DynamoDB is a fully managed <code>NoSQL</code> database service that provides fast and predictable performance with seamless scalability.<br><br>
 <b>Elastic Beanstalk</b>: With Elastic Beanstalk, you can quickly deploy and manage applications in the AWS Cloud <code>without having to learn about the infrastructure</code> that runs those applications. Elastic Beanstalk reduces management complexity without restricting choice or control. You simply upload your application, and Elastic Beanstalk automatically handles the details of capacity provisioning, load balancing, scaling, and application health monitoring.<br>
 
+<h2>Goal</h2>
 <img src="https://i.imgur.com/dcVoZVU.png" width="60%">
 
 <img src="https://i.imgur.com/XX5LkEv.png" width="60%">
