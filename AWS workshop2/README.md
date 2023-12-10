@@ -7,6 +7,7 @@
 <h2>Goal</h2>
 <img src="https://i.imgur.com/dcVoZVU.png" width="60%">
 
+<h2>Applied Learning with AWS Services</h2>
 <img src="https://i.imgur.com/XX5LkEv.png" width="60%">
 <img src="https://i.imgur.com/iaMDuzN.png" width="60%">
 <img src="https://i.imgur.com/zvkCR8x.png" width="60%">
