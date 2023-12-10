@@ -25,7 +25,7 @@ This means that objects within the bucket can be made public and accessible to a
 When using Amazon S3 and DynamoDB in AWS, it's crucial to set up access permissions using AWS Identity and Access Management (IAM). IAM allows you to control who has access to your AWS resources and what actions they can perform.<br><br>
 
 Click the number 16 below <code>Roles</code>.<br>
-<img src="https://i.imgur.com/nvHezH1.png" width="60%">
+<img src="https://i.imgur.com/nvHezH1.png" width="60%"><br>
 Click <code>Create Role</code>.<br>
 <img src="https://i.imgur.com/2JmkVVE.png" width="60%">
 <img src="https://i.imgur.com/i7CoUY6.png" width="60%">
