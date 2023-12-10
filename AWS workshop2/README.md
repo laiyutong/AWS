@@ -10,7 +10,7 @@
 <h2>Applied Learning with AWS Services</h2>
 Create a DynamoDB table for storing blog data with the necessary attributes.
 <img src="https://i.imgur.com/XX5LkEv.png" width="60%">
-The table name is named article, and the partition key is named articleId.
+The table name is named <code>article</code>, and the partition key is named <code>articleId.</code>
 <img src="https://i.imgur.com/iaMDuzN.png" width="60%">
 <img src="https://i.imgur.com/zvkCR8x.png" width="60%">
 <img src="https://i.imgur.com/uVrcgXZ.png" width="60%">
