@@ -22,6 +22,7 @@ This is a good practice to prevent unintentional exposure of your data to the pu
 When you uncheck "Block all public access" and acknowledge the associated warning, you are essentially configuring the bucket to allow public access. 
 This means that objects within the bucket can be made public and accessible to anyone on the internet.
 <img src="https://i.imgur.com/NXoSAeK.png" width="60%">
+When using Amazon S3 and DynamoDB in AWS, it's crucial to set up access permissions using AWS Identity and Access Management (IAM). IAM allows you to control who has access to your AWS resources and what actions they can perform.
 <img src="https://i.imgur.com/nvHezH1.png" width="60%">
 <img src="https://i.imgur.com/2JmkVVE.png" width="60%">
 <img src="https://i.imgur.com/i7CoUY6.png" width="60%">
