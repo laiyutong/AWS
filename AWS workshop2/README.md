@@ -1,3 +1,5 @@
+<img src="https://i.imgur.com/dcVoZVU.png" width="60%">
+
 <img src="https://i.imgur.com/XX5LkEv.png" width="60%">
 <img src="https://i.imgur.com/iaMDuzN.png" width="60%">
 <img src="https://i.imgur.com/zvkCR8x.png" width="60%">
