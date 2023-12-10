@@ -15,7 +15,7 @@ The table name is named <code>article</code>, and the partition key is named <co
 Create a s3 bucket to store blog images or any other assets.
 <img src="https://i.imgur.com/zvkCR8x.png" width="60%">
 <img src="https://i.imgur.com/uVrcgXZ.png" width="60%">
-Uncheck <code>Block all public access</code> and check <code>I acknowledge...</code>.
+Uncheck <code>Block all public access</code> and check <code>I acknowledge...</code> below.
 <img src="https://i.imgur.com/NXoSAeK.png" width="60%">
 <img src="https://i.imgur.com/nvHezH1.png" width="60%">
 <img src="https://i.imgur.com/2JmkVVE.png" width="60%">
