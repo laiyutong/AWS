@@ -1,5 +1,9 @@
 <h1>Deploy personal blog with AWS Elastic Beanstalk</h1>
 <h2>Introduction of AWS services</h2>
+<b>S3 Bucket</b>:Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.<br>
+
+
+
 <img src="https://i.imgur.com/dcVoZVU.png" width="60%">
 
 <img src="https://i.imgur.com/XX5LkEv.png" width="60%">
