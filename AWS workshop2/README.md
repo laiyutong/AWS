@@ -34,7 +34,7 @@ At Step 2, add <code>AmazonS3FullAccess</code> for permission policies.<br>
 <img src="https://i.imgur.com/604fYkv.png" width="60%"><br>
 Add <code>AmazonDynamoDBFullAccess</code> for permission policies.<br>
 <img src="https://i.imgur.com/X8wo9hR.png" width="60%"><br>
-At Step 3, enter <code>Role name</code> .<br>
+At Step 3, enter <code>Role name</code>, then click <code>Create Role</code>.<br>
 <img src="https://i.imgur.com/CPb4eu7.png" width="60%">
 <img src="https://i.imgur.com/w5P0RXN.png" width="60%">
 <img src="https://i.imgur.com/w92OZjI.png" width="60%">
