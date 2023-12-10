@@ -19,10 +19,8 @@ Uncheck <code>Block all public access</code> and check <code>I acknowledge...</c
 <pre class="text">
 By default, Amazon S3 blocks all public access to your buckets and their objects for security reasons. 
 This is a good practice to prevent unintentional exposure of your data to the public.
-
 When you uncheck "Block all public access" and acknowledge the associated warning, you are essentially configuring the bucket to allow public access. 
-This means that objects within the bucket can be made public and accessible to anyone on the internet.
-</pre>
+This means that objects within the bucket can be made public and accessible to anyone on the internet.</pre>
 <img src="https://i.imgur.com/NXoSAeK.png" width="60%">
 <img src="https://i.imgur.com/nvHezH1.png" width="60%">
 <img src="https://i.imgur.com/2JmkVVE.png" width="60%">
