@@ -1,8 +1,8 @@
 <h1>Deploy personal blog with AWS Elastic Beanstalk</h1>
 <h2>Introduction of AWS services</h2>
-<b>S3 Bucket</b>: Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.<br><br>
-<b>DynamoDB</b>: Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability.<br><br>
-<b>Elastic Beanstalk</b>: With Elastic Beanstalk, you can quickly deploy and manage applications in the AWS Cloud without having to learn about the infrastructure that runs those applications. Elastic Beanstalk reduces management complexity without restricting choice or control. You simply upload your application, and Elastic Beanstalk automatically handles the details of capacity provisioning, load balancing, scaling, and application health monitoring.<br>
+<b>S3 Bucket</b>: Amazon Simple Storage Service (Amazon S3) is an <code>object</code> storage service offering industry-leading scalability, data availability, security, and performance.<br><br>
+<b>DynamoDB</b>: Amazon DynamoDB is a fully managed <code>NoSQL</code> database service that provides fast and predictable performance with seamless scalability.<br><br>
+<b>Elastic Beanstalk</b>: With Elastic Beanstalk, you can quickly deploy and manage applications in the AWS Cloud <code>without having to learn about the infrastructure</code> that runs those applications. Elastic Beanstalk reduces management complexity without restricting choice or control. You simply upload your application, and Elastic Beanstalk automatically handles the details of capacity provisioning, load balancing, scaling, and application health monitoring.<br>
 
 <img src="https://i.imgur.com/dcVoZVU.png" width="60%">
 
