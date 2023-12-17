@@ -55,6 +55,7 @@ Operating System: Your application will run on Amazon Linux 2, which is the late
 <img src="https://i.imgur.com/vYaoNIX.png" width="60%"><br>
 Select to <code>upload your code</code>, the version label can be filled in <code>v0.0.1</code>, select <code>local file</code> and upload the <code>zip</code> file (no need to unzip).
 <img src="https://i.imgur.com/fl8WlcG.png" width="60%"><br>
+Then click <code>Next</code>.<br>
 <img src="https://i.imgur.com/7MMXBlD.png" width="60%"><br>
 <img src="https://i.imgur.com/WRQqofe.png" width="60%"><br>
 <img src="https://i.imgur.com/i0ZLus5.png" width="60%"><br>
