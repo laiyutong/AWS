@@ -36,6 +36,7 @@ Add <code>AmazonDynamoDBFullAccess</code> for permission policies.<br>
 <img src="https://i.imgur.com/X8wo9hR.png" width="60%"><br>
 At Step 3, enter <code>Role name</code>, then click <code>Create Role</code>.<br>
 <img src="https://i.imgur.com/CPb4eu7.png" width="60%">
+In AWS Elastic Beanstalk, creating an application involves setting up an environment to deploy and run your application.<br> 
 <img src="https://i.imgur.com/w5P0RXN.png" width="60%">
 <img src="https://i.imgur.com/w92OZjI.png" width="60%">
 <img src="https://i.imgur.com/vYaoNIX.png" width="60%">
