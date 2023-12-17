@@ -41,6 +41,17 @@ Click <code>Create Application</code>.<br>
 <img src="https://i.imgur.com/w5P0RXN.png" width="60%"><br>
 Enter the <code>environment name</code>.<br>
 <img src="https://i.imgur.com/w92OZjI.png" width="60%"><br>
+When you use AWS Elastic Beanstalk and choose the platform "Java with Corretto 17 on Linux 2," it indicates the runtime environment and underlying infrastructure for your Java application. Let's break down the components:
+<pre class="text">
+Java:
+Runtime Environment: Your application will run on the Java Virtual Machine (JVM). This is a standard Java runtime environment that allows you to execute Java applications.
+
+Corretto 17:
+Java Distribution: Amazon Corretto is a no-cost, multiplatform, production-ready distribution of the Open Java Development Kit (OpenJDK). In this case, "Corretto 17" refers to Java 17, which is a long-term support (LTS) version. LTS versions receive updates and support for an extended period.
+
+Linux 2:
+Operating System: Your application will run on Amazon Linux 2, which is the latest version of Amazon's Linux distribution. It provides a secure, stable, and high-performance execution environment for applications.</pre>
+
 <img src="https://i.imgur.com/vYaoNIX.png" width="60%"><br>
 <img src="https://i.imgur.com/fl8WlcG.png" width="60%"><br>
 <img src="https://i.imgur.com/7aOehp5.png" width="60%"><br>
