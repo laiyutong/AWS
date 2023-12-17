@@ -38,29 +38,29 @@ At Step 3, enter <code>Role name</code>, then click <code>Create Role</code>.<br
 <img src="https://i.imgur.com/CPb4eu7.png" width="60%"><br><br>
 In AWS Elastic Beanstalk, creating an application involves setting up an environment to deploy and run your application.<br> 
 Click <code>Create Application</code>.<br>
-<img src="https://i.imgur.com/w5P0RXN.png" width="60%">
+<img src="https://i.imgur.com/w5P0RXN.png" width="60%"><br>
 Enter the <code>environment name</code>.<br>
-<img src="https://i.imgur.com/w92OZjI.png" width="60%">
-<img src="https://i.imgur.com/vYaoNIX.png" width="60%">
-<img src="https://i.imgur.com/fl8WlcG.png" width="60%">
-<img src="https://i.imgur.com/7aOehp5.png" width="60%">
-<img src="https://i.imgur.com/7MMXBlD.png" width="60%">
-<img src="https://i.imgur.com/WRQqofe.png" width="60%">
-<img src="https://i.imgur.com/i0ZLus5.png" width="60%">
+<img src="https://i.imgur.com/w92OZjI.png" width="60%"><br>
+<img src="https://i.imgur.com/vYaoNIX.png" width="60%"><br>
+<img src="https://i.imgur.com/fl8WlcG.png" width="60%"><br>
+<img src="https://i.imgur.com/7aOehp5.png" width="60%"><br>
+<img src="https://i.imgur.com/7MMXBlD.png" width="60%"><br>
+<img src="https://i.imgur.com/WRQqofe.png" width="60%"><br>
+<img src="https://i.imgur.com/i0ZLus5.png" width="60%"><br>
 <img src="" width="60%" alt="subnet">
-<img src="https://i.imgur.com/2mqy5Cd.png" width="60%">
-<img src="https://i.imgur.com/cKSkiaq.png" width="60%">
-<img src="https://i.imgur.com/nWM3K73.png" width="60%">
-<img src="https://i.imgur.com/bjjyH77.png" width="60%">
-<img src="https://i.imgur.com/N3emkKk.png" width="60%">
-<img src="https://i.imgur.com/27axbRx.png" width="60%">
-<img src="https://i.imgur.com/wIJYLH7.png" width="60%">
-<img src="https://i.imgur.com/KGVjVzr.png" width="60%">
-<img src="https://i.imgur.com/VffA1qw.png" width="60%">
-<img src="https://i.imgur.com/7lO0A7x.png" width="60%">
-<img src="https://i.imgur.com/wUERYGs.png" width="60%">
-<img src="https://i.imgur.com/kH4tqER.png" width="60%">
-<img src="https://i.imgur.com/KvL2HiD.png" width="60%">
+<img src="https://i.imgur.com/2mqy5Cd.png" width="60%"><br>
+<img src="https://i.imgur.com/cKSkiaq.png" width="60%"><br>
+<img src="https://i.imgur.com/nWM3K73.png" width="60%"><br>
+<img src="https://i.imgur.com/bjjyH77.png" width="60%"><br>
+<img src="https://i.imgur.com/N3emkKk.png" width="60%"><br>
+<img src="https://i.imgur.com/27axbRx.png" width="60%"><br>
+<img src="https://i.imgur.com/wIJYLH7.png" width="60%"><br>
+<img src="https://i.imgur.com/KGVjVzr.png" width="60%"><br>
+<img src="https://i.imgur.com/VffA1qw.png" width="60%"><br>
+<img src="https://i.imgur.com/7lO0A7x.png" width="60%"><br>
+<img src="https://i.imgur.com/wUERYGs.png" width="60%"><br>
+<img src="https://i.imgur.com/kH4tqER.png" width="60%"><br>
+<img src="https://i.imgur.com/KvL2HiD.png" width="60%"><br>
 <pre class="text">
 {
     "Version": "2012-10-17",
@@ -79,12 +79,12 @@ Enter the <code>environment name</code>.<br>
     ]
 }
 </pre>
-<img src="https://i.imgur.com/YPDd8M8.png" width="60%">
-<img src="https://i.imgur.com/a3kFhjQ.png" width="60%">
-<img src="https://i.imgur.com/Vul5zOR.png" width="60%">
-<img src="https://i.imgur.com/1cNEDJN.png" width="60%">
-<img src="https://i.imgur.com/se5dnU2.png" width="60%">
-<img src="https://i.imgur.com/AeCYI3i.png" width="60%">
-<img src="https://i.imgur.com/3GH0L1J.png" width="60%">
-<img src="https://i.imgur.com/kvqO3EM.png" width="60%">
-<img src="https://i.imgur.com/rg6phIf.png" width="60%">
+<img src="https://i.imgur.com/YPDd8M8.png" width="60%"><br>
+<img src="https://i.imgur.com/a3kFhjQ.png" width="60%"><br>
+<img src="https://i.imgur.com/Vul5zOR.png" width="60%"><br>
+<img src="https://i.imgur.com/1cNEDJN.png" width="60%"><br>
+<img src="https://i.imgur.com/se5dnU2.png" width="60%"><br>
+<img src="https://i.imgur.com/AeCYI3i.png" width="60%"><br>
+<img src="https://i.imgur.com/3GH0L1J.png" width="60%"><br>
+<img src="https://i.imgur.com/kvqO3EM.png" width="60%"><br>
+<img src="https://i.imgur.com/rg6phIf.png" width="60%"><br>
