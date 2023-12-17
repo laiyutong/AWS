@@ -35,7 +35,8 @@ At Step 2, add <code>AmazonS3FullAccess</code> for permission policies.<br>
 Add <code>AmazonDynamoDBFullAccess</code> for permission policies.<br>
 <img src="https://i.imgur.com/X8wo9hR.png" width="60%"><br>
 At Step 3, enter <code>Role name</code>, then click <code>Create Role</code>.<br>
-<img src="https://i.imgur.com/CPb4eu7.png" width="60%"><br><br>
+<img src="https://i.imgur.com/CPb4eu7.png" width="60%"><br>
+<img src="https://i.imgur.com/7aOehp5.png" width="60%"><br><br>
 In AWS Elastic Beanstalk, creating an application involves setting up an environment to deploy and run your application.<br> 
 Click <code>Create Application</code>.<br>
 <img src="https://i.imgur.com/w5P0RXN.png" width="60%"><br>
@@ -54,7 +55,6 @@ Operating System: Your application will run on Amazon Linux 2, which is the late
 <img src="https://i.imgur.com/vYaoNIX.png" width="60%"><br>
 Select to <code>upload your code</code>, the version label can be filled in <code>v0.0.1</code>, select <code>local file</code> and upload the <code>zip</code> file (no need to unzip).
 <img src="https://i.imgur.com/fl8WlcG.png" width="60%"><br>
-<img src="https://i.imgur.com/7aOehp5.png" width="60%"><br>
 <img src="https://i.imgur.com/7MMXBlD.png" width="60%"><br>
 <img src="https://i.imgur.com/WRQqofe.png" width="60%"><br>
 <img src="https://i.imgur.com/i0ZLus5.png" width="60%"><br>
