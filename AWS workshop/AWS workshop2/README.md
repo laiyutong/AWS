@@ -52,7 +52,7 @@ Java Distribution: Amazon Corretto is a no-cost, multiplatform, production-ready
 Linux 2:
 Operating System: Your application will run on Amazon Linux 2, which is the latest version of Amazon's Linux distribution. It provides a secure, stable, and high-performance execution environment for applications.</pre>
 <img src="https://i.imgur.com/vYaoNIX.png" width="60%"><br>
-Select to <code>upload your code</code>, the version label can be filled in <code>v0.0.1</code>, select <code>local file</code> and upload the ZIP file (no need to unzip).
+Select to <code>upload your code</code>, the version label can be filled in <code>v0.0.1</code>, select <code>local file</code> and upload the <code>zip</code> file (no need to unzip).
 <img src="https://i.imgur.com/fl8WlcG.png" width="60%"><br>
 <img src="https://i.imgur.com/7aOehp5.png" width="60%"><br>
 <img src="https://i.imgur.com/7MMXBlD.png" width="60%"><br>
