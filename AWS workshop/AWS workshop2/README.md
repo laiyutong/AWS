@@ -57,7 +57,11 @@ Select to <code>upload your code</code>, the version label can be filled in <cod
 <img src="https://i.imgur.com/fl8WlcG.png" width="60%"><br>
 Then click <code>Next</code>.<br>
 <img src="https://i.imgur.com/7MMXBlD.png" width="60%"><br><br>
-After setting up an AWS Elastic Beanstalk environment, it's essential to configure permissions to ensure that the environment and associated AWS resources have the necessary access.<br>
+After setting up an AWS Elastic Beanstalk environment, it's essential to configure permissions to ensure that the environment and associated AWS resources have the necessary access.<br><br>
+Select <code>Use an existing service role</code> for Service role.<br>
+Select the Role you just set for roles.<br>
+Select the <code>default</code> for EC2 key pair.<br>
+Select the same Role for EC2 Instance Profile.<br>
 <img src="https://i.imgur.com/WRQqofe.png" width="60%"><br>
 <img src="https://i.imgur.com/i0ZLus5.png" width="60%"><br>
 <img src="" width="60%" alt="subnet">
