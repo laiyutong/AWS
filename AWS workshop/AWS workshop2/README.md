@@ -89,6 +89,7 @@ Scroll down to find <code>Static website hosting</code>, then click <code>edit</
 <img src="https://i.imgur.com/KGVjVzr.png" width="60%"><br>
 Static website hosting select <code>Enable</code>, enter <code>index.html</code> under index document, and then click <code>Save Change</code>.<br>
 <img src="https://i.imgur.com/VffA1qw.png" width="60%"><br>
+After saving changes, click on the generated URL, and you will see a 403 error message.<br>
 <img src="https://i.imgur.com/7lO0A7x.png" width="60%"><br>
 <img src="https://i.imgur.com/wUERYGs.png" width="60%"><br>
 <img src="https://i.imgur.com/kH4tqER.png" width="60%"><br>
