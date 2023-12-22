@@ -66,6 +66,7 @@ Select the same Role for EC2 Instance Profile.<br>
 Select the <code>default</code> VPC and <code>activated</code> public IP.<br>
 Select <code>all</code> subnets.<br>
 <img src="https://i.imgur.com/i0ZLus5.png" width="60%"><br>
+<code>Skip</code> step four and click <code>next</code> to go to step five.<br>
 <img src="https://i.imgur.com/2mqy5Cd.png" width="60%"><br>
 <img src="https://i.imgur.com/cKSkiaq.png" width="60%"><br>
 <img src="https://i.imgur.com/nWM3K73.png" width="60%"><br>
