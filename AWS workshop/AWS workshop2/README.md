@@ -83,6 +83,7 @@ Click <code>Add files</code> to upload your files, such as index.html, style.css
 <img src="https://i.imgur.com/27axbRx.png" width="60%"><br>
 
 To make the files you uploaded to an Amazon S3 bucket accessible to everyone, you need to configure the appropriate permissions and set up the necessary configurations for hosting content.<br><br>
+Click <code>properties</code>.<br>
 <img src="https://i.imgur.com/wIJYLH7.png" width="60%"><br>
 <img src="https://i.imgur.com/KGVjVzr.png" width="60%"><br>
 <img src="https://i.imgur.com/VffA1qw.png" width="60%"><br>
