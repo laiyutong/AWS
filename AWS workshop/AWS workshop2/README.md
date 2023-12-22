@@ -63,6 +63,7 @@ Select the Role you just set for roles.<br>
 Select the <code>default</code> for EC2 key pair.<br>
 Select the same Role for EC2 Instance Profile.<br>
 <img src="https://i.imgur.com/WRQqofe.png" width="60%"><br>
+Select the <code>default</code> VPC and <code>activated</code> public IP.<br>
 <img src="https://i.imgur.com/i0ZLus5.png" width="60%"><br>
 <img src="" width="60%" alt="subnet">
 <img src="https://i.imgur.com/2mqy5Cd.png" width="60%"><br>
