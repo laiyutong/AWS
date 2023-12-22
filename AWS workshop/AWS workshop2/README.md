@@ -10,21 +10,21 @@
 
 <h2>Applied Learning with AWS Services</h2>
 Create a DynamoDB table for storing blog data with the necessary attributes.
-<img src="https://i.imgur.com/XX5LkEv.png" width="60%">
+<img src="https://i.imgur.com/XX5LkEv.png" width="60%"><br>
 The table name is named <code>article</code>, and the partition key is named <code>articleId</code>, then click <code>Create table</code>.
 <img src="https://i.imgur.com/iaMDuzN.png" width="60%"><br>
 
 Amazon S3 (Simple Storage Service) is a scalable and durable object storage service by AWS, designed to store and retrieve any type of data, from static website content and media files to backups, log files, and large datasets, providing reliable and cost-effective storage in the cloud.<br><br>
 An S3 bucket is a fundamental container within the S3 service. It is used to store and organize objects, which can be files, documents, images, or any other type of data. Buckets have a globally unique name within S3, and objects stored within a bucket are identified by a unique key.<br><br>
 Create a s3 bucket to store blog images or any other assets.
-<img src="https://i.imgur.com/zvkCR8x.png" width="60%">
+<img src="https://i.imgur.com/zvkCR8x.png" width="60%"><br>
 <img src="https://i.imgur.com/uVrcgXZ.png" width="60%"><br>
 Uncheck <code>Block all public access</code> and check <code>I acknowledge...</code>, then click <code>Create bucket</code>.<br><br>
 By default, Amazon S3 blocks all public access to your buckets and their objects for security reasons. 
 This is a good practice to prevent unintentional exposure of your data to the public.
 When you uncheck "Block all public access" and acknowledge the associated warning, you are essentially configuring the bucket to allow public access. 
-This means that objects within the bucket can be made public and accessible to anyone on the internet.
-<img src="https://i.imgur.com/NXoSAeK.png" width="60%">
+This means that objects within the bucket can be made public and accessible to anyone on the internet.<br>
+<img src="https://i.imgur.com/NXoSAeK.png" width="60%"><br>
 When using Amazon S3 and DynamoDB in AWS, it's crucial to set up access permissions using AWS Identity and Access Management (IAM). IAM allows you to control who has access to your AWS resources and what actions they can perform.<br><br>
 
 Click the number 16 below <code>Roles</code>.<br>
