@@ -85,6 +85,7 @@ Click <code>Add files</code> to upload your files, such as index.html, style.css
 To make the files you uploaded to an Amazon S3 bucket accessible to everyone, you need to configure the appropriate permissions and set up the necessary configurations for hosting content.<br><br>
 Click <code>properties</code>.<br>
 <img src="https://i.imgur.com/wIJYLH7.png" width="60%"><br>
+Scroll down to find <code>Static website hosting</code>, then click <code>edit</code>.<br>
 <img src="https://i.imgur.com/KGVjVzr.png" width="60%"><br>
 <img src="https://i.imgur.com/VffA1qw.png" width="60%"><br>
 <img src="https://i.imgur.com/7lO0A7x.png" width="60%"><br>
