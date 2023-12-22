@@ -115,6 +115,22 @@ Paste the following content and change the <code>bucket name</code>.<br>
     ]
 }
 </pre>
+This policy grants public read access to objects (files) within a specific S3 bucket. Let's break down each component:
+<pre class="text">
+<b>Version</b>: Specifies the version of the policy language. In this case, it's set to "2012-10-17," indicating the version of the policy language used.
+
+<b>Statement</b>: Defines the permissions in the policy. In this example, there is one statement within an array.
+
+<b>Sid</b>: A human-readable identifier for the statement. In this case, it's named "PublicReadGetObject."
+
+<b>Effect</b>: Specifies whether the statement allows or denies access. The value "Allow" indicates that the statement allows the specified actions.
+
+<b>Principal</b>: Identifies the AWS entity (user, role, or account) to which the policy is attached. The wildcard * represents any AWS principal, meaning it allows access to any entity.
+
+<b>Action</b>: Lists the specific actions (API operations) allowed or denied by the statement. Here, it allows the "s3:GetObject" action, which permits retrieving (reading) objects from the S3 bucket.
+
+<b>Resource</b>: Specifies the AWS resource to which the statement applies. In this case, it specifies a resource ARN (Amazon Resource Name) for objects within the specified S3 bucket. The wildcard * at the end means it applies to any object within the bucket.
+</pre>
 <img src="https://i.imgur.com/YPDd8M8.png" width="60%"><br>
 <img src="https://i.imgur.com/a3kFhjQ.png" width="60%"><br>
 <img src="https://i.imgur.com/Vul5zOR.png" width="60%"><br>
