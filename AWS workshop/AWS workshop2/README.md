@@ -64,8 +64,8 @@ Select the <code>default</code> for EC2 key pair.<br>
 Select the same Role for EC2 Instance Profile.<br>
 <img src="https://i.imgur.com/WRQqofe.png" width="60%"><br>
 Select the <code>default</code> VPC and <code>activated</code> public IP.<br>
+Select <code>all</code> subnets.<br>
 <img src="https://i.imgur.com/i0ZLus5.png" width="60%"><br>
-<img src="" width="60%" alt="subnet">
 <img src="https://i.imgur.com/2mqy5Cd.png" width="60%"><br>
 <img src="https://i.imgur.com/cKSkiaq.png" width="60%"><br>
 <img src="https://i.imgur.com/nWM3K73.png" width="60%"><br>
