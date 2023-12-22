@@ -68,7 +68,8 @@ Select <code>all</code> subnets.<br>
 <img src="https://i.imgur.com/i0ZLus5.png" width="60%"><br>
 <code>Skip</code> step four and click <code>next</code> to go to step five.<br>
 <img src="https://i.imgur.com/2mqy5Cd.png" width="60%"><br>
-Scroll down to find <code>Environment properties</code>, fill in AWS_S3_BUCKET_NAME: <code>your bucket name</code>, and SERVER_PORT: <code>5000</code>.<br>
+Scroll down to find <code>Environment properties</code>, click <code>add environment property</code>.<br>
+Fill in <code>AWS_S3_BUCKET_NAME</code>: <code>your bucket name</code>, and <code>SERVER_PORT</code>: <code>5000</code>.<br>
 <img src="https://i.imgur.com/cKSkiaq.png" width="60%"><br>
 <img src="https://i.imgur.com/nWM3K73.png" width="60%"><br>
 <img src="https://i.imgur.com/bjjyH77.png" width="60%"><br>
