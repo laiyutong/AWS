@@ -78,6 +78,8 @@ Then click <code>submit</code>. You may need to wait for a while to create an ap
 <img src="https://i.imgur.com/nWM3K73.png" width="60%"><br>
 Go to the s3 bucker you just created and click <code>upload</code>.<br>
 <img src="https://i.imgur.com/bjjyH77.png" width="60%"><br>
+Click <code>Add files</code> to upload your files, such as index.html, style.css.<br>
+
 <img src="https://i.imgur.com/N3emkKk.png" width="60%"><br>
 <img src="https://i.imgur.com/27axbRx.png" width="60%"><br>
 <img src="https://i.imgur.com/wIJYLH7.png" width="60%"><br>
