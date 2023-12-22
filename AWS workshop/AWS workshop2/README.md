@@ -96,6 +96,7 @@ If you are encountering a 403 error (Forbidden) when trying to access a URL gene
 To solve the 403 forbidden error, click <code>permissions</code> and scroll down to find the <code>bucket policy</code>.<br> 
 <img src="https://i.imgur.com/kH4tqER.png" width="60%"><br>
 <img src="https://i.imgur.com/KvL2HiD.png" width="60%"><br>
+Paste the following content and change the <code>bucket name</code>.<br>
 <pre class="text">
 {
     "Version": "2012-10-17",
