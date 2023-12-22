@@ -12,7 +12,9 @@
 Create a DynamoDB table for storing blog data with the necessary attributes.
 <img src="https://i.imgur.com/XX5LkEv.png" width="60%">
 The table name is named <code>article</code>, and the partition key is named <code>articleId</code>, then click <code>Create table</code>.
-<img src="https://i.imgur.com/iaMDuzN.png" width="60%">
+<img src="https://i.imgur.com/iaMDuzN.png" width="60%"><br><br>
+
+Amazon S3 (Simple Storage Service) is a scalable and durable object storage service by AWS, designed to store and retrieve any type of data, from static website content and media files to backups, log files, and large datasets, providing reliable and cost-effective storage in the cloud.<br><br>
 Create a s3 bucket to store blog images or any other assets.
 <img src="https://i.imgur.com/zvkCR8x.png" width="60%">
 <img src="https://i.imgur.com/uVrcgXZ.png" width="60%">
