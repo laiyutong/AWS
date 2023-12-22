@@ -79,9 +79,10 @@ Then click <code>submit</code>. You may need to wait for a while to create an ap
 Go to the s3 bucker you just created and click <code>upload</code>.<br>
 <img src="https://i.imgur.com/bjjyH77.png" width="60%"><br>
 Click <code>Add files</code> to upload your files, such as index.html, style.css.<br>
-
 <img src="https://i.imgur.com/N3emkKk.png" width="60%"><br>
 <img src="https://i.imgur.com/27axbRx.png" width="60%"><br>
+
+To make the files you uploaded to an Amazon S3 bucket accessible to everyone, you need to configure the appropriate permissions and set up the necessary configurations for hosting content.<br><br>
 <img src="https://i.imgur.com/wIJYLH7.png" width="60%"><br>
 <img src="https://i.imgur.com/KGVjVzr.png" width="60%"><br>
 <img src="https://i.imgur.com/VffA1qw.png" width="60%"><br>
