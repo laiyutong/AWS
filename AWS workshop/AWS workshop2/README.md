@@ -141,7 +141,7 @@ Replace the <code>string after BASE_URL</code> with the domain URL you just copi
 If you are using Amazon S3 to host your static website and you make changes to the index.html file, you need to upload the updated file to S3.<br><br>
 Click <code>upload</code>.<br>
 <img src="https://i.imgur.com/AeCYI3i.png" width="60%"><br>
-<img src="https://i.imgur.com/a3kFhjQ.png" width="60%"><br>
 <img src="https://i.imgur.com/3GH0L1J.png" width="60%"><br>
+<img src="https://i.imgur.com/a3kFhjQ.png" width="60%"><br>
 <img src="https://i.imgur.com/kvqO3EM.png" width="60%"><br>
 <img src="https://i.imgur.com/rg6phIf.png" width="60%"><br>
