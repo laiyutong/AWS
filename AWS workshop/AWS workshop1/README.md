@@ -2,7 +2,7 @@
 <h2>Introduction of AWS services</h2>
 <b>Amazon Rekognition</b>: Offers pre-trained and customizable computer vision (CV) capabilities to extract information and insights from your images and videos. With Amazon Rekognition, you can identify objects, people, text, scenes, and activities in images and videos, as well as detect any inappropriate content.<br><br>
 <b>Amazon Textract</b>: A machine learning (ML) service that automatically extracts text, handwriting, layout elements, and data from scanned documents. It goes beyond simple optical character recognition (OCR) to identify, understand, and extract specific data from documents.<br><br>
-<b>IAM</b>: .<br><br>
+<b>Amazon translate</b>: A neural machine translation service that delivers fast, high-quality, affordable, and customizable language translation.<br><br>
 <b>Elastic Beanstalk</b>: .<br>
 
 <img src="https://i.imgur.com/gWxBGNU.jpg" width="40%">
