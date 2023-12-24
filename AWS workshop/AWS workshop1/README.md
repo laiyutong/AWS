@@ -1,4 +1,9 @@
-<h1>Gen AI 與影像辨識</h1>
+<h1>GenAI and image recognition</h1>
+<h2>Introduction of AWS services</h2>
+<b>Amazon Rekognition</b>: offers pre-trained and customizable computer vision (CV) capabilities to extract information and insights from your images and videos.<br><br>
+<b>DynamoDB</b>: .<br><br>
+<b>IAM</b>: .<br><br>
+<b>Elastic Beanstalk</b>: .<br>
 
 <img src="https://i.imgur.com/gWxBGNU.jpg" width="40%">
 <img src="https://i.imgur.com/Dsh4UGk.jpg" width="40%">
