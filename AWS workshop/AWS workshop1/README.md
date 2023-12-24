@@ -3,7 +3,7 @@
 <b>Amazon Rekognition</b>: Offers pre-trained and customizable computer vision (CV) capabilities to extract information and insights from your images and videos. With Amazon Rekognition, you can identify objects, people, text, scenes, and activities in images and videos, as well as detect any inappropriate content.<br><br>
 <b>Amazon Textract</b>: A machine learning (ML) service that automatically extracts text, handwriting, layout elements, and data from scanned documents. It goes beyond simple optical character recognition (OCR) to identify, understand, and extract specific data from documents.<br><br>
 <b>Amazon translate</b>: A neural machine translation service that delivers fast, high-quality, affordable, and customizable language translation.<br><br>
-<b>Elastic Beanstalk</b>: .<br>
+<b>AWS Lambda</b>: A serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers..<br>
 
 <img src="https://i.imgur.com/gWxBGNU.jpg" width="40%">
 <img src="https://i.imgur.com/Dsh4UGk.jpg" width="40%">
