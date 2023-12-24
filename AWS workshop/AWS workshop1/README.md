@@ -1,7 +1,7 @@
 <h1>GenAI and image recognition</h1>
 <h2>Introduction of AWS services</h2>
-<b>Amazon Rekognition</b>: offers pre-trained and customizable computer vision (CV) capabilities to extract information and insights from your images and videos. With Amazon Rekognition, you can identify objects, people, text, scenes, and activities in images and videos, as well as detect any inappropriate content.<br><br>
-<b>DynamoDB</b>: .<br><br>
+<b>Amazon Rekognition</b>: Offers pre-trained and customizable computer vision (CV) capabilities to extract information and insights from your images and videos. With Amazon Rekognition, you can identify objects, people, text, scenes, and activities in images and videos, as well as detect any inappropriate content.<br><br>
+<b>Amazon Textract</b>: A machine learning (ML) service that automatically extracts text, handwriting, layout elements, and data from scanned documents. It goes beyond simple optical character recognition (OCR) to identify, understand, and extract specific data from documents.<br><br>
 <b>IAM</b>: .<br><br>
 <b>Elastic Beanstalk</b>: .<br>
 
