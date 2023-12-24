@@ -135,6 +135,7 @@ This policy grants public read access to objects (files) within a specific S3 bu
 When you deploy an application using Elastic Beanstalk, your application is accessible through a default Elastic Beanstalk domain.<br><br> 
 Go to <code>environment</code> of elastic beanstalk and copy the <code>URL</code> below Domain.<br>
 <img src="https://i.imgur.com/1cNEDJN.png" width="60%"><br>
+Replace the string after base_url with the domain URL you just copied.<br>
 <img src="https://i.imgur.com/Vul5zOR.png" width="60%"><br>
 <img src="https://i.imgur.com/a3kFhjQ.png" width="60%"><br>
 <img src="https://i.imgur.com/se5dnU2.png" width="60%"><br>
