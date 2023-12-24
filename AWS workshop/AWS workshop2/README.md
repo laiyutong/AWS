@@ -145,5 +145,6 @@ Upload the modified index.html file.<br>
 <img src="https://i.imgur.com/3GH0L1J.png" width="60%"><br>
 Return to the website you were on just now, and you should be able to successfully view the content of the blog.<br>
 <img src="https://i.imgur.com/kvqO3EM.png" width="60%"><br>
-You can upload your blog content. Ａfter the upload is complete, the webpage will automatically refresh.<br>
+You can upload your blog content. After the upload is complete, the webpage will automatically refresh.<br>
 <img src="https://i.imgur.com/rg6phIf.png" width="60%"><br>
+The above is the implementation of deploying a personal blog using Beanstalk！
