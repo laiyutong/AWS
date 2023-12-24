@@ -132,9 +132,10 @@ This policy grants public read access to objects (files) within a specific S3 bu
 
 <b>Resource</b>: Specifies the AWS resource to which the statement applies. In this case, it specifies a resource ARN (Amazon Resource Name) for objects within the specified S3 bucket. The wildcard * at the end means it applies to any object within the bucket.
 </pre>
-<img src="https://i.imgur.com/a3kFhjQ.png" width="60%"><br>
-<img src="https://i.imgur.com/Vul5zOR.png" width="60%"><br>
+Go to environment of elastic beanstalk.<br>
 <img src="https://i.imgur.com/1cNEDJN.png" width="60%"><br>
+<img src="https://i.imgur.com/Vul5zOR.png" width="60%"><br>
+<img src="https://i.imgur.com/a3kFhjQ.png" width="60%"><br>
 <img src="https://i.imgur.com/se5dnU2.png" width="60%"><br>
 <img src="https://i.imgur.com/AeCYI3i.png" width="60%"><br>
 <img src="https://i.imgur.com/3GH0L1J.png" width="60%"><br>
