@@ -23,6 +23,7 @@ tt_client = boto3.client('textract')
 ts_client = boto3.client('translate')
 
 def lambda_handler(event, context):
+
     #Change to your own bucket_name and file_name
     bucket_name = "<bucket_name>"
     file_name = "HandsOn1_os.png"
