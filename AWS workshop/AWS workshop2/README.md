@@ -137,9 +137,9 @@ Go to <code>environment</code> of elastic beanstalk and copy the <code>URL</code
 <img src="https://i.imgur.com/1cNEDJN.png" width="60%"><br>
 Replace the <code>string after BASE_URL</code> with the domain URL you just copied.<br>
 <img src="https://i.imgur.com/Vul5zOR.png" width="60%"><br>
-<img src="https://i.imgur.com/a3kFhjQ.png" width="60%"><br>
 <img src="https://i.imgur.com/se5dnU2.png" width="60%"><br>
 <img src="https://i.imgur.com/AeCYI3i.png" width="60%"><br>
+<img src="https://i.imgur.com/a3kFhjQ.png" width="60%"><br>
 <img src="https://i.imgur.com/3GH0L1J.png" width="60%"><br>
 <img src="https://i.imgur.com/kvqO3EM.png" width="60%"><br>
 <img src="https://i.imgur.com/rg6phIf.png" width="60%"><br>
