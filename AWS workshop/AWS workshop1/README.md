@@ -23,14 +23,11 @@ tt_client = boto3.client('textract')
 ts_client = boto3.client('translate')
 
 def lambda_handler(event, context):
-    
     #Change to your own bucket_name and file_name
     bucket_name = "<bucket_name>"
     file_name = "HandsOn1_os.png"
-    
     result = ""
     result_file_name = 'result.txt'
-    
     #Requesting Textract to detect text in the image
     tt_response = tt_client.detect_document_text(
         Document = { 
@@ -40,24 +37,20 @@ def lambda_handler(event, context):
             }
       }
     )
-    
     #Handling the content returned by Textract
     for item in tt_response['Blocks']:
         if item['BlockType'] == 'LINE':
             result += item['Text'] + ' '
     print('\n\n---文字偵測結果---\n' + result)
-    
     #Requesting Translate to translate text
     ts_response = ts_client.translate_text(
         Text = result,
         SourceLanguageCode = 'en',
         TargetLanguageCode = 'zh-TW'
     )
-    
     #Handling the translation result returned by Translate
     result += ts_response['TranslatedText']
-    print('\n\n---文字翻譯結果---\n' + ts_response['TranslatedText'])
-    
+    print('\n\n---文字翻譯結果---\n' + ts_response['TranslatedText']) 
     #Saving the results in document format to S3
     s3_client.put_object(
         Body = result,
