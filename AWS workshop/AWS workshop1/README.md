@@ -14,7 +14,7 @@
 <img src="https://i.imgur.com/uHuxTEg.png" width="60%">
 <img src="https://i.imgur.com/HhFa6Jl.png" width="60%">
 <img src="https://i.imgur.com/1kKND2n.png" width="60%">
-<code class="text">
+<pre class="text">
 import json
 import boto3
 
@@ -58,7 +58,7 @@ def lambda_handler(event, context):
         Key = result_file_name,
         ContentType=' text/plain;charset=utf-8'
     )
-</code>
+</pre>
 <img src="https://i.imgur.com/lTp0fCq.png" width="60%">
 <img src="https://i.imgur.com/xkup43g.png" width="60%">
 <img src="https://i.imgur.com/aZqSMLs.png" width="60%">
